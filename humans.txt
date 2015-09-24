@@ -1,0 +1,29 @@
+/* The humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+
+Founder & Coordinator: Cordelia Belden
+Company: Bridalog
+Site: bridalog.com
+Location: San Pedro Garza García, México
+
+Developer (Server-Side): Jesus J. Leon
+Company: Vizionika
+Site: vizionika.net
+Twitter: @vizionika
+Location: México. España. Deutschland.
+
+Design, HTML-CSS and JavaScript:
+Company: RAIDHO Aesthetics
+Site: raidho.mx
+Twitter: @raaidho
+Location: Monterrey, México
+
+/* SITE */
+Last update: 2015/20/10
+Standards: HTML5, CSS3.
+Components: jQuery, jQuery-UI, Twitter Bootstrap Modal.
+Software (Developement): Windows, Linux, Sublime Text 2, Firefox, Google Chrome, Firebug, FireFTP!
+Software (Design): Apple OS-X

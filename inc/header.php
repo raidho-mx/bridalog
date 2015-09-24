@@ -21,15 +21,12 @@ Header Template
 		<script src="http://bridalog.com/lib/js/PIE.js"></script>
 	<![endif]-->
 
-	<link rel="author" href="http://bridalog.com/humans.txt" />
+	<link rel="author" href="humans.txt" />
 
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 
-	<link href="http://bridalog.com/lib/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<link href="http://bridalog.com/lib/css/libraries/jquery-ui.css" rel="stylesheet" type="text/css">
-
 	<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Asap:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-	<link rel="shortcut icon" type="image/x-icon" href="http://bridalog.com/favicon.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
 	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0, width=device-width">
 
