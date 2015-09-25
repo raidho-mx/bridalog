@@ -1,0 +1,197 @@
+/* Vendor Dependencies */
+/* Color Variables */
+/*    Breakpoints */
+/* Key Variables */
+/* Patterns & Sections */
+/* http://meyerweb.com/eric/tools/css/reset/
+ * v2.0 | 20110126
+ * License: none (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Type */
+@font-face {
+  font-family: HabanoSt;
+  src: url(../fonts/HabanoST.otf) format("opentype"); }
+.asap {
+  font-family: "Asap", sans-serif; }
+
+.lora, body {
+  font-family: "Lora", serif; }
+
+.habano {
+  font-family: "HabanoSt", sans-serif; }
+
+body {
+  font-size: 16px;
+  line-height: 1.5; }
+  @media (min-width: 1400px) {
+    body {
+      font-size: 18px; } }
+  @media (max-width: 900px) {
+    body {
+      font-size: 14px; } }
+  @media (max-width: 620px) {
+    body {
+      font-size: 12px; } }
+
+.huge_title, h1 {
+  font-size: 4em; }
+  @media (max-width: 900px) {
+    .huge_title, h1 {
+      font-size: 3em; } }
+  @media (max-width: 620px) {
+    .huge_title, h1 {
+      font-size: 2em; } }
+
+.medium_title, h2 {
+  font-size: 2.625em; }
+  @media (max-width: 900px) {
+    .medium_title, h2 {
+      font-size: 1.96875em; } }
+  @media (max-width: 620px) {
+    .medium_title, h2 {
+      font-size: 1.3125em; } }
+
+.regular_title, h3 {
+  font-size: 2.25em; }
+  @media (max-width: 900px) {
+    .regular_title, h3 {
+      font-size: 1.6875em; } }
+  @media (max-width: 620px) {
+    .regular_title, h3 {
+      font-size: 1.125em; } }
+
+.small_title, h4 {
+  font-size: 1.5em; }
+  @media (max-width: 900px) {
+    .small_title, h4 {
+      font-size: 1.125em; } }
+  @media (max-width: 620px) {
+    .small_title, h4 {
+      font-size: 0.75em; } }
+
+.paragraph, p {
+  font-size: 1em; }
+
+.small_paragraph {
+  font-size: 0.875em; }
+
+p {
+  margin-bottom: 1.2em; }
+
+h4, h3, h2, h1 {
+  margin-bottom: 1.25em; }
+
+/* Susy Settings */
+/* Susy Basics */
+/* Makes border-box properties */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.wrap {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
+  .wrap:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  @media (min-width: 1400px) {
+    .wrap {
+      max-width: 80%;
+      margin-left: auto;
+      margin-right: auto; }
+      .wrap:after {
+        content: " ";
+        display: block;
+        clear: both; } }
+  @media (max-width: 900px) {
+    .wrap {
+      max-width: 95%;
+      margin-left: auto;
+      margin-right: auto; }
+      .wrap:after {
+        content: " ";
+        display: block;
+        clear: both; } }
+  @media (max-width: 620px) {
+    .wrap {
+      max-width: 98%;
+      margin-left: auto;
+      margin-right: auto; }
+      .wrap:after {
+        content: " ";
+        display: block;
+        clear: both; } }
+
+/* Patterns */
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+/* Spacing */
+.section_pad, section {
+  padding: 4.375em 0; }
+  @media (min-width: 1400px) {
+    .section_pad, section {
+      padding: 4em 0; } }
+  @media (max-width: 900px) {
+    .section_pad, section {
+      padding: 2em 0; } }
+  @media (max-width: 620px) {
+    .section_pad, section {
+      padding: 1em 0; } }
+
+.inner_section_pad {
+  padding: 2.5em 0; }
+
+.section_bottom_margins {
+  margin-bottom: 4.375em; }
+
+section {
+  position: relative; }
