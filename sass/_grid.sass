@@ -2,7 +2,7 @@
 
 // $susy: (columns: 12, global-box-sizing: border-box)
 
-$susy: (flow: ltr, output: float, math: fluid, column-width: false,	container: auto, container-position: center, last-flow: to, columns: 12, gutters: 1/4, gutter-position: after, global-box-sizing: bordert-box)
+$susy: (flow: ltr, output: float, math: fluid, column-width: false,	container: auto, container-position: center, last-flow: to, columns: 12, gutters: 1/4, gutter-position: after, global-box-sizing: border-box)
 
 // debug: (image: show, color: rgba(#66f, .25), output: overlay, toggle: top right,)
 
@@ -51,6 +51,33 @@ $susy: (flow: ltr, output: float, math: fluid, column-width: false,	container: a
 .section_bottom_margins
 	margin-bottom: $bottom_margins_grid
 
-section
+.wrap > div
+	@extend .section_bottom_margins
+
+section,
+.full_width
 	@extend .section_pad
+	@extend .section_bottom_margins
 	position: relative
+
+/* Basic columns layouts */
+
+.basic_grid
+	overflow: hidden
+	li img
+		width: 100%
+		margin-bottom: $bottom_margins
+
+.basic_grid li
+	p + h4
+		margin-top: -$bottom_margins
+
+.two_col_grid div,
+.two_col_grid li
+	@include gallery(6 of 12)
+.three_col_grid div,
+.three_col_grid li
+	@include gallery(4 of 12)
+.four_col_grid div,
+.four_col_grid li
+	@include gallery(3 of 12)

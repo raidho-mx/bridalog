@@ -1,0 +1,73 @@
+/* Background */
+
+body
+	background-image: url('../lib/img/back-img.jpg')
+	background-repeat: repeat
+
+
+/* Animation */
+
+@mixin transition($transition-property, $transition-time, $method)
+	-webkit-transition: $transition-property $transition-time $method
+	-moz-transition: $transition-property $transition-time $method
+	-ms-transition: $transition-property $transition-time $method
+	-o-transition: $transition-property $transition-time $method
+	transition: $transition-property $transition-time $method
+
+*, *:before, *:after
+	@include transition(all, 0.1s, ease-out)
+
+/* Links */
+
+a
+	color: inherit
+	text-decoration: none
+
+/* Pager */
+
+.bottom_pager
+	@extend .inner_section_pad
+	text-align: center
+	ul li
+		display: inline-block
+		padding: 1em
+		margin-right: .5em
+		border-radius: 5px
+		background-color: $pink
+		color: $white
+		cursor: pointer
+		&:hover
+			background-color: $gray_regular
+		a
+			padding: 10px
+			width: 100%
+
+/* Search Banner */
+
+#search_banner
+	background-color: $white
+
+/* Categories icon list */
+
+.icon_grid
+	text-align: center
+	li
+		@include gallery(1 of 10 0)
+		border-right: 1px solid $boder_color
+		border-bottom: 1px solid $boder_color
+		border-top: 1px solid $boder_color
+		margin-bottom: -1px
+		padding: 1em
+		color: $black
+		background-color: $white
+		cursor: pointer
+		&:nth-child(10n+1)
+			border-left: 1px solid $boder_color
+		&:hover
+			background-color: $green
+			color: $white
+		img
+			width: auto
+			border-radius: 50%
+			background-color: $white
+			padding: 1em

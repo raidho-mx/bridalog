@@ -15,6 +15,7 @@ body
 	@extend .lora
 	font-size: 16px
 	line-height: 1.5
+	color: $gray_dark
 	@media (min-width: $large_break)
 		font-size: 18px
 	@media (max-width: $tablet_break)
@@ -59,7 +60,7 @@ body
 	//line-height: 1.5em
 	font-size: 1em //16
 
-.small_paragraph
+.small_p
 	//line-height: 1.25em
 	font-size: .875em //14
 
@@ -70,6 +71,8 @@ p
 
 h4, h3, h2, h1
 	margin-bottom: 1.25em
+	span
+		color: $pink
 
 h1
 	@extend .huge_title

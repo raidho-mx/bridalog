@@ -7,7 +7,7 @@ Footer Template
 </body>
 
 <footer id="footer">
-    <section class="wrapper">
+    <section class="wrap">
     	<div class="foot_signature">
     		<h1><a href="http://bridalog.com/">Bridalog</a></h1>
     		<p class="lora">Todos los derechos reservados, © Bridalog 2012</p>
