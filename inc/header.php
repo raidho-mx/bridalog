@@ -32,4 +32,10 @@ Header Template
 
 </head>
 
+<header>
+
+	<?php include 'inc/top-menu.php' ?>
+
+</header>
+
 <body>
