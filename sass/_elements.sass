@@ -28,7 +28,6 @@ a
 #top_menu
 	@extend .asap
 	position: relative
-	overflow: hidden
 	padding: 1em 0
 	background-color: $white
 	border-bottom: 1px solid $boder_color
@@ -61,29 +60,14 @@ a
 		content: " "
 		display: table
 		clear: both
-	ul
-		list-style: none
-		width: 9em
 	a
 		padding: 0 1em
 		*zoom: 1
 	> li
 		float: left
-		z-index: 200
-		> a
-			display: block
-	li
-		ul
-			position: absolute
-			left: -9999px
-			z-index: 100
-	li
 		a
 			display: block
 			position: relative
-			z-index: 100
-	li a
-		z-index: 200
 
 .nav
 	li
