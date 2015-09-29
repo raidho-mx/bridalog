@@ -100,7 +100,7 @@
 		"useCompatibilityMode": 0
 		},
 	"\/sass\/_elements.sass": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
@@ -116,7 +116,7 @@
 		"useLibsass": false
 		},
 	"\/sass\/_grid.sass": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
@@ -132,7 +132,7 @@
 		"useLibsass": false
 		},
 	"\/sass\/_reset.sass": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
@@ -148,7 +148,7 @@
 		"useLibsass": false
 		},
 	"\/sass\/_type.sass": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
@@ -164,8 +164,8 @@
 		"useLibsass": false
 		},
 	"\/sass\/style.sass": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
+		"createSourceMap": 1,
+		"debugStyle": 1,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 0,
@@ -188,7 +188,7 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "bridalog",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "globe_darkGray"
 	},
 "projectSettings": {
@@ -770,7 +770,7 @@
 	"sassAutoOutputPathReplace1": "sass",
 	"sassAutoOutputPathReplace2": "css",
 	"sassAutoOutputPathStyle": 2,
-	"sassCreateSourceMap": 0,
+	"sassCreateSourceMap": 1,
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 10,
 	"sassOutputStyle": 0,
