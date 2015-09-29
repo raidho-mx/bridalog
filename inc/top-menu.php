@@ -9,8 +9,8 @@ Top Navigation Template
 	<div class="wrap">
 
 		<div class="branding">
-			<a href="#">Bridalog</a>
-			<span>El <strong>catálogo</strong> para bodas hecho <strong>a la medida</strong></span>
+			<a class="habano regular_title" href="#">Bridalog</a>
+			<span class="small_p">El <strong>catálogo</strong> para bodas hecho <strong>a la medida</strong></span>
 		</div>
 
 		<a class="toggleMenu" href="#">Menu</a>

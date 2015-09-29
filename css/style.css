@@ -73,7 +73,7 @@ table {
   font-family: HabanoSt;
   src: url(../fonts/HabanoST.otf) format("opentype"); }
 /* line 7, ../sass/_type.sass */
-.asap {
+.asap, #top_menu {
   font-family: "Asap", sans-serif; }
 
 /* line 9, ../sass/_type.sass */
@@ -162,10 +162,14 @@ body {
 p {
   margin-bottom: 1.2em; }
 
-/* line 72, ../sass/_type.sass */
+/* line 71, ../sass/_type.sass */
+strong {
+  font-weight: bold; }
+
+/* line 75, ../sass/_type.sass */
 h4, h3, h2, h1 {
   margin-bottom: 1.25em; }
-  /* line 74, ../sass/_type.sass */
+  /* line 77, ../sass/_type.sass */
   h4 span, h3 span, h2 span, h1 span {
     color: #ef6681; }
 
@@ -383,70 +387,76 @@ a {
   padding: 1em 0;
   background-color: #ffffff;
   border-bottom: 1px solid #f0f0f0; }
-  /* line 34, ../sass/_elements.sass */
+  /* line 35, ../sass/_elements.sass */
   #top_menu .wrap > div {
     margin-bottom: 0; }
 
-/* line 37, ../sass/_elements.sass */
+/* line 38, ../sass/_elements.sass */
 .branding {
   float: left; }
+  /* line 40, ../sass/_elements.sass */
+  .branding span {
+    position: relative;
+    bottom: 0.5em;
+    margin-left: 1em; }
 
-/* line 40, ../sass/_elements.sass */
+/* line 45, ../sass/_elements.sass */
 .toggleMenu {
   display: none;
   background: #666;
   padding: 10px 15px;
   color: #fff; }
 
-/* line 46, ../sass/_elements.sass */
+/* line 51, ../sass/_elements.sass */
 .nav {
+  margin-top: 1em;
   list-style: none;
   *zoom: 1;
   position: relative;
   float: right; }
-  /* line 51, ../sass/_elements.sass */
+  /* line 57, ../sass/_elements.sass */
   .nav:before {
     content: " ";
     display: table; }
-  /* line 54, ../sass/_elements.sass */
+  /* line 60, ../sass/_elements.sass */
   .nav:after {
     content: " ";
     display: table;
     clear: both; }
-  /* line 58, ../sass/_elements.sass */
+  /* line 64, ../sass/_elements.sass */
   .nav ul {
     list-style: none;
     width: 9em; }
-  /* line 61, ../sass/_elements.sass */
+  /* line 67, ../sass/_elements.sass */
   .nav a {
     padding: 0 1em;
     *zoom: 1; }
-  /* line 64, ../sass/_elements.sass */
+  /* line 70, ../sass/_elements.sass */
   .nav > li {
     float: left;
     z-index: 200; }
-    /* line 67, ../sass/_elements.sass */
+    /* line 73, ../sass/_elements.sass */
     .nav > li > a {
       display: block; }
-  /* line 70, ../sass/_elements.sass */
+  /* line 76, ../sass/_elements.sass */
   .nav li ul {
     position: absolute;
     left: -9999px;
     z-index: 100; }
-  /* line 75, ../sass/_elements.sass */
+  /* line 81, ../sass/_elements.sass */
   .nav li a {
     display: block;
     position: relative;
     z-index: 100; }
-  /* line 79, ../sass/_elements.sass */
+  /* line 85, ../sass/_elements.sass */
   .nav li a {
     z-index: 200; }
 
 /* Pager */
-/* line 84, ../sass/_elements.sass */
+/* line 90, ../sass/_elements.sass */
 .bottom_pager {
   text-align: center; }
-  /* line 87, ../sass/_elements.sass */
+  /* line 93, ../sass/_elements.sass */
   .bottom_pager ul li {
     display: inline-block;
     padding: 1em;
@@ -455,24 +465,24 @@ a {
     background-color: #ef6681;
     color: #ffffff;
     cursor: pointer; }
-    /* line 95, ../sass/_elements.sass */
+    /* line 101, ../sass/_elements.sass */
     .bottom_pager ul li:hover {
       background-color: #cbcbcb; }
-    /* line 97, ../sass/_elements.sass */
+    /* line 103, ../sass/_elements.sass */
     .bottom_pager ul li a {
       padding: 10px;
       width: 100%; }
 
 /* Search Banner */
-/* line 103, ../sass/_elements.sass */
+/* line 109, ../sass/_elements.sass */
 #search_banner {
   background-color: #ffffff; }
 
 /* Categories icon list */
-/* line 108, ../sass/_elements.sass */
+/* line 114, ../sass/_elements.sass */
 .icon_grid {
   text-align: center; }
-  /* line 110, ../sass/_elements.sass */
+  /* line 116, ../sass/_elements.sass */
   .icon_grid li {
     width: 10%;
     float: left;
@@ -535,14 +545,14 @@ a {
       margin-left: 90%;
       margin-right: -100%;
       clear: none; }
-    /* line 120, ../sass/_elements.sass */
+    /* line 126, ../sass/_elements.sass */
     .icon_grid li:nth-child(10n+1) {
       border-left: 1px solid #f0f0f0; }
-    /* line 122, ../sass/_elements.sass */
+    /* line 128, ../sass/_elements.sass */
     .icon_grid li:hover {
       background-color: #71cac7;
       color: #ffffff; }
-    /* line 125, ../sass/_elements.sass */
+    /* line 131, ../sass/_elements.sass */
     .icon_grid li img {
       width: auto;
       border-radius: 50%;
