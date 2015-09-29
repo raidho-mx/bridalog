@@ -97,14 +97,6 @@ Index Template
 		</ul>
 	</div>
 
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$(".icon_grid li:has(a)").click(function() {
-				window.location = $("a:first",this).attr("href");
-			});
-		});
-	</script>
-
 	<!-- Destacados en el Catálogo -->
 	<div>
 		<h3 class="asap blue">Destacados en el Catálogo</h3>
