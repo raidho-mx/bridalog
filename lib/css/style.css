@@ -90,7 +90,7 @@ table {
   font-family: HabanoSt;
   src: url(../fonts/HabanoST.otf) format("opentype"); }
 /* line 7, ../../sass/_type.sass */
-.asap, #top_menu, #breadcrumbs_search_combo div, #search_bar form input {
+.asap, #top_menu, #bottom_menu, #breadcrumbs_search_combo div, #search_bar form input {
   font-family: "Asap", sans-serif; }
 
 /* line 9, ../../sass/_type.sass */
@@ -398,85 +398,86 @@ a {
 
 /* Top Menu */
 /* line 28, ../../sass/_elements.sass */
-#top_menu {
+#top_menu, #bottom_menu {
   position: relative;
   padding: 1em 0;
   background-color: #ffffff;
+  border-top: 1px solid #f0f0f0;
   border-bottom: 1px solid #f0f0f0; }
-  /* line 34, ../../sass/_elements.sass */
-  #top_menu .wrap > div {
+  /* line 35, ../../sass/_elements.sass */
+  #top_menu .wrap > div, #bottom_menu .wrap > div {
     margin-bottom: 0; }
 
-/* line 37, ../../sass/_elements.sass */
+/* line 38, ../../sass/_elements.sass */
 .branding {
   float: left; }
-  /* line 39, ../../sass/_elements.sass */
+  /* line 40, ../../sass/_elements.sass */
   .branding span {
     position: relative;
     bottom: 0.5em;
     margin-left: 1em; }
 
-/* line 44, ../../sass/_elements.sass */
+/* line 45, ../../sass/_elements.sass */
 .toggleMenu {
   display: none;
   background: #666;
   padding: 10px 15px;
   color: #fff; }
 
-/* line 50, ../../sass/_elements.sass */
+/* line 51, ../../sass/_elements.sass */
 .nav {
   margin-top: 1em;
   list-style: none;
   *zoom: 1;
   position: relative;
   float: right; }
-  /* line 56, ../../sass/_elements.sass */
+  /* line 57, ../../sass/_elements.sass */
   .nav:before {
     content: " ";
     display: table; }
-  /* line 59, ../../sass/_elements.sass */
+  /* line 60, ../../sass/_elements.sass */
   .nav:after {
     content: " ";
     display: table;
     clear: both; }
-  /* line 63, ../../sass/_elements.sass */
+  /* line 64, ../../sass/_elements.sass */
   .nav a {
     padding: 0 1em;
     *zoom: 1; }
-  /* line 66, ../../sass/_elements.sass */
+  /* line 67, ../../sass/_elements.sass */
   .nav a.active {
     color: #0598c9; }
-  /* line 68, ../../sass/_elements.sass */
+  /* line 69, ../../sass/_elements.sass */
   .nav > li {
     float: left; }
-    /* line 70, ../../sass/_elements.sass */
+    /* line 71, ../../sass/_elements.sass */
     .nav > li a {
       display: block;
       position: relative; }
 
-/* line 75, ../../sass/_elements.sass */
+/* line 76, ../../sass/_elements.sass */
 .nav li {
   position: relative; }
-/* line 77, ../../sass/_elements.sass */
+/* line 78, ../../sass/_elements.sass */
 .nav li.hover ul {
   left: 100%;
   top: 0; }
-/* line 80, ../../sass/_elements.sass */
+/* line 81, ../../sass/_elements.sass */
 .nav > li.hover > ul {
   left: 0; }
 
 /* Menú desplegable de categorías / íconos */
-/* line 85, ../../sass/_elements.sass */
+/* line 86, ../../sass/_elements.sass */
 #top_menu_toggl {
   padding: 1em 0 2em 0;
   background-color: #ffffff;
   border-bottom: 1px solid #f0f0f0;
   display: none; }
 
-/* line 91, ../../sass/_elements.sass */
+/* line 92, ../../sass/_elements.sass */
 .menu_icon_grid {
   text-align: center; }
-  /* line 93, ../../sass/_elements.sass */
+  /* line 94, ../../sass/_elements.sass */
   .menu_icon_grid li {
     width: 10%;
     float: left;
@@ -537,11 +538,11 @@ a {
       margin-left: 90%;
       margin-right: -100%;
       clear: none; }
-    /* line 101, ../../sass/_elements.sass */
+    /* line 102, ../../sass/_elements.sass */
     .menu_icon_grid li:hover {
       color: #26b5b0;
       border-color: #71cac7; }
-    /* line 104, ../../sass/_elements.sass */
+    /* line 105, ../../sass/_elements.sass */
     .menu_icon_grid li img {
       width: auto;
       border: 4px solid #ffffff;
@@ -551,62 +552,62 @@ a {
       margin-bottom: 0; }
 
 /* Breadcrumbs + Searchbar */
-/* line 114, ../../sass/_elements.sass */
+/* line 115, ../../sass/_elements.sass */
 #breadcrumbs_search_combo {
   height: 3em; }
-  /* line 117, ../../sass/_elements.sass */
+  /* line 118, ../../sass/_elements.sass */
   #breadcrumbs_search_combo div {
     border: 1px solid #f0f0f0;
     min-height: 3.7em;
     background-color: #ffffff; }
 
-/* line 123, ../../sass/_elements.sass */
+/* line 124, ../../sass/_elements.sass */
 #breadcrumbs {
   width: 66.1016949153%;
   float: left;
   margin-right: 1.6949152542%; }
-  /* line 125, ../../sass/_elements.sass */
+  /* line 126, ../../sass/_elements.sass */
   #breadcrumbs ul li {
     display: inline-block;
     border-right: 1px solid #f0f0f0;
     padding: 1em 1.5em; }
-    /* line 129, ../../sass/_elements.sass */
+    /* line 130, ../../sass/_elements.sass */
     #breadcrumbs ul li:last-child {
       border-right: none;
       font-weight: bold; }
-    /* line 132, ../../sass/_elements.sass */
+    /* line 133, ../../sass/_elements.sass */
     #breadcrumbs ul li a:hover {
       color: #0598c9;
       font-weight: bold; }
 
-/* line 135, ../../sass/_elements.sass */
+/* line 136, ../../sass/_elements.sass */
 #search_bar {
   width: 32.2033898305%;
   float: right;
   margin-right: 0; }
-  /* line 137, ../../sass/_elements.sass */
+  /* line 138, ../../sass/_elements.sass */
   #search_bar form {
     width: 73.6842105263%;
     float: left;
     margin-right: 5.2631578947%; }
-    /* line 139, ../../sass/_elements.sass */
+    /* line 140, ../../sass/_elements.sass */
     #search_bar form input {
       height: 4.1em;
       width: 100%;
       border: none;
       background: none;
       padding: 0 1.5em; }
-  /* line 147, ../../sass/_elements.sass */
+  /* line 148, ../../sass/_elements.sass */
   #search_bar img {
     width: 21.0526315789%;
     float: right;
     margin-right: 0; }
 
 /* Pager */
-/* line 154, ../../sass/_elements.sass */
+/* line 155, ../../sass/_elements.sass */
 .bottom_pager {
   text-align: center; }
-  /* line 157, ../../sass/_elements.sass */
+  /* line 158, ../../sass/_elements.sass */
   .bottom_pager ul li {
     display: inline-block;
     padding: 1em;
@@ -615,16 +616,16 @@ a {
     background-color: #ef6681;
     color: #ffffff;
     cursor: pointer; }
-    /* line 165, ../../sass/_elements.sass */
+    /* line 166, ../../sass/_elements.sass */
     .bottom_pager ul li:hover {
       background-color: #cbcbcb; }
-    /* line 167, ../../sass/_elements.sass */
+    /* line 168, ../../sass/_elements.sass */
     .bottom_pager ul li a {
       padding: 10px;
       width: 100%; }
 
 /* Search Banner */
-/* line 173, ../../sass/_elements.sass */
+/* line 174, ../../sass/_elements.sass */
 #search_banner {
   background-color: #ffffff; }
 
