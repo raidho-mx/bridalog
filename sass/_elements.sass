@@ -34,6 +34,29 @@ a
 	.wrap > div
 		margin-bottom: 0
 
+#top_menu_toggl
+	padding: 1em 0 2em 0
+	background-color: $white
+	border-bottom: 1px solid $boder_color
+
+.menu_icon_grid
+	text-align: center
+	li
+		@include gallery(1 of 10 0)
+		padding: .5em
+		color: $gray_dark
+		cursor: pointer
+		&:hover
+			color: #26b5b0
+			img
+				border-color: $green
+		img
+			width: auto
+			border: 4px solid $white
+			border-radius: 50%
+			background-color: $white
+			padding: .1em
+
 .branding
 	float: left
 	span

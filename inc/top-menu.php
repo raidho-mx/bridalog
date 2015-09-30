@@ -25,3 +25,29 @@ Top Navigation Template
 
 	</div>
 </div>
+
+<div id="top_menu_toggl">
+	<!-- Listado de categorías (íconos) -->
+	<div class="wrap">
+		<ul class="menu_icon_grid asap basic_grid">
+			<li><a href="#"><img src="lib/img/icons/icon-flores.png" alt=""><span href="" class="small_p">Categoría</span></a></li>
+			<li><a href="#"><img src="lib/img/icons/icon-flores.png" alt=""><span href="" class="small_p">Categoría</span></a></li>
+			<li><a href="#"><img src="lib/img/icons/icon-flores.png" alt=""><span href="" class="small_p">Categoría</span></a></li>
+			<li><a href="#"><img src="lib/img/icons/icon-flores.png" alt=""><span href="" class="small_p">Categoría</span></a></li>
+			<li><a href="#"><img src="lib/img/icons/icon-flores.png" alt=""><span href="" class="small_p">Categoría</span></a></li>
+			<li><a href="#"><img src="lib/img/icons/icon-flores.png" alt=""><span href="" class="small_p">Categoría</span></a></li>
+			<li><a href="#"><img src="lib/img/icons/icon-flores.png" alt=""><span href="" class="small_p">Categoría</span></a></li>
+			<li><a href="#"><img src="lib/img/icons/icon-flores.png" alt=""><span href="" class="small_p">Categoría</span></a></li>
+			<li><a href="#"><img src="lib/img/icons/icon-flores.png" alt=""><span href="" class="small_p">Categoría</span></a></li>
+			<li><a href="#"><img src="lib/img/icons/icon-flores.png" alt=""><span href="" class="small_p">Categoría</span></a></li>
+			<li><a href="#"><img src="lib/img/icons/icon-flores.png" alt=""><span href="" class="small_p">Categoría</span></a></li>
+			<li><a href="#"><img src="lib/img/icons/icon-flores.png" alt=""><span href="" class="small_p">Categoría</span></a></li>
+			<li><a href="#"><img src="lib/img/icons/icon-flores.png" alt=""><span href="" class="small_p">Categoría</span></a></li>
+			<li><a href="#"><img src="lib/img/icons/icon-flores.png" alt=""><span href="" class="small_p">Categoría</span></a></li>
+			<li><a href="#"><img src="lib/img/icons/icon-flores.png" alt=""><span href="" class="small_p">Categoría</span></a></li>
+			<li><a href="#"><img src="lib/img/icons/icon-flores.png" alt=""><span href="" class="small_p">Categoría</span></a></li>
+			<li><a href="#"><img src="lib/img/icons/icon-flores.png" alt=""><span href="" class="small_p">Categoría</span></a></li>
+			<li><a href="#"><img src="lib/img/icons/icon-flores.png" alt=""><span href="" class="small_p">Categoría</span></a></li>
+		</ul>
+	</div>
+</div>
