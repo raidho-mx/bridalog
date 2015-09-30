@@ -9,8 +9,6 @@ Index Template
 
 <div class="wrap">
 
-	<pre>Breadcrumbs</pre>
-
 	<h3>Estás buscando "Vestidos" en Bridalog</h3>
 
 	<!-- Main search results -->
