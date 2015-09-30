@@ -9,13 +9,14 @@ Top Navigation Template
 	<div class="wrap">
 
 		<div class="branding">
-			<a class="habano regular_title" href="#">Bridalog</a>
-			<span class="small_p">El <strong>catálogo</strong> para bodas hecho <strong>a la medida</strong></span>
+			<a class="habano regular_title" href="index.php">Bridalog</a>
+			<!-- <span class="small_p">El <strong>catálogo</strong> para bodas hecho <strong>a la medida</strong></span> -->
 		</div>
 
 		<a class="toggleMenu" href="#">Menu</a>
 		<ul class="nav">
-			<li><a id="icon_grid_toggl" href="#">Proveedores</a>
+			<li><a id="icon_grid_toggl" href="#">Categorías</a>
+			<li><a href="proveedores.php">Proveedores</a>
 			<li><a href="#">Servicios</a></li>
 			<li><a href="#">Magazine</a></li>
 			<li><a href="#">Acerca</a></li>
