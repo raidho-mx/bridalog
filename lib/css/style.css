@@ -1,15 +1,31 @@
 @charset "UTF-8";
 /* Vendor Dependencies */
 /* Color Variables */
-/* line 22, ../../sass/style.sass */
+/* line 23, ../../sass/style.sass */
+.gray_dark {
+  color: #434343; }
+
+/* line 25, ../../sass/style.sass */
+.gray_medium {
+  color: #818285; }
+
+/* line 27, ../../sass/style.sass */
+.gray_regular {
+  color: #cbcbcb; }
+
+/* line 29, ../../sass/style.sass */
+.gray_light {
+  color: #f0f0f0; }
+
+/* line 31, ../../sass/style.sass */
 .pink {
   color: #ef6681; }
 
-/* line 24, ../../sass/style.sass */
+/* line 33, ../../sass/style.sass */
 .blue {
   color: #0598c9; }
 
-/* line 26, ../../sass/style.sass */
+/* line 35, ../../sass/style.sass */
 .green {
   color: #71cac7; }
 
@@ -282,7 +298,7 @@ section,
 
 /* line 72, ../../sass/_grid.sass */
 .basic_grid li p + h4 {
-  margin-top: -1.2em; }
+  margin-top: -0.8em; }
 
 /* line 75, ../../sass/_grid.sass */
 .two_col_grid div,
@@ -362,7 +378,7 @@ section,
 /* Background */
 /* line 3, ../../sass/_elements.sass */
 body {
-  background-image: url("../lib/img/back-img.jpg");
+  background-image: url("../img/back-img.jpg");
   background-repeat: repeat; }
 
 /* Animation */
@@ -540,55 +556,56 @@ a {
   /* line 116, ../../sass/_elements.sass */
   #breadcrumbs_search_combo div {
     border: 1px solid #f0f0f0;
-    min-height: 3.7em; }
+    min-height: 3.7em;
+    background-color: #ffffff; }
 
-/* line 121, ../../sass/_elements.sass */
+/* line 122, ../../sass/_elements.sass */
 #breadcrumbs {
   width: 66.1016949153%;
   float: left;
   margin-right: 1.6949152542%; }
-  /* line 123, ../../sass/_elements.sass */
+  /* line 124, ../../sass/_elements.sass */
   #breadcrumbs ul li {
     display: inline-block;
     border-right: 1px solid #f0f0f0;
     padding: 1em 1.5em; }
-    /* line 127, ../../sass/_elements.sass */
+    /* line 128, ../../sass/_elements.sass */
     #breadcrumbs ul li:last-child {
       border-right: none;
       font-weight: bold; }
-    /* line 130, ../../sass/_elements.sass */
+    /* line 131, ../../sass/_elements.sass */
     #breadcrumbs ul li a:hover {
       color: #0598c9;
       font-weight: bold; }
 
-/* line 133, ../../sass/_elements.sass */
+/* line 134, ../../sass/_elements.sass */
 #search_bar {
   width: 32.2033898305%;
   float: right;
   margin-right: 0; }
-  /* line 135, ../../sass/_elements.sass */
+  /* line 136, ../../sass/_elements.sass */
   #search_bar form {
     width: 73.6842105263%;
     float: left;
     margin-right: 5.2631578947%; }
-    /* line 137, ../../sass/_elements.sass */
+    /* line 138, ../../sass/_elements.sass */
     #search_bar form input {
       height: 4.1em;
       width: 100%;
       border: none;
       background: none;
       padding: 0 1.5em; }
-  /* line 145, ../../sass/_elements.sass */
+  /* line 146, ../../sass/_elements.sass */
   #search_bar img {
     width: 21.0526315789%;
     float: right;
     margin-right: 0; }
 
 /* Pager */
-/* line 152, ../../sass/_elements.sass */
+/* line 153, ../../sass/_elements.sass */
 .bottom_pager {
   text-align: center; }
-  /* line 155, ../../sass/_elements.sass */
+  /* line 156, ../../sass/_elements.sass */
   .bottom_pager ul li {
     display: inline-block;
     padding: 1em;
@@ -597,24 +614,24 @@ a {
     background-color: #ef6681;
     color: #ffffff;
     cursor: pointer; }
-    /* line 163, ../../sass/_elements.sass */
+    /* line 164, ../../sass/_elements.sass */
     .bottom_pager ul li:hover {
       background-color: #cbcbcb; }
-    /* line 165, ../../sass/_elements.sass */
+    /* line 166, ../../sass/_elements.sass */
     .bottom_pager ul li a {
       padding: 10px;
       width: 100%; }
 
 /* Search Banner */
-/* line 171, ../../sass/_elements.sass */
+/* line 172, ../../sass/_elements.sass */
 #search_banner {
   background-color: #ffffff; }
 
 /* Categories icon list */
-/* line 176, ../../sass/_elements.sass */
+/* line 177, ../../sass/_elements.sass */
 .icon_grid {
   text-align: center; }
-  /* line 178, ../../sass/_elements.sass */
+  /* line 179, ../../sass/_elements.sass */
   .icon_grid li {
     width: 10%;
     float: left;
@@ -677,14 +694,14 @@ a {
       margin-left: 90%;
       margin-right: -100%;
       clear: none; }
-    /* line 188, ../../sass/_elements.sass */
+    /* line 189, ../../sass/_elements.sass */
     .icon_grid li:nth-child(10n+1) {
       border-left: 1px solid #f0f0f0; }
-    /* line 190, ../../sass/_elements.sass */
+    /* line 191, ../../sass/_elements.sass */
     .icon_grid li:hover {
       background-color: #71cac7;
       color: #ffffff; }
-    /* line 193, ../../sass/_elements.sass */
+    /* line 194, ../../sass/_elements.sass */
     .icon_grid li img {
       width: auto;
       border-radius: 50%;

@@ -68,7 +68,7 @@ Top Navigation Template
 		</div>
 		<div id="search_bar">
 			<form action=""><input type="text" placeholder="Busca Arreglos de Flores"></form>
-			<img src="http://lorempixel.com/80/48/city" alt="">
+			<img src="http://lorempixel.com/80/54/city" alt="">
 		</div>
 	</div>
 </div>

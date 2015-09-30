@@ -15,32 +15,32 @@ Index Template
 	<ul class="basic_grid three_col_grid">
 		<li><a href="#">
 				<img src="http://lorempixel.com/640/640/city" alt="">
-				<p>Categoría</p>
+				<p class="asap gray_medium">Categoría</p>
 				<h4>Producto<span> por Proveedor</span></h4>
 			</a></li>
 		<li><a href="#">
 				<img src="http://lorempixel.com/640/640/city" alt="">
-				<p>Categoría</p>
+				<p class="asap gray_medium">Categoría</p>
 				<h4>Producto<span> por Proveedor</span></h4>
 			</a></li>
 		<li><a href="#">
 				<img src="http://lorempixel.com/640/640/city" alt="">
-				<p>Categoría</p>
+				<p class="asap gray_medium">Categoría</p>
 				<h4>Producto<span> por Proveedor</span></h4>
 			</a></li>
 		<li><a href="#">
 				<img src="http://lorempixel.com/640/640/city" alt="">
-				<p>Categoría</p>
+				<p class="asap gray_medium">Categoría</p>
 				<h4>Producto<span> por Proveedor</span></h4>
 			</a></li>
 		<li><a href="#">
 				<img src="http://lorempixel.com/640/640/city" alt="">
-				<p>Categoría</p>
+				<p class="asap gray_medium">Categoría</p>
 				<h4>Producto<span> por Proveedor</span></h4>
 			</a></li>
 		<li><a href="#">
 				<img src="http://lorempixel.com/640/640/city" alt="">
-				<p>Categoría</p>
+				<p class="asap gray_medium">Categoría</p>
 				<h4>Producto<span> por Proveedor</span></h4>
 			</a></li>
 	</ul>
