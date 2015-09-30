@@ -179,6 +179,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/lib\/img\/icons\/icon-lugar.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2728,
+		"inputAbbreviatedPath": "\/lib\/img\/icons\/icon-lugar.png",
+		"outputAbbreviatedPath": "\/lib\/img\/icons\/icon-lugar.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/lib\/img\/icons\/icon-luna.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -267,13 +278,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/lib\/img\/icons\/icon-prematrimoniales.png": {
+	"\/lib\/img\/icons\/icon-premaritales.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2099,
-		"inputAbbreviatedPath": "\/lib\/img\/icons\/icon-prematrimoniales.png",
-		"outputAbbreviatedPath": "\/lib\/img\/icons\/icon-prematrimoniales.png",
+		"inputAbbreviatedPath": "\/lib\/img\/icons\/icon-premaritales.png",
+		"outputAbbreviatedPath": "\/lib\/img\/icons\/icon-premaritales.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
