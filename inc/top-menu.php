@@ -46,7 +46,7 @@ Top Navigation Template
 			<li><a href="#"><img src="lib/img/icons/icon-mesapostres.png" alt=""><span href="" class="small_p">Mesa de Postres</span></a></li>
 			<li><a href="#"><img src="lib/img/icons/icon-premaritales.png" alt=""><span href="" class="small_p">Pláticas Pre- Maritales</span></a></li>
 			<li><a href="#"><img src="lib/img/icons/icon-mobiliario.png" alt=""><span href="" class="small_p">Renta de Mobiliario</span></a></li>
-			<li><a href="#"><img src="lib/img/icons/icon-belleza.png" alt=""><span href="" class="small_p">Salón de Belleza / Salud</span></a></li>
+			<li><a href="#"><img src="lib/img/icons/icon-belleza.png" alt=""><span href="" class="small_p">Salón & Salud</span></a></li>
 			<li><a href="#"><img src="lib/img/icons/icon-otros.png" alt=""><span href="" class="small_p">Otros</span></a></li>
 			<li><a href="#"><img src="lib/img/icons/icon-vestidos.png" alt=""><span href="" class="small_p">Vestidos & Accesorios</span></a></li>
 			<li><a href="#"><img src="lib/img/icons/icon-vinos.png" alt=""><span href="" class="small_p">Vinos & Licores</span></a></li>

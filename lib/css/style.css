@@ -404,8 +404,10 @@ a {
     width: 10%;
     float: left;
     padding: 0.5em;
+    min-height: 9em;
     color: #434343;
-    cursor: pointer; }
+    cursor: pointer;
+    border: 2px solid #ffffff; }
     /* line 66, ../../../../../../Users/ornitoringo/Documents/Software/CodeKit.app/Contents/Resources/engines/susy/sass/susy/language/susy/_gallery.scss */
     .menu_icon_grid li:nth-child(10n + 1) {
       margin-left: 0;
@@ -457,80 +459,79 @@ a {
       margin-left: 90%;
       margin-right: -100%;
       clear: none; }
-    /* line 49, ../../sass/_elements.sass */
+    /* line 51, ../../sass/_elements.sass */
     .menu_icon_grid li:hover {
-      color: #26b5b0; }
-      /* line 51, ../../sass/_elements.sass */
-      .menu_icon_grid li:hover img {
-        border-color: #71cac7; }
-    /* line 53, ../../sass/_elements.sass */
+      color: #26b5b0;
+      border-color: #71cac7; }
+    /* line 54, ../../sass/_elements.sass */
     .menu_icon_grid li img {
       width: auto;
       border: 4px solid #ffffff;
       border-radius: 50%;
       background-color: #ffffff;
-      padding: 0.1em; }
+      padding: 0.1em;
+      margin-bottom: 0; }
 
-/* line 60, ../../sass/_elements.sass */
+/* line 62, ../../sass/_elements.sass */
 .branding {
   float: left; }
-  /* line 62, ../../sass/_elements.sass */
+  /* line 64, ../../sass/_elements.sass */
   .branding span {
     position: relative;
     bottom: 0.5em;
     margin-left: 1em; }
 
-/* line 67, ../../sass/_elements.sass */
+/* line 69, ../../sass/_elements.sass */
 .toggleMenu {
   display: none;
   background: #666;
   padding: 10px 15px;
   color: #fff; }
 
-/* line 73, ../../sass/_elements.sass */
+/* line 75, ../../sass/_elements.sass */
 .nav {
   margin-top: 1em;
   list-style: none;
   *zoom: 1;
   position: relative;
   float: right; }
-  /* line 79, ../../sass/_elements.sass */
+  /* line 81, ../../sass/_elements.sass */
   .nav:before {
     content: " ";
     display: table; }
-  /* line 82, ../../sass/_elements.sass */
+  /* line 84, ../../sass/_elements.sass */
   .nav:after {
     content: " ";
     display: table;
     clear: both; }
-  /* line 86, ../../sass/_elements.sass */
+  /* line 88, ../../sass/_elements.sass */
   .nav a {
     padding: 0 1em;
     *zoom: 1; }
-  /* line 89, ../../sass/_elements.sass */
+  /* line 91, ../../sass/_elements.sass */
   .nav > li {
     float: left; }
-    /* line 91, ../../sass/_elements.sass */
+    /* line 93, ../../sass/_elements.sass */
     .nav > li a {
       display: block;
       position: relative; }
 
-/* line 96, ../../sass/_elements.sass */
+/* line 98, ../../sass/_elements.sass */
 .nav li {
   position: relative; }
-/* line 98, ../../sass/_elements.sass */
+/* line 100, ../../sass/_elements.sass */
 .nav li.hover ul {
   left: 100%;
   top: 0; }
-/* line 101, ../../sass/_elements.sass */
+/* line 103, ../../sass/_elements.sass */
 .nav > li.hover > ul {
   left: 0; }
 
 /* Pager */
-/* line 106, ../../sass/_elements.sass */
+/* line 108, ../../sass/_elements.sass */
 .bottom_pager {
   text-align: center; }
-  /* line 109, ../../sass/_elements.sass */
+  /* line 111, ../../sass/_elements.sass */
   .bottom_pager ul li {
     display: inline-block;
     padding: 1em;
@@ -539,24 +540,24 @@ a {
     background-color: #ef6681;
     color: #ffffff;
     cursor: pointer; }
-    /* line 117, ../../sass/_elements.sass */
+    /* line 119, ../../sass/_elements.sass */
     .bottom_pager ul li:hover {
       background-color: #cbcbcb; }
-    /* line 119, ../../sass/_elements.sass */
+    /* line 121, ../../sass/_elements.sass */
     .bottom_pager ul li a {
       padding: 10px;
       width: 100%; }
 
 /* Search Banner */
-/* line 125, ../../sass/_elements.sass */
+/* line 127, ../../sass/_elements.sass */
 #search_banner {
   background-color: #ffffff; }
 
 /* Categories icon list */
-/* line 130, ../../sass/_elements.sass */
+/* line 132, ../../sass/_elements.sass */
 .icon_grid {
   text-align: center; }
-  /* line 132, ../../sass/_elements.sass */
+  /* line 134, ../../sass/_elements.sass */
   .icon_grid li {
     width: 10%;
     float: left;
@@ -619,14 +620,14 @@ a {
       margin-left: 90%;
       margin-right: -100%;
       clear: none; }
-    /* line 142, ../../sass/_elements.sass */
+    /* line 144, ../../sass/_elements.sass */
     .icon_grid li:nth-child(10n+1) {
       border-left: 1px solid #f0f0f0; }
-    /* line 144, ../../sass/_elements.sass */
+    /* line 146, ../../sass/_elements.sass */
     .icon_grid li:hover {
       background-color: #71cac7;
       color: #ffffff; }
-    /* line 147, ../../sass/_elements.sass */
+    /* line 149, ../../sass/_elements.sass */
     .icon_grid li img {
       width: auto;
       border-radius: 50%;
