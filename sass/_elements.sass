@@ -97,6 +97,7 @@ a
 		color: $gray_dark
 		cursor: pointer
 		border: 2px solid $white
+		background-color: $white
 		&:hover
 			color: #26b5b0
 			border-color: $green
@@ -171,28 +172,3 @@ a
 
 #search_banner
 	background-color: $white
-
-/* Categories icon list */
-
-.icon_grid
-	text-align: center
-	li
-		@include gallery(1 of 10 0)
-		border-right: 1px solid $border_color
-		border-bottom: 1px solid $border_color
-		border-top: 1px solid $border_color
-		margin-bottom: -1px
-		padding: 1em
-		color: $black
-		background-color: $white
-		cursor: pointer
-		&:nth-child(10n+1)
-			border-left: 1px solid $border_color
-		&:hover
-			background-color: $green
-			color: $white
-		img
-			width: auto
-			border-radius: 50%
-			background-color: $white
-			padding: 1em

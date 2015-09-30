@@ -301,76 +301,76 @@ section,
   margin-top: -0.8em; }
 
 /* line 75, ../../sass/_grid.sass */
-.two_col_grid div,
-.two_col_grid li {
+.two_col_grid > div,
+.two_col_grid > li {
   width: 49.1525423729%;
   float: left; }
   /* line 66, ../../../../../../Users/ornitoringo/Documents/Software/CodeKit.app/Contents/Resources/engines/susy/sass/susy/language/susy/_gallery.scss */
-  .two_col_grid div:nth-child(2n + 1),
-  .two_col_grid li:nth-child(2n + 1) {
+  .two_col_grid > div:nth-child(2n + 1),
+  .two_col_grid > li:nth-child(2n + 1) {
     margin-left: 0;
     margin-right: -100%;
     clear: both;
     margin-left: 0; }
   /* line 66, ../../../../../../Users/ornitoringo/Documents/Software/CodeKit.app/Contents/Resources/engines/susy/sass/susy/language/susy/_gallery.scss */
-  .two_col_grid div:nth-child(2n + 2),
-  .two_col_grid li:nth-child(2n + 2) {
+  .two_col_grid > div:nth-child(2n + 2),
+  .two_col_grid > li:nth-child(2n + 2) {
     margin-left: 50.8474576271%;
     margin-right: -100%;
     clear: none; }
 
 /* line 78, ../../sass/_grid.sass */
-.three_col_grid div,
-.three_col_grid li {
+.three_col_grid > div,
+.three_col_grid > li {
   width: 32.2033898305%;
   float: left; }
   /* line 66, ../../../../../../Users/ornitoringo/Documents/Software/CodeKit.app/Contents/Resources/engines/susy/sass/susy/language/susy/_gallery.scss */
-  .three_col_grid div:nth-child(3n + 1),
-  .three_col_grid li:nth-child(3n + 1) {
+  .three_col_grid > div:nth-child(3n + 1),
+  .three_col_grid > li:nth-child(3n + 1) {
     margin-left: 0;
     margin-right: -100%;
     clear: both;
     margin-left: 0; }
   /* line 66, ../../../../../../Users/ornitoringo/Documents/Software/CodeKit.app/Contents/Resources/engines/susy/sass/susy/language/susy/_gallery.scss */
-  .three_col_grid div:nth-child(3n + 2),
-  .three_col_grid li:nth-child(3n + 2) {
+  .three_col_grid > div:nth-child(3n + 2),
+  .three_col_grid > li:nth-child(3n + 2) {
     margin-left: 33.8983050847%;
     margin-right: -100%;
     clear: none; }
   /* line 66, ../../../../../../Users/ornitoringo/Documents/Software/CodeKit.app/Contents/Resources/engines/susy/sass/susy/language/susy/_gallery.scss */
-  .three_col_grid div:nth-child(3n + 3),
-  .three_col_grid li:nth-child(3n + 3) {
+  .three_col_grid > div:nth-child(3n + 3),
+  .three_col_grid > li:nth-child(3n + 3) {
     margin-left: 67.7966101695%;
     margin-right: -100%;
     clear: none; }
 
 /* line 81, ../../sass/_grid.sass */
-.four_col_grid div,
-.four_col_grid li {
+.four_col_grid > div,
+.four_col_grid > li {
   width: 23.7288135593%;
   float: left; }
   /* line 66, ../../../../../../Users/ornitoringo/Documents/Software/CodeKit.app/Contents/Resources/engines/susy/sass/susy/language/susy/_gallery.scss */
-  .four_col_grid div:nth-child(4n + 1),
-  .four_col_grid li:nth-child(4n + 1) {
+  .four_col_grid > div:nth-child(4n + 1),
+  .four_col_grid > li:nth-child(4n + 1) {
     margin-left: 0;
     margin-right: -100%;
     clear: both;
     margin-left: 0; }
   /* line 66, ../../../../../../Users/ornitoringo/Documents/Software/CodeKit.app/Contents/Resources/engines/susy/sass/susy/language/susy/_gallery.scss */
-  .four_col_grid div:nth-child(4n + 2),
-  .four_col_grid li:nth-child(4n + 2) {
+  .four_col_grid > div:nth-child(4n + 2),
+  .four_col_grid > li:nth-child(4n + 2) {
     margin-left: 25.4237288136%;
     margin-right: -100%;
     clear: none; }
   /* line 66, ../../../../../../Users/ornitoringo/Documents/Software/CodeKit.app/Contents/Resources/engines/susy/sass/susy/language/susy/_gallery.scss */
-  .four_col_grid div:nth-child(4n + 3),
-  .four_col_grid li:nth-child(4n + 3) {
+  .four_col_grid > div:nth-child(4n + 3),
+  .four_col_grid > li:nth-child(4n + 3) {
     margin-left: 50.8474576271%;
     margin-right: -100%;
     clear: none; }
   /* line 66, ../../../../../../Users/ornitoringo/Documents/Software/CodeKit.app/Contents/Resources/engines/susy/sass/susy/language/susy/_gallery.scss */
-  .four_col_grid div:nth-child(4n + 4),
-  .four_col_grid li:nth-child(4n + 4) {
+  .four_col_grid > div:nth-child(4n + 4),
+  .four_col_grid > li:nth-child(4n + 4) {
     margin-left: 76.2711864407%;
     margin-right: -100%;
     clear: none; }
@@ -484,7 +484,8 @@ a {
     min-height: 9em;
     color: #434343;
     cursor: pointer;
-    border: 2px solid #ffffff; }
+    border: 2px solid #ffffff;
+    background-color: #ffffff; }
     /* line 66, ../../../../../../Users/ornitoringo/Documents/Software/CodeKit.app/Contents/Resources/engines/susy/sass/susy/language/susy/_gallery.scss */
     .menu_icon_grid li:nth-child(10n + 1) {
       margin-left: 0;
@@ -536,11 +537,11 @@ a {
       margin-left: 90%;
       margin-right: -100%;
       clear: none; }
-    /* line 100, ../../sass/_elements.sass */
+    /* line 101, ../../sass/_elements.sass */
     .menu_icon_grid li:hover {
       color: #26b5b0;
       border-color: #71cac7; }
-    /* line 103, ../../sass/_elements.sass */
+    /* line 104, ../../sass/_elements.sass */
     .menu_icon_grid li img {
       width: auto;
       border: 4px solid #ffffff;
@@ -550,62 +551,62 @@ a {
       margin-bottom: 0; }
 
 /* Breadcrumbs + Searchbar */
-/* line 113, ../../sass/_elements.sass */
+/* line 114, ../../sass/_elements.sass */
 #breadcrumbs_search_combo {
   height: 3em; }
-  /* line 116, ../../sass/_elements.sass */
+  /* line 117, ../../sass/_elements.sass */
   #breadcrumbs_search_combo div {
     border: 1px solid #f0f0f0;
     min-height: 3.7em;
     background-color: #ffffff; }
 
-/* line 122, ../../sass/_elements.sass */
+/* line 123, ../../sass/_elements.sass */
 #breadcrumbs {
   width: 66.1016949153%;
   float: left;
   margin-right: 1.6949152542%; }
-  /* line 124, ../../sass/_elements.sass */
+  /* line 125, ../../sass/_elements.sass */
   #breadcrumbs ul li {
     display: inline-block;
     border-right: 1px solid #f0f0f0;
     padding: 1em 1.5em; }
-    /* line 128, ../../sass/_elements.sass */
+    /* line 129, ../../sass/_elements.sass */
     #breadcrumbs ul li:last-child {
       border-right: none;
       font-weight: bold; }
-    /* line 131, ../../sass/_elements.sass */
+    /* line 132, ../../sass/_elements.sass */
     #breadcrumbs ul li a:hover {
       color: #0598c9;
       font-weight: bold; }
 
-/* line 134, ../../sass/_elements.sass */
+/* line 135, ../../sass/_elements.sass */
 #search_bar {
   width: 32.2033898305%;
   float: right;
   margin-right: 0; }
-  /* line 136, ../../sass/_elements.sass */
+  /* line 137, ../../sass/_elements.sass */
   #search_bar form {
     width: 73.6842105263%;
     float: left;
     margin-right: 5.2631578947%; }
-    /* line 138, ../../sass/_elements.sass */
+    /* line 139, ../../sass/_elements.sass */
     #search_bar form input {
       height: 4.1em;
       width: 100%;
       border: none;
       background: none;
       padding: 0 1.5em; }
-  /* line 146, ../../sass/_elements.sass */
+  /* line 147, ../../sass/_elements.sass */
   #search_bar img {
     width: 21.0526315789%;
     float: right;
     margin-right: 0; }
 
 /* Pager */
-/* line 153, ../../sass/_elements.sass */
+/* line 154, ../../sass/_elements.sass */
 .bottom_pager {
   text-align: center; }
-  /* line 156, ../../sass/_elements.sass */
+  /* line 157, ../../sass/_elements.sass */
   .bottom_pager ul li {
     display: inline-block;
     padding: 1em;
@@ -614,98 +615,49 @@ a {
     background-color: #ef6681;
     color: #ffffff;
     cursor: pointer; }
-    /* line 164, ../../sass/_elements.sass */
+    /* line 165, ../../sass/_elements.sass */
     .bottom_pager ul li:hover {
       background-color: #cbcbcb; }
-    /* line 166, ../../sass/_elements.sass */
+    /* line 167, ../../sass/_elements.sass */
     .bottom_pager ul li a {
       padding: 10px;
       width: 100%; }
 
 /* Search Banner */
-/* line 172, ../../sass/_elements.sass */
+/* line 173, ../../sass/_elements.sass */
 #search_banner {
   background-color: #ffffff; }
 
-/* Categories icon list */
-/* line 177, ../../sass/_elements.sass */
-.icon_grid {
-  text-align: center; }
-  /* line 179, ../../sass/_elements.sass */
-  .icon_grid li {
-    width: 10%;
-    float: left;
-    border-right: 1px solid #f0f0f0;
-    border-bottom: 1px solid #f0f0f0;
-    border-top: 1px solid #f0f0f0;
-    margin-bottom: -1px;
-    padding: 1em;
-    color: #2a2a2a;
-    background-color: #ffffff;
-    cursor: pointer; }
-    /* line 66, ../../../../../../Users/ornitoringo/Documents/Software/CodeKit.app/Contents/Resources/engines/susy/sass/susy/language/susy/_gallery.scss */
-    .icon_grid li:nth-child(10n + 1) {
-      margin-left: 0;
-      margin-right: -100%;
-      clear: both;
-      margin-left: 0; }
-    /* line 66, ../../../../../../Users/ornitoringo/Documents/Software/CodeKit.app/Contents/Resources/engines/susy/sass/susy/language/susy/_gallery.scss */
-    .icon_grid li:nth-child(10n + 2) {
-      margin-left: 10%;
-      margin-right: -100%;
-      clear: none; }
-    /* line 66, ../../../../../../Users/ornitoringo/Documents/Software/CodeKit.app/Contents/Resources/engines/susy/sass/susy/language/susy/_gallery.scss */
-    .icon_grid li:nth-child(10n + 3) {
-      margin-left: 20%;
-      margin-right: -100%;
-      clear: none; }
-    /* line 66, ../../../../../../Users/ornitoringo/Documents/Software/CodeKit.app/Contents/Resources/engines/susy/sass/susy/language/susy/_gallery.scss */
-    .icon_grid li:nth-child(10n + 4) {
-      margin-left: 30%;
-      margin-right: -100%;
-      clear: none; }
-    /* line 66, ../../../../../../Users/ornitoringo/Documents/Software/CodeKit.app/Contents/Resources/engines/susy/sass/susy/language/susy/_gallery.scss */
-    .icon_grid li:nth-child(10n + 5) {
-      margin-left: 40%;
-      margin-right: -100%;
-      clear: none; }
-    /* line 66, ../../../../../../Users/ornitoringo/Documents/Software/CodeKit.app/Contents/Resources/engines/susy/sass/susy/language/susy/_gallery.scss */
-    .icon_grid li:nth-child(10n + 6) {
-      margin-left: 50%;
-      margin-right: -100%;
-      clear: none; }
-    /* line 66, ../../../../../../Users/ornitoringo/Documents/Software/CodeKit.app/Contents/Resources/engines/susy/sass/susy/language/susy/_gallery.scss */
-    .icon_grid li:nth-child(10n + 7) {
-      margin-left: 60%;
-      margin-right: -100%;
-      clear: none; }
-    /* line 66, ../../../../../../Users/ornitoringo/Documents/Software/CodeKit.app/Contents/Resources/engines/susy/sass/susy/language/susy/_gallery.scss */
-    .icon_grid li:nth-child(10n + 8) {
-      margin-left: 70%;
-      margin-right: -100%;
-      clear: none; }
-    /* line 66, ../../../../../../Users/ornitoringo/Documents/Software/CodeKit.app/Contents/Resources/engines/susy/sass/susy/language/susy/_gallery.scss */
-    .icon_grid li:nth-child(10n + 9) {
-      margin-left: 80%;
-      margin-right: -100%;
-      clear: none; }
-    /* line 66, ../../../../../../Users/ornitoringo/Documents/Software/CodeKit.app/Contents/Resources/engines/susy/sass/susy/language/susy/_gallery.scss */
-    .icon_grid li:nth-child(10n + 10) {
-      margin-left: 90%;
-      margin-right: -100%;
-      clear: none; }
-    /* line 189, ../../sass/_elements.sass */
-    .icon_grid li:nth-child(10n+1) {
-      border-left: 1px solid #f0f0f0; }
-    /* line 191, ../../sass/_elements.sass */
-    .icon_grid li:hover {
-      background-color: #71cac7;
-      color: #ffffff; }
-    /* line 194, ../../sass/_elements.sass */
-    .icon_grid li img {
-      width: auto;
+/* Listado de 'índice' para 'más proveedores' */
+/* line 4, ../../sass/sections.sass */
+ul.index_list li {
+  margin-bottom: 1.2em; }
+  /* line 6, ../../sass/sections.sass */
+  ul.index_list li div {
+    float: left; }
+  /* line 8, ../../sass/sections.sass */
+  ul.index_list li div:first-child {
+    text-align: center; }
+    /* line 10, ../../sass/sections.sass */
+    ul.index_list li div:first-child a {
+      display: block;
+      width: 36px;
+      height: 36px;
       border-radius: 50%;
-      background-color: #ffffff;
-      padding: 1em; }
+      background-color: #71cac7;
+      color: #ffffff;
+      padding-top: 0.4em; }
+  /* line 19, ../../sass/sections.sass */
+  ul.index_list li div:last-child p {
+    margin-bottom: 0;
+    padding-left: 1em; }
+  /* line 22, ../../sass/sections.sass */
+  ul.index_list li div:last-child:hover {
+    color: #0598c9; }
+
+/* Títulos centrados de secciones verticales */
+/* line 28, ../../sass/sections.sass */
+.center_titles > h2, .center_titles > h3 {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
