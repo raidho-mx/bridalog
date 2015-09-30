@@ -29,6 +29,7 @@ Footer Template
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="lib/js/scripts.js"></script>
+	<script src="lib/js/jquery-ui.js"></script>
 	</body>
 
 </html>

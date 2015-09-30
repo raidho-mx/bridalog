@@ -15,7 +15,7 @@ Top Navigation Template
 
 		<a class="toggleMenu" href="#">Menu</a>
 		<ul class="nav">
-			<li><a href="#">Proveedores</a>
+			<li><a id="icon_grid_toggl" href="#">Proveedores</a>
 			<li><a href="#">Servicios</a></li>
 			<li><a href="#">Magazine</a></li>
 			<li><a href="#">Acerca</a></li>
