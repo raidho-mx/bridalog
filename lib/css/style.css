@@ -29,6 +29,10 @@
 .green {
   color: #71cac7; }
 
+/* line 38, ../../sass/style.sass */
+.white_bg {
+  background-color: #ffffff; }
+
 /*    Breakpoints */
 /* Key Variables */
 /* Patterns & Sections */
@@ -185,8 +189,9 @@ strong {
 
 /* line 75, ../../sass/_type.sass */
 h4, h3, h2, h1 {
-  margin-bottom: 1.25em; }
-  /* line 77, ../../sass/_type.sass */
+  margin-bottom: 1.25em;
+  font-weight: normal; }
+  /* line 78, ../../sass/_type.sass */
   h4 span, h3 span, h2 span, h1 span {
     color: #ef6681; }
 
@@ -660,5 +665,29 @@ ul.index_list li {
 /* line 28, ../../sass/sections.sass */
 .center_titles > h2, .center_titles > h3 {
   text-align: center; }
+
+/* Portadas para secciones informativas */
+/* line 34, ../../sass/sections.sass */
+.image_cover {
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  position: relative; }
+  /* line 41, ../../sass/sections.sass */
+  .image_cover .cover_text {
+    position: absolute;
+    display: table;
+    height: 100%;
+    width: 66.1016949153%;
+    float: left;
+    margin-left: 16.9491525424%;
+    margin-right: -100%; }
+    /* line 46, ../../sass/sections.sass */
+    .image_cover .cover_text h1 {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

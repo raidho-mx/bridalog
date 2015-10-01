@@ -27,3 +27,23 @@ ul.index_list
 .center_titles
 	>h2, >h3
 		text-align: center
+
+
+/* Portadas para secciones informativas */
+
+.image_cover
+	height: 80vh
+	background-size: cover
+	background-repeat: no-repeat
+	background-position: center
+	text-align: center
+	position: relative
+	.cover_text
+		position: absolute
+		display: table
+		height: 100%
+		@include span(8 at 3 of 12 isolate)
+		h1
+			display: table-cell
+			vertical-align: middle
+			text-align: center
