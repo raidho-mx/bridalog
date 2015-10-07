@@ -27,6 +27,34 @@ ul.index_list
 .center_titles
 	>h2, >h3
 		text-align: center
+.centered_section
+	text-align: center
+
+/* Botones redes sociales */
+
+.share_btns
+	margin-bottom: $bottom_margins
+	li
+		display: inline-block
+		width: 11em
+		margin-right: 1em
+		text-align: left
+	a
+		@extend .asap
+		display: block
+		background-color: #395799
+		color: $white
+		padding: 0.7em
+		&.btn_instagram
+			background-color: #1fa8e3
+		&.btn_pinterest
+			background-color: #ce1e1f
+		&:hover
+			opacity: 0.8
+		span
+			@extend .font_awesome
+			padding: 0 1em 0 0.5em
+
 
 
 /* Portadas para secciones informativas */

@@ -173,3 +173,54 @@ a
 
 #search_banner
 	background-color: $white
+
+
+/* Forms */
+
+form
+	input, select, textarea, select option
+		@extend .asap
+		width: 100%
+		display: block
+		margin-bottom: 1em
+		padding: 1em
+		background-color: $white
+		border: 1px solid $border_color
+		border-left: 2px solid $pink
+		text-shadow: none
+		font-size: inherit
+		text-align: left
+		transition: all 0.3s
+		-webkit-appearance: none
+		-moz-appearance: none
+		appearance: none
+		border-radius: 0
+	button, input[type=submit]
+		width: auto
+		font-size: 1em
+		font-weight: bold
+		padding: 1em
+		margin-top: 1em
+		margin-bottom: $bottom_margins
+		display: inline-block
+		transition: all 0.3s
+		background-color: $green
+		color: $white
+		cursor: pointer
+		border: none
+		text-shadow: none
+		opacity: .8
+		&:hover
+			opacity: 1
+		&::before
+			content: '\f1d8'
+			padding-right: .5em
+			display: inline-block
+			font: normal normal normal 14px/1 FontAwesome
+			font-size: inherit
+			text-rendering: auto
+			-webkit-font-smoothing: antialiased
+			-moz-osx-font-smoothing: grayscale
+
+.disclaimer
+	@include span(6 at 4 of 12 isolate)
