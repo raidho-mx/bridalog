@@ -1,3 +1,10 @@
+/* Secciones con fondos de color */
+
+.white_bg
+	background-color: $white
+.gray_bg
+	background-color: $gray_light
+
 /* Listado de 'índice' para 'más proveedores' */
 
 ul.index_list
@@ -25,7 +32,7 @@ ul.index_list
 /* Títulos centrados de secciones verticales */
 
 .center_titles
-	>h2, >h3
+	>h1, >h2, >h3, >h4
 		text-align: center
 .centered_section
 	text-align: center
@@ -79,4 +86,43 @@ ul.index_list
 			text-align: center
 
 
-/* About */
+/* Services */
+
+.services_slider
+	.s_slide
+		@extend .group
+		width: span(10)
+		background-color: $white
+		div:first-child
+			@include span(5 of 10)
+		div:last-child
+			@include span(5 of 10 last)
+		.description
+			padding: 2em
+
+.pricing_table
+	> div
+		@include gallery(4 of 12 0)
+		color: $white
+		padding: 2em
+	ul li
+		padding: .7em 0
+		border-bottom: 1px solid #3397a3
+		&:last-child
+			border-bottom: none
+	.base
+		background-color: #3aa1b0
+		.feat_off
+			color: #31919e
+	.premium
+		background-color: #298895
+		.feat_off
+			color: #2c7983
+		ul li
+			border-color: #2a7a85
+	.platino
+		background-color: #2f757d
+		.feat_off
+			color: #186179
+		ul li
+			border-color: #2c6870

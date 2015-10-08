@@ -17,7 +17,7 @@ Top Navigation Template
 		<ul class="nav">
 			<li><a id="icon_grid_toggl" href="#">Categorías</a>
 			<li><a href="proveedores.php">Proveedores</a>
-			<li><a href="#">Servicios</a></li>
+			<li><a href="servicios.php">Servicios</a></li>
 			<li><a href="#">Magazine</a></li>
 			<li><a href="acerca.php">Acerca</a></li>
 			<li><a href="contacto.php">Contacto</a></li>

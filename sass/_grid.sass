@@ -62,8 +62,13 @@ section,
 
 /* Basic columns layouts */
 
+.group:after
+	content: ""
+	display: table
+	clear: both
+
 .basic_grid
-	overflow: hidden
+	@extend .group
 	li img, div > img
 		width: 100%
 		margin-bottom: $bottom_margins
@@ -71,11 +76,6 @@ section,
 .basic_grid li
 	p + h4
 		margin-top: -.8em
-
-.group:after
-	content: ""
-	display: table
-	clear: both
 
 .two_col_grid > div,
 .two_col_grid > li
