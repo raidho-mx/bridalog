@@ -22,9 +22,9 @@ Contact Template
 		<div class="two_col_grid basic_grid group">
 
 			<div>
-				<input name="contacto_nombre" type="text" placeholder="Tu Nombre">
-				<input name="contacto_correo" type="text" placeholder="Tu Correo">
-				<select name="contacto_asunto">
+				<input class="required" name="contacto_nombre" type="text" placeholder="Tu Nombre">
+				<input class="required" name="contacto_correo" type="text" placeholder="Tu Correo">
+				<select class="required" name="contacto_asunto">
 					<option value="default">Elige un asunto</option>
 					<option value="soporte">Requiero ayuda para usar su sitio</option>
 					<option value="proveedor">Me interesa ser proveedor</option>
@@ -33,7 +33,7 @@ Contact Template
 				</select>
 			</div>
 			<div>
-				<textarea name="contacto_mensaje" id="" cols="30" rows="10" placeholder="¿Cómo podemos ayudarte?"></textarea>
+				<textarea class="required" name="contacto_mensaje" id="" cols="30" rows="10" placeholder="¿Cómo podemos ayudarte?"></textarea>
 			</div>
 
 		</div>

@@ -64,7 +64,7 @@ section,
 
 .basic_grid
 	overflow: hidden
-	li img
+	li img, div > img
 		width: 100%
 		margin-bottom: $bottom_margins
 
@@ -86,3 +86,11 @@ section,
 .four_col_grid > div,
 .four_col_grid > li
 	@include gallery(3 of 12)
+
+.inline_list
+	overflow: hidden
+	clear: both
+	margin-bottom: $bottom_margins
+	li
+		display: inline-block
+		margin: 0 1em

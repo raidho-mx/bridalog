@@ -304,7 +304,7 @@ section,
 .basic_grid {
   overflow: hidden; }
   /* line 67, ../../sass/_grid.sass */
-  .basic_grid li img {
+  .basic_grid li img, .basic_grid div > img {
     width: 100%;
     margin-bottom: 1.2em; }
 
@@ -392,6 +392,16 @@ section,
     margin-left: 76.2711864407%;
     margin-right: -100%;
     clear: none; }
+
+/* line 90, ../../sass/_grid.sass */
+.inline_list {
+  overflow: hidden;
+  clear: both;
+  margin-bottom: 1.2em; }
+  /* line 94, ../../sass/_grid.sass */
+  .inline_list li {
+    display: inline-block;
+    margin: 0 1em; }
 
 /* Background */
 /* line 3, ../../sass/_elements.sass */
@@ -675,7 +685,6 @@ form input, form select, form textarea, form select option {
   padding: 1em;
   background-color: #ffffff;
   border: 1px solid #f0f0f0;
-  border-left: 2px solid #ef6681;
   text-shadow: none;
   font-size: inherit;
   text-align: left;
@@ -684,7 +693,10 @@ form input, form select, form textarea, form select option {
   -moz-appearance: none;
   appearance: none;
   border-radius: 0; }
-/* line 215, ../../sass/_elements.sass */
+  /* line 214, ../../sass/_elements.sass */
+  form input.required, form select.required, form textarea.required, form select option.required {
+    border-left: 2px solid #ef6681; }
+/* line 216, ../../sass/_elements.sass */
 form button, form input[type=submit] {
   width: auto;
   font-size: 1em;
@@ -700,10 +712,10 @@ form button, form input[type=submit] {
   border: none;
   text-shadow: none;
   opacity: 0.8; }
-  /* line 230, ../../sass/_elements.sass */
+  /* line 231, ../../sass/_elements.sass */
   form button:hover, form input[type=submit]:hover {
     opacity: 1; }
-  /* line 232, ../../sass/_elements.sass */
+  /* line 233, ../../sass/_elements.sass */
   form button::before, form input[type=submit]::before {
     content: "";
     padding-right: 0.5em;
@@ -714,7 +726,7 @@ form button, form input[type=submit] {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
 
-/* line 242, ../../sass/_elements.sass */
+/* line 243, ../../sass/_elements.sass */
 .disclaimer {
   width: 49.1525423729%;
   float: left;
@@ -756,12 +768,13 @@ ul.index_list li {
 /* line 30, ../../sass/sections.sass */
 .centered_section {
   text-align: center; }
-  /* line 32, ../../sass/sections.sass */
-  .centered_section.thin_section {
-    width: 66.1016949153%;
-    float: left;
-    margin-left: 16.9491525424%;
-    margin-right: -100%; }
+
+/* line 32, ../../sass/sections.sass */
+.thin_section {
+  width: 66.1016949153%;
+  float: left;
+  margin-left: 16.9491525424%;
+  margin-right: -100%; }
 
 /* Botones redes sociales */
 /* line 37, ../../sass/sections.sass */
@@ -815,5 +828,7 @@ ul.index_list li {
       display: table-cell;
       vertical-align: middle;
       text-align: center; }
+
+/* About */
 
 /*# sourceMappingURL=style.css.map */

@@ -203,7 +203,6 @@ form
 		padding: 1em
 		background-color: $white
 		border: 1px solid $border_color
-		border-left: 2px solid $pink
 		text-shadow: none
 		font-size: inherit
 		text-align: left
@@ -212,6 +211,8 @@ form
 		-moz-appearance: none
 		appearance: none
 		border-radius: 0
+		&.required
+			border-left: 2px solid $pink
 	button, input[type=submit]
 		width: auto
 		font-size: 1em
