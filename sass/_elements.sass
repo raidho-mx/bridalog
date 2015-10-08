@@ -23,6 +23,23 @@ a
 	color: inherit
 	text-decoration: none
 
+/* Botones para CTAs */
+
+.squared_btns
+	margin-bottom: $bottom_margins
+	li
+		display: inline-block
+		margin-right: 1em
+		text-align: left
+	a
+		@extend .asap
+		display: block
+		background-color: $green_dark
+		color: $white
+		padding: 0.7em
+		&:hover
+			opacity: 0.8
+
 /* Top Menu */
 
 #top_menu, #bottom_menu
@@ -199,12 +216,12 @@ form
 		width: auto
 		font-size: 1em
 		font-weight: bold
-		padding: 1em
+		padding: 1em 5em
 		margin-top: 1em
 		margin-bottom: $bottom_margins
 		display: inline-block
 		transition: all 0.3s
-		background-color: $green
+		background-color: $green_dark
 		color: $white
 		cursor: pointer
 		border: none

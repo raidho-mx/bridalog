@@ -16,7 +16,7 @@ Contact Template
 </div>
 
 <div class="wrap">
-	<div class="contact_form inner_section_pad centered_section">
+	<div class="contact_form inner_section_pad centered_section thin_section">
 		<h4 class="asap">Cuéntanos, ¿qué podemos hacer por ti?</h4>
 		<form action="">
 		<div class="two_col_grid basic_grid group">
@@ -61,13 +61,17 @@ Contact Template
 	</div><!--Wrap -->
 </div>
 
-<div class="wrap centered_section">
-	<div>
-		<p class="small_title">Durante los últimos 3 años, <strong>Bridalog</strong> ha crecido como una de las opciones más confiables para encontrar y dar a conocer servicios premium para bodas. <strong>Bridalog</strong> funciona gracias a su comunidad de novias participativas, así como su red selecta de proveedores líderes en sus áreas.</p>
-	</div>
-	<div class="squared_btn">
-		<a href="#">Conoce la historia detrás de Bridalog</a>
-		<a href="#">Descubre los servicios de Bridalog</a>
+<div class="wrap">
+	<div class="centered_section thin_section">
+		<div>
+			<p class="small_title">Durante los últimos 3 años, <strong>Bridalog</strong> ha crecido como una de las opciones más confiables para encontrar y dar a conocer servicios premium para bodas. <strong>Bridalog</strong> funciona gracias a su comunidad de novias participativas, así como su red selecta de proveedores líderes en sus áreas.</p>
+		</div>
+		<div class="squared_btns">
+			<ul>
+				<li><a href="#">Conoce la historia detrás de Bridalog</a></li>
+				<li><a href="#">Descubre los servicios de Bridalog</a></li>
+			</ul>
+		</div>
 	</div>
 </div> <!--Wrap -->
 
