@@ -7,9 +7,10 @@
 
 /* Listado de 'índice' para 'más proveedores' */
 
-ul.index_list
+ul.index_list, ul.thumbs_list
 	li
 		margin-bottom: $bottom_margins
+		overflow: auto
 		div
 			float: left
 		div:first-child
@@ -28,6 +29,73 @@ ul.index_list
 				padding-left: 1em
 			&:hover
 				color: $blue
+ul.thumbs_list li
+	div:first-child
+		width: 80px
+		height: 80px
+		a
+			background-color: transparent
+			width: auto
+			display: inline
+		img
+			width: 100%
+			border-radius: 50%
+	div:last-child
+		padding-top: 1em
+
+/* Proveedores Vista Individual */
+
+.prov_single
+	.cover_text
+		color: $white
+		h1
+			margin-bottom: -.3em
+
+.prov_single
+	.prov_info
+		@include span(9 of 12)
+	.prov_sidebar
+		@include span(3 of 12 last)
+		padding: 2em 0 0 2em
+
+section.prov_info
+	padding: 0
+.prov_info
+	>div
+		background-color: $white
+		margin-bottom: $bottom_margins_grid
+		@include bleed(0 1em)
+		padding-top: 1em
+		padding-bottom: 1em
+		&:first-child
+			padding-top: 2.5em
+		&:last-child
+			margin-bottom: 0
+	.prov_main_info
+		@extend .pink_links
+		.prov_main_info_profile
+			div:first-child
+				@include span(5 of 9)
+			div:last-child
+				@include span(4 of 9 last)
+				img
+					width: 100%
+					margin-bottom: $bottom_margins
+		.prov_main_contact
+			>div
+				@include gallery(3 of 9)
+.prov_content_related
+	div:first-child
+		@include span(5 of 9)
+		img
+			width: 100%
+	div:last-child
+		@include span(4 of 9 last)
+
+.prov_products_slim
+	li
+		@include gallery(3 of 9)
+
 
 /* Títulos centrados de secciones verticales */
 
@@ -75,12 +143,21 @@ ul.index_list
 	background-position: center
 	text-align: center
 	position: relative
+	&:before
+		content: ''
+		position: absolute
+		top: 0
+		right: 0
+		bottom: 0
+		left: 0
+		background-image: linear-gradient(to bottom right,#1a1a1a,#2a2a2a)
+		opacity: .5
 	.cover_text
 		position: absolute
 		display: table
 		height: 100%
 		@include span(8 at 3 of 12 isolate)
-		h1
+		>h1, > div
 			display: table-cell
 			vertical-align: middle
 			text-align: center
