@@ -292,3 +292,38 @@ ul.thumbs_list li
 			color: #186179
 		ul li
 			border-color: #2c6870
+
+/* Magazine */
+
+.mag_featured
+	height: 60vh
+	.featured_img
+		background-size: cover
+		background-repeat: no-repeat
+		background-position: center
+		text-align: center
+		position: relative
+		height: 100%
+		&:hover
+			opacity: .9
+		&:before
+			content: ''
+			position: absolute
+			top: 0
+			right: 0
+			bottom: 0
+			left: 0
+			background-image: linear-gradient(to bottom right,#1a1a1a,#2a2a2a)
+			opacity: .5
+	.cover_text
+		position: absolute
+		display: table
+		height: 100%
+		color: white
+		@include span(8 at 3 of 12 isolate)
+		>h1, > div
+			display: table-cell
+			vertical-align: middle
+			text-align: center
+		div h1, div p
+			margin-bottom: 0

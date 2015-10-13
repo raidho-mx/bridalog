@@ -1192,4 +1192,48 @@ ul.thumbs_list li div:last-child {
   .pricing_table .platino ul li {
     border-color: #2c6870; }
 
+/* Magazine */
+/* line 298, ../../sass/sections.sass */
+.mag_featured {
+  height: 60vh; }
+  /* line 300, ../../sass/sections.sass */
+  .mag_featured .featured_img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    position: relative;
+    height: 100%; }
+    /* line 307, ../../sass/sections.sass */
+    .mag_featured .featured_img:hover {
+      opacity: 0.9; }
+    /* line 309, ../../sass/sections.sass */
+    .mag_featured .featured_img:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-image: linear-gradient(to bottom right, #1a1a1a, #2a2a2a);
+      opacity: 0.5; }
+  /* line 318, ../../sass/sections.sass */
+  .mag_featured .cover_text {
+    position: absolute;
+    display: table;
+    height: 100%;
+    color: white;
+    width: 66.1016949153%;
+    float: left;
+    margin-left: 16.9491525424%;
+    margin-right: -100%; }
+    /* line 324, ../../sass/sections.sass */
+    .mag_featured .cover_text > h1, .mag_featured .cover_text > div {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center; }
+    /* line 328, ../../sass/sections.sass */
+    .mag_featured .cover_text div h1, .mag_featured .cover_text div p {
+      margin-bottom: 0; }
+
 /*# sourceMappingURL=style.css.map */
