@@ -43,7 +43,7 @@ ul.thumbs_list li
 	div:last-child
 		padding-top: 1em
 
-/* Proveedores Vista Individual */
+/* Proveedores Vista Individual + Vista Producto*/
 
 .prov_single
 	.cover_text
@@ -51,15 +51,17 @@ ul.thumbs_list li
 		h1
 			margin-bottom: -.3em
 
-.prov_single
-	.prov_info
+.prov_single, .prod_single
+	.prov_info, .more_products
 		@include span(9 of 12)
+		padding: 0
 	.prov_sidebar
 		@include span(3 of 12 last)
 		padding: 2em 0 0 2em
+	.prod_sidebar
+		@include span(3 of 12 last)
+		padding: 0 0 0 2em
 
-section.prov_info
-	padding: 0
 .prov_info
 	>div
 		background-color: $white
@@ -96,6 +98,84 @@ section.prov_info
 	li
 		@include gallery(3 of 9)
 
+// Ficha de producto:
+
+.product_slider
+	@include bleed(0 1em)
+	.product_slide
+		padding-bottom: 1em
+		position: relative
+		.product_pictures
+			@include span(8 of 12 first)
+			.feat_picture
+				@include span(7 of 8 first)
+				img
+					width: 100%
+					@include bleed(0 1em)
+			.product_thumbs
+				@include span(1 of 8 last)
+				ul li
+					display: inline-block
+					margin: 0 0 1em 0
+					a
+						border: 2px solid $border-color
+						display: block
+						img
+							width: 100%
+						&:hover
+							border-color: $blue
+		.product_description
+			@include span(4 of 12 last)
+			p
+				@extend .asap
+			p:first-child
+				margin: 0
+		.prod_nav
+			a
+				position: absolute
+				top: 40%
+				background-color: $gray_dark
+				color: $white
+				font-size: 3em
+				line-height: 50%
+				padding: .4em .5em
+				border-radius: 1em
+				text-align: center
+				opacity: .6
+				&:hover
+					opacity: 1
+				&.prod_left
+					left: -.7em
+					span
+						right: .05em
+						top: .05em
+						position: relative
+				&.prod_right
+					right: -.7em
+					span
+						left: .05em
+						top: .05em
+						position: relative
+
+
+.slider_title
+	padding-top: 1em
+	h2
+		margin-bottom: .2em
+	p
+		margin-bottom: -0.5em
+		margin-left: 4em
+	img
+		float: left
+
+
+.more_from_prov
+	background-color: $white
+	margin-bottom: $bottom_margins_grid
+	@include bleed(0 1em)
+	padding-top: 1em
+	padding-bottom: 1em
+
 
 /* Títulos centrados de secciones verticales */
 
@@ -131,6 +211,15 @@ section.prov_info
 		span
 			@extend .font_awesome
 			padding: 0 1em 0 0.5em
+.product_description .share_btns
+	position: absolute
+	bottom: 0
+	padding: 0
+	li
+		width: 4em
+		text-align: center
+		a span
+			padding: 0
 
 
 
