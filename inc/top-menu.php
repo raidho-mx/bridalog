@@ -18,6 +18,7 @@ Top Navigation Template
 			<li><a id="icon_grid_toggl" href="#">Categorías</a>
 			<li><a href="proveedores.php">Proveedores</a>
 			<li><a href="proveedor.php">S.-Prov.</a>
+				<li><a href="producto.php">S.-Prod.</a>
 			<li><a href="servicios.php">Servicios</a></li>
 			<li><a href="#">Magazine</a></li>
 			<li><a href="acerca.php">Acerca</a></li>
