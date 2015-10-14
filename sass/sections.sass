@@ -296,7 +296,59 @@ ul.thumbs_list li
 /* Magazine */
 
 .magazine
-	padding-top: 1em
+	padding-top: 3em
+
+.magazine .wrap div:last-child
+	margin-bottom: 0
+
+.masonry
+	@include container
+.masonry_gutter
+	width: gutter()
+.masonry_column
+	width: span(4)
+.masonry_item
+	width: span(4)
+	margin-top: gutter()
+	border: 20px solid
+
+.mag_featured
+	height: 60vh
+	margin-bottom: $bottom_margins_grid
+	.featured_img
+		background-size: cover
+		background-repeat: no-repeat
+		background-position: center
+		text-align: center
+		position: relative
+		height: 100%
+		&:hover
+			opacity: .9
+		&:before
+			content: ''
+			position: absolute
+			top: 0
+			right: 0
+			bottom: 0
+			left: 0
+			background-image: linear-gradient(to bottom right,#1a1a1a,#2a2a2a)
+			opacity: .5
+	.cover_text
+		position: absolute
+		display: table
+		height: 100%
+		color: white
+		@include span(8 at 3 of 12 isolate)
+		>h1, > div
+			display: table-cell
+			vertical-align: middle
+			text-align: center
+		div h1, div p
+			margin-bottom: 0
+
+.mag
+	margin-top: -1em
+	/* Añadido para compensar el margen superior de los elementos dentro del Masonry */
 
 .mag > li
 	a
@@ -377,50 +429,6 @@ ul.thumbs_list li
 		border-color: $pink
 		.gradient_back
 			@include mixin_gradient_back(rgba(239, 102, 129, 0), rgba(239, 102, 129, 1), white)
-
-.masonry
-	@include container
-.masonry_gutter
-	width: gutter()
-.masonry_column
-	width: span(4)
-.masonry_item
-	width: span(4)
-	margin-top: gutter()
-	border: 20px solid
-
-.mag_featured
-	height: 60vh
-	.featured_img
-		background-size: cover
-		background-repeat: no-repeat
-		background-position: center
-		text-align: center
-		position: relative
-		height: 100%
-		&:hover
-			opacity: .9
-		&:before
-			content: ''
-			position: absolute
-			top: 0
-			right: 0
-			bottom: 0
-			left: 0
-			background-image: linear-gradient(to bottom right,#1a1a1a,#2a2a2a)
-			opacity: .5
-	.cover_text
-		position: absolute
-		display: table
-		height: 100%
-		color: white
-		@include span(8 at 3 of 12 isolate)
-		>h1, > div
-			display: table-cell
-			vertical-align: middle
-			text-align: center
-		div h1, div p
-			margin-bottom: 0
 
 .mag_categories
 	margin-bottom: $bottom_margins
