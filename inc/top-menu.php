@@ -15,12 +15,13 @@ Top Navigation Template
 
 		<a class="toggleMenu" href="#">Menu</a>
 		<ul class="nav">
-			<li><a id="icon_grid_toggl" href="#">Categorías</a>
+			<li><a id="icon_grid_toggl" href="#">Cats</a>
 			<li><a href="proveedores.php">Proveedores</a>
 			<li><a href="proveedor.php">S.-Prov.</a>
 				<li><a href="producto.php">S.-Prod.</a>
 			<li><a href="servicios.php">Servicios</a></li>
 			<li><a href="magazine.php">Magazine</a></li>
+			<li><a href="magazine-single.php">S-Mag.</a></li>
 			<li><a href="acerca.php">Acerca</a></li>
 			<li><a href="contacto.php">Contacto</a></li>
 			<li><a href="#">Acceder</a></li>

@@ -737,27 +737,41 @@ form button, form input[type=submit] {
   margin-left: 25.4237288136%;
   margin-right: -100%; }
 
+/* Combo Cuerpo-Sidebar en algunas secciones */
+/* line 4, ../../sass/sections.sass */
+.body_sidebar_combo .combo_body {
+  width: 74.5762711864%;
+  float: left;
+  margin-right: 1.6949152542%;
+  padding: 0; }
+/* line 7, ../../sass/sections.sass */
+.body_sidebar_combo .combo_sidebar {
+  width: 23.7288135593%;
+  float: right;
+  margin-right: 0;
+  padding: 2em 0 0 2em; }
+
 /* Secciones con fondos de color */
-/* line 3, ../../sass/sections.sass */
+/* line 13, ../../sass/sections.sass */
 .white_bg {
   background-color: #ffffff; }
 
-/* line 5, ../../sass/sections.sass */
+/* line 15, ../../sass/sections.sass */
 .gray_bg {
   background-color: #f0f0f0; }
 
 /* Listado de 'índice' para 'más proveedores' */
-/* line 11, ../../sass/sections.sass */
+/* line 21, ../../sass/sections.sass */
 ul.index_list li, ul.thumbs_list li {
   margin-bottom: 1.2em;
   overflow: auto; }
-  /* line 14, ../../sass/sections.sass */
+  /* line 24, ../../sass/sections.sass */
   ul.index_list li div, ul.thumbs_list li div {
     float: left; }
-  /* line 16, ../../sass/sections.sass */
+  /* line 26, ../../sass/sections.sass */
   ul.index_list li div:first-child, ul.thumbs_list li div:first-child {
     text-align: center; }
-    /* line 18, ../../sass/sections.sass */
+    /* line 28, ../../sass/sections.sass */
     ul.index_list li div:first-child a, ul.thumbs_list li div:first-child a {
       display: block;
       width: 36px;
@@ -766,59 +780,59 @@ ul.index_list li, ul.thumbs_list li {
       background-color: #71cac7;
       color: #ffffff;
       padding-top: 0.4em; }
-  /* line 27, ../../sass/sections.sass */
+  /* line 37, ../../sass/sections.sass */
   ul.index_list li div:last-child p, ul.thumbs_list li div:last-child p {
     margin-bottom: 0;
     padding-left: 1em; }
-  /* line 30, ../../sass/sections.sass */
+  /* line 40, ../../sass/sections.sass */
   ul.index_list li div:last-child:hover, ul.thumbs_list li div:last-child:hover {
     color: #0598c9; }
 
-/* line 33, ../../sass/sections.sass */
+/* line 43, ../../sass/sections.sass */
 ul.thumbs_list li div:first-child {
   width: 80px;
   height: 80px; }
-  /* line 36, ../../sass/sections.sass */
+  /* line 46, ../../sass/sections.sass */
   ul.thumbs_list li div:first-child a {
     background-color: transparent;
     width: auto;
     display: inline; }
-  /* line 40, ../../sass/sections.sass */
+  /* line 50, ../../sass/sections.sass */
   ul.thumbs_list li div:first-child img {
     width: 100%;
     border-radius: 50%; }
-/* line 43, ../../sass/sections.sass */
+/* line 53, ../../sass/sections.sass */
 ul.thumbs_list li div:last-child {
   padding-top: 1em; }
 
 /* Proveedores Vista Individual + Vista Producto */
-/* line 49, ../../sass/sections.sass */
+/* line 59, ../../sass/sections.sass */
 .prov_single .cover_text {
   color: #ffffff; }
-  /* line 51, ../../sass/sections.sass */
+  /* line 61, ../../sass/sections.sass */
   .prov_single .cover_text h1 {
     margin-bottom: -0.3em; }
 
-/* line 55, ../../sass/sections.sass */
+/* line 65, ../../sass/sections.sass */
 .prov_single .prov_info, .prov_single .more_products, .prod_single .prov_info, .prod_single .more_products {
   width: 74.5762711864%;
   float: left;
   margin-right: 1.6949152542%;
   padding: 0; }
-/* line 58, ../../sass/sections.sass */
+/* line 68, ../../sass/sections.sass */
 .prov_single .prov_sidebar, .prod_single .prov_sidebar {
   width: 23.7288135593%;
   float: right;
   margin-right: 0;
   padding: 2em 0 0 2em; }
-/* line 61, ../../sass/sections.sass */
+/* line 71, ../../sass/sections.sass */
 .prov_single .prod_sidebar, .prod_single .prod_sidebar {
   width: 23.7288135593%;
   float: right;
   margin-right: 0;
   padding: 0 0 0 2em; }
 
-/* line 66, ../../sass/sections.sass */
+/* line 76, ../../sass/sections.sass */
 .prov_info > div {
   background-color: #ffffff;
   margin-bottom: 3em;
@@ -831,27 +845,27 @@ ul.thumbs_list li div:last-child {
   padding-left: 1em;
   padding-top: 1em;
   padding-bottom: 1em; }
-  /* line 72, ../../sass/sections.sass */
+  /* line 82, ../../sass/sections.sass */
   .prov_info > div:first-child {
     padding-top: 2.5em; }
-  /* line 74, ../../sass/sections.sass */
+  /* line 84, ../../sass/sections.sass */
   .prov_info > div:last-child {
     margin-bottom: 0; }
-/* line 79, ../../sass/sections.sass */
+/* line 89, ../../sass/sections.sass */
 .prov_info .prov_main_info .prov_main_info_profile div:first-child {
   width: 54.5454545455%;
   float: left;
   margin-right: 2.2727272727%; }
-/* line 81, ../../sass/sections.sass */
+/* line 91, ../../sass/sections.sass */
 .prov_info .prov_main_info .prov_main_info_profile div:last-child {
   width: 43.1818181818%;
   float: right;
   margin-right: 0; }
-  /* line 83, ../../sass/sections.sass */
+  /* line 93, ../../sass/sections.sass */
   .prov_info .prov_main_info .prov_main_info_profile div:last-child img {
     width: 100%;
     margin-bottom: 1.2em; }
-/* line 87, ../../sass/sections.sass */
+/* line 97, ../../sass/sections.sass */
 .prov_info .prov_main_info .prov_main_contact > div {
   width: 31.8181818182%;
   float: left; }
@@ -872,21 +886,21 @@ ul.thumbs_list li div:last-child {
     margin-right: -100%;
     clear: none; }
 
-/* line 90, ../../sass/sections.sass */
+/* line 100, ../../sass/sections.sass */
 .prov_content_related div:first-child {
   width: 54.5454545455%;
   float: left;
   margin-right: 2.2727272727%; }
-  /* line 92, ../../sass/sections.sass */
+  /* line 102, ../../sass/sections.sass */
   .prov_content_related div:first-child img {
     width: 100%; }
-/* line 94, ../../sass/sections.sass */
+/* line 104, ../../sass/sections.sass */
 .prov_content_related div:last-child {
   width: 43.1818181818%;
   float: right;
   margin-right: 0; }
 
-/* line 98, ../../sass/sections.sass */
+/* line 108, ../../sass/sections.sass */
 .prov_products_slim li {
   width: 31.8181818182%;
   float: left; }
@@ -907,7 +921,7 @@ ul.thumbs_list li div:last-child {
     margin-right: -100%;
     clear: none; }
 
-/* line 103, ../../sass/sections.sass */
+/* line 113, ../../sass/sections.sass */
 .product_slider {
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
@@ -916,21 +930,21 @@ ul.thumbs_list li div:last-child {
   margin-left: -1em;
   padding-right: 1em;
   padding-left: 1em; }
-  /* line 105, ../../sass/sections.sass */
+  /* line 115, ../../sass/sections.sass */
   .product_slider .product_slide {
     padding-bottom: 1em;
     position: relative; }
-    /* line 108, ../../sass/sections.sass */
+    /* line 118, ../../sass/sections.sass */
     .product_slider .product_slide .product_pictures {
       width: 66.1016949153%;
       float: left;
       margin-right: 1.6949152542%; }
-      /* line 110, ../../sass/sections.sass */
+      /* line 120, ../../sass/sections.sass */
       .product_slider .product_slide .product_pictures .feat_picture {
         width: 87.1794871795%;
         float: left;
         margin-right: 2.5641025641%; }
-        /* line 112, ../../sass/sections.sass */
+        /* line 122, ../../sass/sections.sass */
         .product_slider .product_slide .product_pictures .feat_picture img {
           width: 100%;
           -moz-box-sizing: content-box;
@@ -940,34 +954,34 @@ ul.thumbs_list li div:last-child {
           margin-left: -1em;
           padding-right: 1em;
           padding-left: 1em; }
-      /* line 115, ../../sass/sections.sass */
+      /* line 125, ../../sass/sections.sass */
       .product_slider .product_slide .product_pictures .product_thumbs {
         width: 10.2564102564%;
         float: right;
         margin-right: 0; }
-        /* line 117, ../../sass/sections.sass */
+        /* line 127, ../../sass/sections.sass */
         .product_slider .product_slide .product_pictures .product_thumbs ul li {
           display: inline-block;
           margin: 0 0 1em 0; }
-          /* line 120, ../../sass/sections.sass */
+          /* line 130, ../../sass/sections.sass */
           .product_slider .product_slide .product_pictures .product_thumbs ul li a {
             border: 2px solid #f0f0f0;
             display: block; }
-            /* line 123, ../../sass/sections.sass */
+            /* line 133, ../../sass/sections.sass */
             .product_slider .product_slide .product_pictures .product_thumbs ul li a img {
               width: 100%; }
-            /* line 125, ../../sass/sections.sass */
+            /* line 135, ../../sass/sections.sass */
             .product_slider .product_slide .product_pictures .product_thumbs ul li a:hover {
               border-color: #0598c9; }
-    /* line 127, ../../sass/sections.sass */
+    /* line 137, ../../sass/sections.sass */
     .product_slider .product_slide .product_description {
       width: 32.2033898305%;
       float: right;
       margin-right: 0; }
-      /* line 131, ../../sass/sections.sass */
+      /* line 141, ../../sass/sections.sass */
       .product_slider .product_slide .product_description p:first-child {
         margin: 0; }
-    /* line 134, ../../sass/sections.sass */
+    /* line 144, ../../sass/sections.sass */
     .product_slider .product_slide .prod_nav a {
       position: absolute;
       top: 40%;
@@ -979,41 +993,41 @@ ul.thumbs_list li div:last-child {
       border-radius: 1em;
       text-align: center;
       opacity: 0.6; }
-      /* line 145, ../../sass/sections.sass */
+      /* line 155, ../../sass/sections.sass */
       .product_slider .product_slide .prod_nav a:hover {
         opacity: 1; }
-      /* line 147, ../../sass/sections.sass */
+      /* line 157, ../../sass/sections.sass */
       .product_slider .product_slide .prod_nav a.prod_left {
         left: -0.7em; }
-        /* line 149, ../../sass/sections.sass */
+        /* line 159, ../../sass/sections.sass */
         .product_slider .product_slide .prod_nav a.prod_left span {
           right: 0.05em;
           top: 0.05em;
           position: relative; }
-      /* line 153, ../../sass/sections.sass */
+      /* line 163, ../../sass/sections.sass */
       .product_slider .product_slide .prod_nav a.prod_right {
         right: -0.7em; }
-        /* line 155, ../../sass/sections.sass */
+        /* line 165, ../../sass/sections.sass */
         .product_slider .product_slide .prod_nav a.prod_right span {
           left: 0.05em;
           top: 0.05em;
           position: relative; }
 
-/* line 161, ../../sass/sections.sass */
+/* line 171, ../../sass/sections.sass */
 .slider_title {
   padding-top: 1em; }
-  /* line 163, ../../sass/sections.sass */
+  /* line 173, ../../sass/sections.sass */
   .slider_title h2 {
     margin-bottom: 0.2em; }
-  /* line 165, ../../sass/sections.sass */
+  /* line 175, ../../sass/sections.sass */
   .slider_title p {
     margin-bottom: -0.5em;
     margin-left: 4em; }
-  /* line 168, ../../sass/sections.sass */
+  /* line 178, ../../sass/sections.sass */
   .slider_title img {
     float: left; }
 
-/* line 172, ../../sass/sections.sass */
+/* line 182, ../../sass/sections.sass */
 .more_from_prov {
   background-color: #ffffff;
   margin-bottom: 3em;
@@ -1028,15 +1042,15 @@ ul.thumbs_list li div:last-child {
   padding-bottom: 1em; }
 
 /* Títulos centrados de secciones verticales */
-/* line 183, ../../sass/sections.sass */
+/* line 193, ../../sass/sections.sass */
 .center_titles > h1, .center_titles > h2, .center_titles > h3, .center_titles > h4 {
   text-align: center; }
 
-/* line 185, ../../sass/sections.sass */
+/* line 195, ../../sass/sections.sass */
 .centered_section {
   text-align: center; }
 
-/* line 187, ../../sass/sections.sass */
+/* line 197, ../../sass/sections.sass */
 .thin_section {
   width: 66.1016949153%;
   float: left;
@@ -1044,49 +1058,49 @@ ul.thumbs_list li div:last-child {
   margin-right: -100%; }
 
 /* Botones redes sociales */
-/* line 192, ../../sass/sections.sass */
+/* line 202, ../../sass/sections.sass */
 .share_btns {
   margin-bottom: 1.2em; }
-  /* line 194, ../../sass/sections.sass */
+  /* line 204, ../../sass/sections.sass */
   .share_btns li {
     display: inline-block;
     width: 11em;
     margin-right: 1em;
     text-align: left; }
-  /* line 199, ../../sass/sections.sass */
+  /* line 209, ../../sass/sections.sass */
   .share_btns a {
     display: block;
     background-color: #395799;
     color: #ffffff;
     padding: 0.7em; }
-    /* line 205, ../../sass/sections.sass */
+    /* line 215, ../../sass/sections.sass */
     .share_btns a.btn_instagram {
       background-color: #1fa8e3; }
-    /* line 207, ../../sass/sections.sass */
+    /* line 217, ../../sass/sections.sass */
     .share_btns a.btn_pinterest {
       background-color: #ce1e1f; }
-    /* line 209, ../../sass/sections.sass */
+    /* line 219, ../../sass/sections.sass */
     .share_btns a:hover {
       opacity: 0.8; }
-    /* line 211, ../../sass/sections.sass */
+    /* line 221, ../../sass/sections.sass */
     .share_btns a span {
       padding: 0 1em 0 0.5em; }
 
-/* line 214, ../../sass/sections.sass */
+/* line 224, ../../sass/sections.sass */
 .product_description .share_btns {
   position: absolute;
   bottom: 0;
   padding: 0; }
-  /* line 218, ../../sass/sections.sass */
+  /* line 228, ../../sass/sections.sass */
   .product_description .share_btns li {
     width: 4em;
     text-align: center; }
-    /* line 221, ../../sass/sections.sass */
+    /* line 231, ../../sass/sections.sass */
     .product_description .share_btns li a span {
       padding: 0; }
 
 /* Portadas para secciones informativas */
-/* line 228, ../../sass/sections.sass */
+/* line 238, ../../sass/sections.sass */
 .image_cover {
   height: 80vh;
   background-size: cover;
@@ -1094,7 +1108,7 @@ ul.thumbs_list li div:last-child {
   background-position: center;
   text-align: center;
   position: relative; }
-  /* line 235, ../../sass/sections.sass */
+  /* line 245, ../../sass/sections.sass */
   .image_cover:before {
     content: "";
     position: absolute;
@@ -1104,7 +1118,7 @@ ul.thumbs_list li div:last-child {
     left: 0;
     background-image: linear-gradient(to bottom right, #1a1a1a, #2a2a2a);
     opacity: 0.5; }
-  /* line 244, ../../sass/sections.sass */
+  /* line 254, ../../sass/sections.sass */
   .image_cover .cover_text {
     position: absolute;
     display: table;
@@ -1113,32 +1127,32 @@ ul.thumbs_list li div:last-child {
     float: left;
     margin-left: 16.9491525424%;
     margin-right: -100%; }
-    /* line 249, ../../sass/sections.sass */
+    /* line 259, ../../sass/sections.sass */
     .image_cover .cover_text > h1, .image_cover .cover_text > div {
       display: table-cell;
       vertical-align: middle;
       text-align: center; }
 
 /* Services */
-/* line 258, ../../sass/sections.sass */
+/* line 268, ../../sass/sections.sass */
 .services_slider .s_slide {
   width: 83.0508474576%;
   background-color: #ffffff; }
-  /* line 262, ../../sass/sections.sass */
+  /* line 272, ../../sass/sections.sass */
   .services_slider .s_slide div:first-child {
     width: 48.9795918367%;
     float: left;
     margin-right: 2.0408163265%; }
-  /* line 264, ../../sass/sections.sass */
+  /* line 274, ../../sass/sections.sass */
   .services_slider .s_slide div:last-child {
     width: 48.9795918367%;
     float: right;
     margin-right: 0; }
-  /* line 266, ../../sass/sections.sass */
+  /* line 276, ../../sass/sections.sass */
   .services_slider .s_slide .description {
     padding: 2em; }
 
-/* line 270, ../../sass/sections.sass */
+/* line 280, ../../sass/sections.sass */
 .pricing_table > div {
   width: 33.3333333333%;
   float: left;
@@ -1160,48 +1174,48 @@ ul.thumbs_list li div:last-child {
     margin-left: 66.6666666667%;
     margin-right: -100%;
     clear: none; }
-/* line 274, ../../sass/sections.sass */
+/* line 284, ../../sass/sections.sass */
 .pricing_table ul li {
   padding: 0.7em 0;
   border-bottom: 1px solid #3397a3; }
-  /* line 277, ../../sass/sections.sass */
+  /* line 287, ../../sass/sections.sass */
   .pricing_table ul li:last-child {
     border-bottom: none; }
-/* line 279, ../../sass/sections.sass */
+/* line 289, ../../sass/sections.sass */
 .pricing_table .base {
   background-color: #3aa1b0; }
-  /* line 281, ../../sass/sections.sass */
+  /* line 291, ../../sass/sections.sass */
   .pricing_table .base .feat_off {
     color: #31919e; }
-/* line 283, ../../sass/sections.sass */
+/* line 293, ../../sass/sections.sass */
 .pricing_table .premium {
   background-color: #298895; }
-  /* line 285, ../../sass/sections.sass */
+  /* line 295, ../../sass/sections.sass */
   .pricing_table .premium .feat_off {
     color: #2c7983; }
-  /* line 287, ../../sass/sections.sass */
+  /* line 297, ../../sass/sections.sass */
   .pricing_table .premium ul li {
     border-color: #2a7a85; }
-/* line 289, ../../sass/sections.sass */
+/* line 299, ../../sass/sections.sass */
 .pricing_table .platino {
   background-color: #2f757d; }
-  /* line 291, ../../sass/sections.sass */
+  /* line 301, ../../sass/sections.sass */
   .pricing_table .platino .feat_off {
     color: #186179; }
-  /* line 293, ../../sass/sections.sass */
+  /* line 303, ../../sass/sections.sass */
   .pricing_table .platino ul li {
     border-color: #2c6870; }
 
 /* Magazine */
-/* line 298, ../../sass/sections.sass */
+/* line 308, ../../sass/sections.sass */
 .magazine {
   padding-top: 3em; }
 
-/* line 301, ../../sass/sections.sass */
+/* line 311, ../../sass/sections.sass */
 .magazine .wrap div:last-child {
   margin-bottom: 0; }
 
-/* line 304, ../../sass/sections.sass */
+/* line 314, ../../sass/sections.sass */
 .masonry {
   max-width: 100%;
   margin-left: auto;
@@ -1212,25 +1226,25 @@ ul.thumbs_list li div:last-child {
     display: block;
     clear: both; }
 
-/* line 306, ../../sass/sections.sass */
+/* line 316, ../../sass/sections.sass */
 .masonry_gutter {
   width: 1.6949152542%; }
 
-/* line 308, ../../sass/sections.sass */
+/* line 318, ../../sass/sections.sass */
 .masonry_column {
   width: 32.2033898305%; }
 
-/* line 310, ../../sass/sections.sass */
+/* line 320, ../../sass/sections.sass */
 .masonry_item {
   width: 32.2033898305%;
   margin-top: 1.6949152542%;
   border: 20px solid; }
 
-/* line 315, ../../sass/sections.sass */
+/* line 325, ../../sass/sections.sass */
 .mag_featured {
   height: 60vh;
   margin-bottom: 3em; }
-  /* line 318, ../../sass/sections.sass */
+  /* line 328, ../../sass/sections.sass */
   .mag_featured .featured_img {
     background-size: cover;
     background-repeat: no-repeat;
@@ -1238,10 +1252,10 @@ ul.thumbs_list li div:last-child {
     text-align: center;
     position: relative;
     height: 100%; }
-    /* line 325, ../../sass/sections.sass */
+    /* line 335, ../../sass/sections.sass */
     .mag_featured .featured_img:hover {
       opacity: 0.9; }
-    /* line 327, ../../sass/sections.sass */
+    /* line 337, ../../sass/sections.sass */
     .mag_featured .featured_img:before {
       content: "";
       position: absolute;
@@ -1251,7 +1265,7 @@ ul.thumbs_list li div:last-child {
       left: 0;
       background-image: linear-gradient(to bottom right, #1a1a1a, #2a2a2a);
       opacity: 0.5; }
-  /* line 336, ../../sass/sections.sass */
+  /* line 346, ../../sass/sections.sass */
   .mag_featured .cover_text {
     position: absolute;
     display: table;
@@ -1261,209 +1275,209 @@ ul.thumbs_list li div:last-child {
     float: left;
     margin-left: 16.9491525424%;
     margin-right: -100%; }
-    /* line 342, ../../sass/sections.sass */
+    /* line 352, ../../sass/sections.sass */
     .mag_featured .cover_text > h1, .mag_featured .cover_text > div {
       display: table-cell;
       vertical-align: middle;
       text-align: center; }
-    /* line 346, ../../sass/sections.sass */
+    /* line 356, ../../sass/sections.sass */
     .mag_featured .cover_text div h1, .mag_featured .cover_text div p {
       margin-bottom: 0; }
 
-/* line 349, ../../sass/sections.sass */
+/* line 359, ../../sass/sections.sass */
 .mag {
   margin-top: -1em;
   /* Añadido para compensar el margen superior de los elementos dentro del Masonry */ }
 
-/* line 354, ../../sass/sections.sass */
+/* line 364, ../../sass/sections.sass */
 .mag > li a {
   display: block;
   cursor: pointer; }
-  /* line 357, ../../sass/sections.sass */
+  /* line 367, ../../sass/sections.sass */
   .mag > li a:hover {
     opacity: 0.8; }
-/* line 359, ../../sass/sections.sass */
+/* line 369, ../../sass/sections.sass */
 .mag > li img {
   width: 100%; }
-/* line 361, ../../sass/sections.sass */
+/* line 371, ../../sass/sections.sass */
 .mag > li span, .mag > li p {
   padding: 0 10px;
   margin: 0; }
-/* line 364, ../../sass/sections.sass */
+/* line 374, ../../sass/sections.sass */
 .mag > li p {
   color: #2a2a2a; }
-/* line 366, ../../sass/sections.sass */
+/* line 376, ../../sass/sections.sass */
 .mag > li span {
   font-weight: bold; }
 
-/* line 369, ../../sass/sections.sass */
+/* line 379, ../../sass/sections.sass */
 .cell_like {
   display: table-cell;
   vertical-align: bottom;
   position: absolute;
   bottom: 0; }
 
-/* line 374, ../../sass/sections.sass */
+/* line 384, ../../sass/sections.sass */
 .gradient_back {
   display: inline-block;
   margin-top: -10em;
   height: 10em;
   width: 100%; }
 
-/* line 380, ../../sass/sections.sass */
+/* line 390, ../../sass/sections.sass */
 .bridalhint .gradient_back,
 .video .gradient_back {
   display: inline-block;
   margin-top: 0em;
   height: auto;
   width: 100%; }
-  /* line 386, ../../sass/sections.sass */
+  /* line 396, ../../sass/sections.sass */
   .bridalhint .gradient_back .cell_like,
   .video .gradient_back .cell_like {
     display: block;
     position: static;
     margin-top: 1em; }
 
-/* line 400, ../../sass/sections.sass */
+/* line 410, ../../sass/sections.sass */
 .mag .bridalhint {
   border-color: transparent; }
-  /* line 402, ../../sass/sections.sass */
+  /* line 412, ../../sass/sections.sass */
   .mag .bridalhint .gradient_back {
     background: -webkit-linear-gradient(transparent, transparent);
     background: -o-linear-gradient(transparent, transparent);
     background: -moz-linear-gradient(transparent, transparent);
     background: linear-gradient(transparent, transparent); }
-    /* line 396, ../../sass/sections.sass */
+    /* line 406, ../../sass/sections.sass */
     .mag .bridalhint .gradient_back span {
       color: #ef6681; }
-/* line 404, ../../sass/sections.sass */
+/* line 414, ../../sass/sections.sass */
 .mag .food_drinks {
   border-color: #cbcbcb; }
-  /* line 406, ../../sass/sections.sass */
+  /* line 416, ../../sass/sections.sass */
   .mag .food_drinks .gradient_back {
     background: -webkit-linear-gradient(rgba(203, 203, 203, 0), #cbcbcb);
     background: -o-linear-gradient(rgba(203, 203, 203, 0), #cbcbcb);
     background: -moz-linear-gradient(rgba(203, 203, 203, 0), #cbcbcb);
     background: linear-gradient(rgba(203, 203, 203, 0), #cbcbcb); }
-    /* line 396, ../../sass/sections.sass */
+    /* line 406, ../../sass/sections.sass */
     .mag .food_drinks .gradient_back span {
       color: white; }
-/* line 408, ../../sass/sections.sass */
+/* line 418, ../../sass/sections.sass */
 .mag .mood_feel {
   border-color: #bcb1d0; }
-  /* line 410, ../../sass/sections.sass */
+  /* line 420, ../../sass/sections.sass */
   .mag .mood_feel .gradient_back {
     background: -webkit-linear-gradient(rgba(188, 177, 208, 0), #bcb1d0);
     background: -o-linear-gradient(rgba(188, 177, 208, 0), #bcb1d0);
     background: -moz-linear-gradient(rgba(188, 177, 208, 0), #bcb1d0);
     background: linear-gradient(rgba(188, 177, 208, 0), #bcb1d0); }
-    /* line 396, ../../sass/sections.sass */
+    /* line 406, ../../sass/sections.sass */
     .mag .mood_feel .gradient_back span {
       color: white; }
-/* line 412, ../../sass/sections.sass */
+/* line 422, ../../sass/sections.sass */
 .mag .the_place {
   border-color: #ffe17d; }
-  /* line 414, ../../sass/sections.sass */
+  /* line 424, ../../sass/sections.sass */
   .mag .the_place .gradient_back {
     background: -webkit-linear-gradient(rgba(255, 255, 125, 0), #ffff7d);
     background: -o-linear-gradient(rgba(255, 255, 125, 0), #ffff7d);
     background: -moz-linear-gradient(rgba(255, 255, 125, 0), #ffff7d);
     background: linear-gradient(rgba(255, 255, 125, 0), #ffff7d); }
-    /* line 396, ../../sass/sections.sass */
+    /* line 406, ../../sass/sections.sass */
     .mag .the_place .gradient_back span {
       color: white; }
-/* line 416, ../../sass/sections.sass */
+/* line 426, ../../sass/sections.sass */
 .mag .details {
   border-color: #71cac7; }
-  /* line 418, ../../sass/sections.sass */
+  /* line 428, ../../sass/sections.sass */
   .mag .details .gradient_back {
     background: -webkit-linear-gradient(rgba(113, 202, 199, 0), #71cac7);
     background: -o-linear-gradient(rgba(113, 202, 199, 0), #71cac7);
     background: -moz-linear-gradient(rgba(113, 202, 199, 0), #71cac7);
     background: linear-gradient(rgba(113, 202, 199, 0), #71cac7); }
-    /* line 396, ../../sass/sections.sass */
+    /* line 406, ../../sass/sections.sass */
     .mag .details .gradient_back span {
       color: white; }
-/* line 420, ../../sass/sections.sass */
+/* line 430, ../../sass/sections.sass */
 .mag .eventos {
   border-color: #0598c9; }
-  /* line 422, ../../sass/sections.sass */
+  /* line 432, ../../sass/sections.sass */
   .mag .eventos .gradient_back {
     background: -webkit-linear-gradient(rgba(5, 152, 201, 0), #0598c9);
     background: -o-linear-gradient(rgba(5, 152, 201, 0), #0598c9);
     background: -moz-linear-gradient(rgba(5, 152, 201, 0), #0598c9);
     background: linear-gradient(rgba(5, 152, 201, 0), #0598c9); }
-    /* line 396, ../../sass/sections.sass */
+    /* line 406, ../../sass/sections.sass */
     .mag .eventos .gradient_back span {
       color: white; }
-/* line 424, ../../sass/sections.sass */
+/* line 434, ../../sass/sections.sass */
 .mag .video {
   border-color: transparent; }
-  /* line 426, ../../sass/sections.sass */
+  /* line 436, ../../sass/sections.sass */
   .mag .video .gradient_back {
     background: -webkit-linear-gradient(transparent, transparent);
     background: -o-linear-gradient(transparent, transparent);
     background: -moz-linear-gradient(transparent, transparent);
     background: linear-gradient(transparent, transparent); }
-    /* line 396, ../../sass/sections.sass */
+    /* line 406, ../../sass/sections.sass */
     .mag .video .gradient_back span {
       color: #0598c9; }
-/* line 428, ../../sass/sections.sass */
+/* line 438, ../../sass/sections.sass */
 .mag .mi_look {
   border-color: #ef6681; }
-  /* line 430, ../../sass/sections.sass */
+  /* line 440, ../../sass/sections.sass */
   .mag .mi_look .gradient_back {
     background: -webkit-linear-gradient(rgba(239, 102, 129, 0), #ef6681);
     background: -o-linear-gradient(rgba(239, 102, 129, 0), #ef6681);
     background: -moz-linear-gradient(rgba(239, 102, 129, 0), #ef6681);
     background: linear-gradient(rgba(239, 102, 129, 0), #ef6681); }
-    /* line 396, ../../sass/sections.sass */
+    /* line 406, ../../sass/sections.sass */
     .mag .mi_look .gradient_back span {
       color: white; }
 
-/* line 433, ../../sass/sections.sass */
+/* line 443, ../../sass/sections.sass */
 .mag_categories {
   margin-bottom: 1.2em; }
-  /* line 435, ../../sass/sections.sass */
+  /* line 445, ../../sass/sections.sass */
   .mag_categories li {
     display: inline-block;
     margin-right: 1em;
     text-align: center; }
-  /* line 439, ../../sass/sections.sass */
+  /* line 449, ../../sass/sections.sass */
   .mag_categories a {
     display: block;
     padding: 0.7em 1.2em; }
-    /* line 443, ../../sass/sections.sass */
+    /* line 453, ../../sass/sections.sass */
     .mag_categories a:hover {
       opacity: 0.8; }
 
-/* line 446, ../../sass/sections.sass */
+/* line 456, ../../sass/sections.sass */
 .mag_categories {
   color: #ffffff; }
-  /* line 448, ../../sass/sections.sass */
+  /* line 458, ../../sass/sections.sass */
   .mag_categories .bridalhint {
     background-color: #ffffff;
     color: #ef6681;
     border: 1px solid #ef6681; }
-  /* line 452, ../../sass/sections.sass */
+  /* line 462, ../../sass/sections.sass */
   .mag_categories .food_drinks {
     background-color: #cbcbcb; }
-  /* line 454, ../../sass/sections.sass */
+  /* line 464, ../../sass/sections.sass */
   .mag_categories .mood_feel {
     background-color: #bcb1d0; }
-  /* line 456, ../../sass/sections.sass */
+  /* line 466, ../../sass/sections.sass */
   .mag_categories .the_place {
     background-color: #ffe17d; }
-  /* line 458, ../../sass/sections.sass */
+  /* line 468, ../../sass/sections.sass */
   .mag_categories .details {
     background-color: #71cac7; }
-  /* line 460, ../../sass/sections.sass */
+  /* line 470, ../../sass/sections.sass */
   .mag_categories .eventos {
     background-color: #0598c9; }
-  /* line 462, ../../sass/sections.sass */
+  /* line 472, ../../sass/sections.sass */
   .mag_categories .video {
     background-color: #818285; }
-  /* line 464, ../../sass/sections.sass */
+  /* line 474, ../../sass/sections.sass */
   .mag_categories .mi_look {
     background-color: #ef6681; }
 
