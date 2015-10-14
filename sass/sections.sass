@@ -318,6 +318,15 @@ ul.thumbs_list li
 	height: 10em
 	width: 100%
 
+.bridalhint .gradient_back
+	display: inline-block
+	margin-top: 0em
+	height: auto
+	width: 100%
+	.cell_like
+		display: block
+		position: static
+
 @mixin mixin_gradient_back($gradient_start_rgba, $gradient_finish_rgba, $text_color)
 	background: -webkit-linear-gradient($gradient_start_rgba, $gradient_finish_rgba)
 	background: -o-linear-gradient($gradient_start_rgba, $gradient_finish_rgba)
@@ -327,7 +336,7 @@ ul.thumbs_list li
 
 .mag
 	.bridalhint
-		border-color: $white
+		border-color: transparent
 		.gradient_back
 			@include mixin_gradient_back(transparent, transparent, #333333)
 	.food_drinks
