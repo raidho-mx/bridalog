@@ -54,8 +54,8 @@ Contact Template
 		</div>
 	</div>
 
-	<div class="group">
-		<section class="more_products">
+	<div class="body_sidebar_combo group">
+		<section class="combo_body more_products">
 			<div class="more_from_prov">
 				<h4 class="asap">Más Productos de Bermellón</h4>
 				<!-- Main search results -->
@@ -114,6 +114,7 @@ Contact Template
 				</div>
 
 			</div>
+
 			<div>
 				<h4 class="asap">Productos de Proveedores Similares</h4>
 				<!-- Main search results -->
@@ -147,85 +148,7 @@ Contact Template
 			</div>
 		</section>
 
-		<aside class="prod_sidebar">
-			<h4 class="asap">Proveedores Relacionados</h4>
-			<ul class="thumbs_list group">
-				<li>
-					<div><a href="#"><img src="http://lorempixel.com/100/100/city" alt=""></a></div>
-					<div class="small_p">
-						<p class="asap gray_medium"><a href="#">Pasteles</a></p>
-						<p><a href="#">The Cake Studio</a></p>
-					</div>
-				</li>
-				<li>
-					<div><a href="#"><img src="http://lorempixel.com/100/100/city" alt=""></a></div>
-					<div class="small_p">
-						<p class="asap gray_medium"><a href="#">Pasteles</a></p>
-						<p><a href="#">The Cake Studio</a></p>
-					</div>
-				</li>
-				<li>
-					<div><a href="#"><img src="http://lorempixel.com/100/100/city" alt=""></a></div>
-					<div class="small_p">
-						<p class="asap gray_medium"><a href="#">Pasteles</a></p>
-						<p><a href="#">The Cake Studio</a></p>
-					</div>
-				</li>
-				<li>
-					<div><a href="#"><img src="http://lorempixel.com/100/100/city" alt=""></a></div>
-					<div class="small_p">
-						<p class="asap gray_medium"><a href="#">Pasteles</a></p>
-						<p><a href="#">The Cake Studio</a></p>
-					</div>
-				</li>
-				<li>
-					<div><a href="#"><img src="http://lorempixel.com/100/100/city" alt=""></a></div>
-					<div class="small_p">
-						<p class="asap gray_medium"><a href="#">Pasteles</a></p>
-						<p><a href="#">The Cake Studio</a></p>
-					</div>
-				</li>
-			</ul>
-
-			<h4 class="asap">Más proveedores</h4>
-			<ul class="index_list">
-				<li>
-					<div><p class="asap"><a href="#">T</a></p></div>
-					<div class="small_p">
-						<p class="asap gray_medium"><a href="#">Pasteles</a></p>
-						<p><a href="#">The Cake Studio</a></p>
-					</div>
-				</li>
-				<li>
-					<div><p class="asap"><a href="#">T</a></p></div>
-					<div class="small_p">
-						<p class="asap gray_medium"><a href="#">Pasteles</a></p>
-						<p><a href="#">The Cake Studio</a></p>
-					</div>
-				</li>
-				<li>
-					<div><p class="asap"><a href="#">T</a></p></div>
-					<div class="small_p">
-						<p class="asap gray_medium"><a href="#">Pasteles</a></p>
-						<p><a href="#">The Cake Studio</a></p>
-					</div>
-				</li>
-				<li>
-					<div><p class="asap"><a href="#">T</a></p></div>
-					<div class="small_p">
-						<p class="asap gray_medium"><a href="#">Pasteles</a></p>
-						<p><a href="#">The Cake Studio</a></p>
-					</div>
-				</li>
-				<li>
-					<div><p class="asap"><a href="#">T</a></p></div>
-					<div class="small_p">
-						<p class="asap gray_medium"><a href="#">Pasteles</a></p>
-						<p><a href="#">The Cake Studio</a></p>
-					</div>
-				</li>
-			</ul>
-		</aside>
+		<?php include 'inc/sidebar.php' ?>
 
 	</div><!-- Group ends (Clearfix) -->
 

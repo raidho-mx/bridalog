@@ -61,11 +61,6 @@ ul.thumbs_list li
 		h1
 			margin-bottom: -.3em
 
-.prov_single, .prod_single
-	.prod_sidebar
-		@include span(3 of 12 last)
-		padding: 0 0 0 2em
-
 .prov_info
 	>div
 		background-color: $white
@@ -103,6 +98,10 @@ ul.thumbs_list li
 		@include gallery(3 of 9)
 
 // Ficha de producto:
+
+.prod_single
+	.combo_sidebar
+		padding: 0 0 0 2em
 
 .product_slider
 	@include bleed(0 1em)
