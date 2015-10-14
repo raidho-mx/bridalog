@@ -38,45 +38,119 @@ Contact Template
 		<!-- Masonry columnWidth sizer -->
 		<li class="masonry_column"></li>
 		<!-- Masonry items -->
-		<li class="masonry_item bridalhint">
-			<a href="#"><img src="http://lorempixel.com/400/420/technics"></a>
-			<span class="asap">Mag Cat</span></br>
-			<p class="small_title">Lugares con maravillas naturales para tu honeymoon</p>
-		</li>
-		<li class="masonry_item food_drinks">
-			<a href="#"><img src="http://lorempixel.com/400/300/technics"></a>
-			<span class="asap">Mag Cat</span></br>
-			<p class="small_title">Lugares con maravillas naturales para tu honeymoon</p>
-		</li>
-		<li class="masonry_item mood_feel">
-			<a href="#"><img src="http://lorempixel.com/300/400/technics"></a>
-			<span class="asap">Mag Cat</span></br>
-			<p class="small_title">Lugares con maravillas naturales para tu honeymoon</p>
-		</li>
 		<li class="masonry_item the_place">
-			<a href="#"><img src="http://lorempixel.com/430/360/technics"></a>
-			<span class="asap">Mag Cat</span></br>
-			<p class="small_title">Lugares con maravillas naturales para tu honeymoon</p>
+			<a href="#"><img src="http://lorempixel.com/430/360/technics">
+				<div class="gradient_back">
+					<div class="cell_like">
+						<span class="asap">The Place</span></br>
+						<p class="small_title">Lugares con maravillas naturales para tu honeymoon</p>
+					</div>
+				</div>
+			</a>
 		</li>
 		<li class="masonry_item details">
-			<a href="#"><img src="http://lorempixel.com/500/300/technics"></a>
-			<span class="asap">Mag Cat</span></br>
-			<p class="small_title">Lugares con maravillas naturales para tu honeymoon</p>
+			<a href="#"><img src="http://lorempixel.com/500/300/technics">
+				<div class="gradient_back">
+					<div class="cell_like">
+						<span class="asap">Details</span></br>
+						<p class="small_title">10 Peinados sencillos para un día antes de tu boda</p>
+					</div>
+				</div>
+			</a>
 		</li>
-		<li class="masonry_item eventos">
-			<a href="#"><img src="http://lorempixel.com/400/460/technics"></a>
-			<span class="asap">Mag Cat</span></br>
-			<p class="small_title">Lugares con maravillas naturales para tu honeymoon</p>
-		</li>
-		<li class="masonry_item video">
-			<a href="#"><img src="http://lorempixel.com/470/300/technics"></a>
-			<span class="asap">Mag Cat</span></br>
-			<p class="small_title">Lugares con maravillas naturales para tu honeymoon</p>
+		<li class="masonry_item bridalhint">
+			<a href="#"><img src="http://lorempixel.com/400/420/technics">
+				<div class="gradient_back">
+					<div class="cell_like">
+						<span class="asap">Bridalhint</span></br>
+						<p class="small_title">Choose the perfect ring</p>
+						<p>Aunque las posibilidades son extensas, te damos los consejos más importantes que debes saber al elegir anillo de bodas.</p>
+					</div>
+				</div>
+			</a>
 		</li>
 		<li class="masonry_item mi_look">
-			<a href="#"><img src="http://lorempixel.com/400/380/technics"></a>
-			<span class="asap">Mag Cat</span></br>
-			<p class="small_title">Lugares con maravillas naturales para tu honeymoon</p>
+			<a href="#"><img src="http://lorempixel.com/400/380/technics">
+				<div class="gradient_back">
+					<div class="cell_like">
+						<span class="asap">Mi Look</span></br>
+						<p class="small_title">Another kind of tips for brides</p>
+					</div>
+				</div>
+			</a>
+		</li>
+		<li class="masonry_item bridalhint">
+			<a href="#"><img src="http://lorempixel.com/400/420/technics">
+				<div class="gradient_back">
+					<div class="cell_like">
+						<span class="asap">Bridalhint</span></br>
+						<p class="small_title">Ideas para bebidas en tu boda</p>
+						<p>Outdoors, Indoors, playa... nosotros ya probamos las mejores bebidas para cada ocasión (¡y para cada tipo de invitados!)</p>
+					</div>
+				</div>
+			</a>
+		</li>
+		<li class="masonry_item mood_feel">
+			<a href="#"><img src="http://lorempixel.com/300/420/technics">
+				<div class="gradient_back">
+					<div class="cell_like">
+						<span class="asap">Mood & Feel</span></br>
+						<p class="small_title">5 arreglos florales increibles</p>
+					</div>
+				</div>
+			</a>
+		</li>
+		<li class="masonry_item bridalhint">
+			<a href="#"><img src="http://lorempixel.com/400/420/technics">
+				<div class="gradient_back">
+					<div class="cell_like">
+						<span class="asap">Bridalhint</span></br>
+						<p class="small_title">La cámara perfecta para llevar a tu honeymoon</p>
+						<p>Hacemos un review de algunas buenas opciones para tus vacaciónes de honeymoon.</p>
+					</div>
+				</div>
+			</a>
+		</li>
+		<li class="masonry_item food_drinks">
+			<a href="#"><img src="http://lorempixel.com/400/300/technics">
+				<div class="gradient_back">
+					<div class="cell_like">
+						<span class="asap">Food & Drinks</span></br>
+						<p class="small_title">Smoothie Bonanza, Para bodas Outdoor</p>
+					</div>
+				</div>
+			</a>
+		</li>
+		<li class="masonry_item eventos">
+			<a href="#"><img src="http://lorempixel.com/400/460/technics">
+				<div class="gradient_back">
+					<div class="cell_like">
+						<span class="asap">Eventos</span></br>
+						<p class="small_title">Visita la galería de nuestro evento en Caramela!</p>
+					</div>
+				</div>
+			</a>
+		</li>
+		<li class="masonry_item video">
+			<a href="#"><img src="http://lorempixel.com/470/300/technics">
+				<div class="gradient_back">
+					<div class="cell_like">
+						<span class="asap">Mag Cat</span></br>
+						<p class="small_title">Lugares con maravillas naturales para tu honeymoon</p>
+					</div>
+				</div>
+			</a>
+		</li>
+		<li class="masonry_item bridalhint">
+			<a href="#"><img src="http://lorempixel.com/400/420/technics">
+				<div class="gradient_back">
+					<div class="cell_like">
+						<span class="asap">Bridalhint</span></br>
+						<p class="small_title">Your wedding shoes</p>
+						<p>¿Un sólo par?, ¿varios pares para los diferentes momentos?... Te contamos cómo encragarte de tu calzado durante toda la boda.</p>
+					</div>
+				</div>
+			</a>
 		</li>
 	</ul>
 
