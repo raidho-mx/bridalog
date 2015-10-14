@@ -295,6 +295,9 @@ ul.thumbs_list li
 
 /* Magazine */
 
+.magazine
+	padding-top: 1em
+
 .mag > li
 	a
 		display: block
@@ -306,6 +309,10 @@ ul.thumbs_list li
 	span, p
 		padding: 0 10px
 		margin: 0
+	p
+		color: $black
+	span
+		font-weight: bold
 
 .cell_like
 	display: table-cell
@@ -318,7 +325,8 @@ ul.thumbs_list li
 	height: 10em
 	width: 100%
 
-.bridalhint .gradient_back
+.bridalhint .gradient_back,
+.video .gradient_back,
 	display: inline-block
 	margin-top: 0em
 	height: auto
@@ -326,19 +334,21 @@ ul.thumbs_list li
 	.cell_like
 		display: block
 		position: static
+		margin-top: 1em
 
 @mixin mixin_gradient_back($gradient_start_rgba, $gradient_finish_rgba, $text_color)
 	background: -webkit-linear-gradient($gradient_start_rgba, $gradient_finish_rgba)
 	background: -o-linear-gradient($gradient_start_rgba, $gradient_finish_rgba)
 	background: -moz-linear-gradient($gradient_start_rgba, $gradient_finish_rgba)
 	background: linear-gradient($gradient_start_rgba, $gradient_finish_rgba)
-	color: $text_color
+	span
+		color: $text_color
 
 .mag
 	.bridalhint
 		border-color: transparent
 		.gradient_back
-			@include mixin_gradient_back(transparent, transparent, #333333)
+			@include mixin_gradient_back(transparent, transparent, $pink)
 	.food_drinks
 		border-color: #cbcbcb
 		.gradient_back
@@ -360,9 +370,9 @@ ul.thumbs_list li
 		.gradient_back
 			@include mixin_gradient_back(rgba(5, 152, 201, 0), rgba(5, 152, 201, 1), white)
 	.video
-		border-color: #131212
+		border-color: transparent
 		.gradient_back
-			@include mixin_gradient_back(rgba(19, 18, 18, 0), rgba(19, 18, 18, 1), white)
+			@include mixin_gradient_back(transparent, transparent, $blue)
 	.mi_look
 		border-color: $pink
 		.gradient_back

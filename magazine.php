@@ -13,6 +13,8 @@ Contact Template
 
 </div>
 
+<div class="white_bg">
+
 <div class="magazine">
 
 <div class="mag_featured">
@@ -135,8 +137,8 @@ Contact Template
 			<a href="#"><img src="http://lorempixel.com/470/300/technics">
 				<div class="gradient_back">
 					<div class="cell_like">
-						<span class="asap">Mag Cat</span></br>
-						<p class="small_title">Lugares con maravillas naturales para tu honeymoon</p>
+						<span class="asap">Video</span></br>
+						<p class="small_title">Conoce ésta marca 100% Mexicana, enfocada en vestidos de novia.</p>
 					</div>
 				</div>
 			</a>
@@ -188,5 +190,7 @@ Contact Template
 </div> <!--Wrap -->
 
 </div> <!-- .magazine -->
+
+</div> <!-- .white_bg -->
 
 <?php include 'inc/footer.php' ?>
