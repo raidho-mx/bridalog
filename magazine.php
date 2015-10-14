@@ -32,6 +32,63 @@ Contact Template
 
 <div class="wrap">
 
+	<ul class="mag masonry">
+		<!-- Masonry gutter sizer -->
+		<li class="masonry_gutter"></li>
+		<!-- Masonry columnWidth sizer -->
+		<li class="masonry_column"></li>
+		<!-- Masonry items -->
+		<li class="masonry_item bridalhint">
+			<a href="#"><img src="http://lorempixel.com/400/420/technics"></a>
+			<span class="asap">Mag Cat</span></br>
+			<p class="small_title">Lugares con maravillas naturales para tu honeymoon</p>
+		</li>
+		<li class="masonry_item food_drinks">
+			<a href="#"><img src="http://lorempixel.com/400/300/technics"></a>
+			<span class="asap">Mag Cat</span></br>
+			<p class="small_title">Lugares con maravillas naturales para tu honeymoon</p>
+		</li>
+		<li class="masonry_item mood_feel">
+			<a href="#"><img src="http://lorempixel.com/300/400/technics"></a>
+			<span class="asap">Mag Cat</span></br>
+			<p class="small_title">Lugares con maravillas naturales para tu honeymoon</p>
+		</li>
+		<li class="masonry_item the_place">
+			<a href="#"><img src="http://lorempixel.com/430/360/technics"></a>
+			<span class="asap">Mag Cat</span></br>
+			<p class="small_title">Lugares con maravillas naturales para tu honeymoon</p>
+		</li>
+		<li class="masonry_item details">
+			<a href="#"><img src="http://lorempixel.com/500/300/technics"></a>
+			<span class="asap">Mag Cat</span></br>
+			<p class="small_title">Lugares con maravillas naturales para tu honeymoon</p>
+		</li>
+		<li class="masonry_item eventos">
+			<a href="#"><img src="http://lorempixel.com/400/460/technics"></a>
+			<span class="asap">Mag Cat</span></br>
+			<p class="small_title">Lugares con maravillas naturales para tu honeymoon</p>
+		</li>
+		<li class="masonry_item video">
+			<a href="#"><img src="http://lorempixel.com/470/300/technics"></a>
+			<span class="asap">Mag Cat</span></br>
+			<p class="small_title">Lugares con maravillas naturales para tu honeymoon</p>
+		</li>
+		<li class="masonry_item mi_look">
+			<a href="#"><img src="http://lorempixel.com/400/380/technics"></a>
+			<span class="asap">Mag Cat</span></br>
+			<p class="small_title">Lugares con maravillas naturales para tu honeymoon</p>
+		</li>
+	</ul>
+
+	<!-- Pager -->
+	<div class="bottom_pager">
+		<ul>
+			<li><a href="#">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+		</ul>
+	</div>
+
 	<!-- Destacados en el Catálogo -->
 	<div class="center_titles">
 		<h3 class="asap blue">Destacados en el Catálogo</h3>

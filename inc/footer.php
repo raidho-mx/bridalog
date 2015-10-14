@@ -31,6 +31,22 @@ Footer Template
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="lib/js/scripts.js"></script>
 	<script src="lib/js/jquery-ui.js"></script>
+	<script src="lib/js/masonry.pkgd.js"></script>
+	<script src="lib/js/imagesloaded.pkgd.js"></script>
+
+	<script type="text/javascript">
+		// Masonry activation + imagesLoaded with jQuery
+		var $container = $('.masonry');
+			// initialize Masonry after all images have loaded
+			$container.imagesLoaded( function() {
+				$container.masonry({
+				columnWidth: '.masonry_column',
+				gutter: '.masonry_gutter',
+				itemSelector: '.masonry_item'
+			});
+		});
+	</script>
+
 	</body>
 
 </html>
