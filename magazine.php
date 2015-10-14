@@ -165,6 +165,20 @@ Contact Template
 		</ul>
 	</div>
 
+	<div class="mag_categories">
+		<h4>Explorar por categoría</h4>
+		<ul class="cat_btns">
+			<li><a class="bridalhint" href="#">Bridalhint</a></li><li>
+			<a class="food_drinks" href="#">Food & Drink</a></li><li>
+			<a class="mood_feel" href="#">Mood & Feel</a></li><li>
+			<a class="the_place" href="#">The Place</a></li><li>
+			<a class="details" href="#">Details</a></li><li>
+			<a class="eventos" href="#">Eventos</a></li><li>
+			<a class="video" href="#">Video</a></li><li>
+			<a class="mi_look" href="#">Mi Look</a></li><li>
+		</ul>
+	</div>
+
 	<!-- Destacados en el Catálogo -->
 	<div class="center_titles">
 		<h3 class="asap blue">Destacados en el Catálogo</h3>

@@ -93,7 +93,7 @@ table {
   font-family: FontAwesome;
   src: url(../fonts/FontAwesome.otf) format("opentype"); }
 /* line 11, ../../sass/_type.sass */
-.asap, .squared_btns a, #top_menu, #bottom_menu, #breadcrumbs_search_combo div, #search_bar form input, form input, form select, form textarea, form select option, .product_slider .product_slide .product_description p, .share_btns a {
+.asap, .squared_btns a, #top_menu, #bottom_menu, #breadcrumbs_search_combo div, #search_bar form input, form input, form select, form textarea, form select option, .product_slider .product_slide .product_description p, .share_btns a, .mag_categories a {
   font-family: "Asap", sans-serif; }
 
 /* line 13, ../../sass/_type.sass */
@@ -1410,5 +1410,51 @@ ul.thumbs_list li div:last-child {
     /* line 422, ../../sass/sections.sass */
     .mag_featured .cover_text div h1, .mag_featured .cover_text div p {
       margin-bottom: 0; }
+
+/* line 425, ../../sass/sections.sass */
+.mag_categories {
+  margin-bottom: 1.2em; }
+  /* line 427, ../../sass/sections.sass */
+  .mag_categories li {
+    display: inline-block;
+    margin-right: 1em;
+    text-align: center; }
+  /* line 431, ../../sass/sections.sass */
+  .mag_categories a {
+    display: block;
+    padding: 0.7em 1.2em; }
+    /* line 435, ../../sass/sections.sass */
+    .mag_categories a:hover {
+      opacity: 0.8; }
+
+/* line 438, ../../sass/sections.sass */
+.mag_categories {
+  color: #ffffff; }
+  /* line 440, ../../sass/sections.sass */
+  .mag_categories .bridalhint {
+    background-color: #ffffff;
+    color: #ef6681;
+    border: 1px solid #ef6681; }
+  /* line 444, ../../sass/sections.sass */
+  .mag_categories .food_drinks {
+    background-color: #cbcbcb; }
+  /* line 446, ../../sass/sections.sass */
+  .mag_categories .mood_feel {
+    background-color: #bcb1d0; }
+  /* line 448, ../../sass/sections.sass */
+  .mag_categories .the_place {
+    background-color: #ffe17d; }
+  /* line 450, ../../sass/sections.sass */
+  .mag_categories .details {
+    background-color: #71cac7; }
+  /* line 452, ../../sass/sections.sass */
+  .mag_categories .eventos {
+    background-color: #0598c9; }
+  /* line 454, ../../sass/sections.sass */
+  .mag_categories .video {
+    background-color: #818285; }
+  /* line 456, ../../sass/sections.sass */
+  .mag_categories .mi_look {
+    background-color: #ef6681; }
 
 /*# sourceMappingURL=style.css.map */
