@@ -24,7 +24,7 @@ Top Navigation Template
 			<li><a href="magazine-single.php">S-Mag.</a></li>
 			<li><a href="acerca.php">Acerca</a></li>
 			<li><a href="contacto.php">Contacto</a></li>
-			<li><a href="#">Acceder</a></li>
+			<li><a href="login.php">Acceder</a></li>
 		</ul>
 
 	</div>
