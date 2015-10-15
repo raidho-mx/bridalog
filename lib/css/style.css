@@ -1191,6 +1191,24 @@ ul.thumbs_list li div:last-child {
   .pricing_table .platino ul li {
     border-color: #2c6870; }
 
+/* Login */
+/* line 300, ../../sass/sections.sass */
+.login_welcome {
+  width: 32.2033898305%;
+  float: left;
+  margin-left: 8.4745762712%;
+  margin-right: -100%; }
+  /* line 302, ../../sass/sections.sass */
+  .login_welcome img {
+    width: 100%; }
+
+/* line 305, ../../sass/sections.sass */
+.login_form_area {
+  width: 32.2033898305%;
+  float: left;
+  margin-left: 59.3220338983%;
+  margin-right: -100%; }
+
 /* Magazine */
 /* line 3, ../../sass/_magazine.sass */
 .magazine {
