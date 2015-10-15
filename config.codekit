@@ -533,6 +533,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/sass\/_magazine.sass": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/_magazine.sass",
+		"outputAbbreviatedPath": "\/css\/_magazine.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/sass\/_reset.sass": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
