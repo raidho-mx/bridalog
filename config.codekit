@@ -56,6 +56,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/inc\/social_media.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/inc\/social_media.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/inc\/top-menu.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -376,6 +385,61 @@
 		"initialSize": 1766,
 		"inputAbbreviatedPath": "\/lib\/img\/icons\/icon-zapatos.png",
 		"outputAbbreviatedPath": "\/lib\/img\/icons\/icon-zapatos.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/IG\/ig_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56827,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/IG\/ig_1.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/IG\/ig_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/IG\/ig_2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58035,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/IG\/ig_2.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/IG\/ig_2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/IG\/ig_3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105684,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/IG\/ig_3.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/IG\/ig_3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/IG\/ig_4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93840,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/IG\/ig_4.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/IG\/ig_4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/IG\/ig_5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70591,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/IG\/ig_5.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/IG\/ig_5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
