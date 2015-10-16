@@ -9,7 +9,7 @@ Contact Template
 
 <div class="prov_single">
 
-<div class="image_cover" style="background-image: url('http://lorempixel.com/1400/640/city')">
+<div class="image_cover" style="background-image: url('lib/img/sample_imgs/02ProveedoresBerm/cover.jpg')">
 	<div class="wrap">
 		<div class="cover_text">
 			<div>
@@ -32,7 +32,7 @@ Contact Template
 					<p>Bermellón es una tienda de dulces picantes artesanales, queremos que conozcan quien esta detrás de estos dulces y mesas de postres tan extraordinarias. Ellas son Norma y Fernanda Ortiz y son quienes renovaron el concepto de poner dulces picantes y papitas de una boda "¡Quien se hubiera imaginado que comer papas, elotes y chilitos en una boda se iba a ver elegante!".</p>
 				</div>
 				<div>
-					<img src="http://lorempixel.com/640/640/city" alt="">
+					<img src="lib/img/sample_imgs/02ProveedoresBerm/profile.jpg" alt="">
 					<p><strong>Bridalog Presenta</strong>: Bermellón, Dulces Picantes Artesanales.</p>
 				</div>
 			</div>
@@ -64,7 +64,7 @@ Contact Template
 		</div>
 
 		<div class="prov_content_related group">
-			<div><img src="http://lorempixel.com/640/340/city" alt=""></div>
+			<div><img src="lib/img/sample_imgs/02ProveedoresBerm/from_mag.jpg" alt=""></div>
 			<div>
 				<h4 class="asap gray_medium">Desde el Magazine</h4>
 				<h3>Evento Bridalog en Bermellón</h3>
@@ -74,47 +74,47 @@ Contact Template
 		<div>
 			<h4 class="asap">Productos de Bermellón</h4>
 			<!-- Main search results -->
-			<ul class="prov_products_slim basic_grid">
+			<ul class="prov_products_slim basic_grid prov_list_main">
 				<li><a href="#">
-						<img src="http://lorempixel.com/640/640/city" alt="">
+						<div style="background-image: url(lib/img/sample_imgs/02ProveedoresBerm/productos/prod1.jpg)"></div>
 						<p>
-							<span class="asap gray_medium">Categoría</span>
-							<br>Producto
+							<span class="asap gray_medium">Mesa de Postres</span>
+							<br>Postres Clásicos Bermellón
 						</p>
 					</a></li>
 				<li><a href="#">
-						<img src="http://lorempixel.com/640/640/city" alt="">
+						<div style="background-image: url(lib/img/sample_imgs/02ProveedoresBerm/productos/prod2.jpg)"></div>
 						<p>
-							<span class="asap gray_medium">Categoría</span>
-							<br>Producto
+							<span class="asap gray_medium">Mesa de Postres</span>
+							<br>Postres Clásicos Bermellón
 						</p>
 					</a></li>
 				<li><a href="#">
-						<img src="http://lorempixel.com/640/640/city" alt="">
+						<div style="background-image: url(lib/img/sample_imgs/02ProveedoresBerm/productos/prod3.jpg)"></div>
 						<p>
-							<span class="asap gray_medium">Categoría</span>
-							<br>Producto
+							<span class="asap gray_medium">Mesa de Postres</span>
+							<br>Postres Clásicos Bermellón
 						</p>
 					</a></li>
 				<li><a href="#">
-						<img src="http://lorempixel.com/640/640/city" alt="">
+						<div style="background-image: url(lib/img/sample_imgs/02ProveedoresBerm/productos/prod4.jpg)"></div>
 						<p>
-							<span class="asap gray_medium">Categoría</span>
-							<br>Producto
+							<span class="asap gray_medium">Mesa de Postres</span>
+							<br>Postres Clásicos Bermellón
 						</p>
 					</a></li>
 				<li><a href="#">
-						<img src="http://lorempixel.com/640/640/city" alt="">
+						<div style="background-image: url(lib/img/sample_imgs/02ProveedoresBerm/productos/prod5.jpg)"></div>
 						<p>
-							<span class="asap gray_medium">Categoría</span>
-							<br>Producto
+							<span class="asap gray_medium">Mesa de Postres</span>
+							<br>Postres Clásicos Bermellón
 						</p>
 					</a></li>
 				<li><a href="#">
-						<img src="http://lorempixel.com/640/640/city" alt="">
+						<div style="background-image: url(lib/img/sample_imgs/02ProveedoresBerm/productos/prod6.jpg)"></div>
 						<p>
-							<span class="asap gray_medium">Categoría</span>
-							<br>Producto
+							<span class="asap gray_medium">Mesa de Postres</span>
+							<br>Postres Clásicos Bermellón
 						</p>
 					</a></li>
 			</ul>
@@ -134,27 +134,7 @@ Contact Template
 
 	</div><!-- Group ends (Clearfix) -->
 
-	<!-- Destacados en el Catálogo -->
-	<div class="center_titles">
-		<h3 class="asap blue">Destacados en el Catálogo</h3>
-		<ul class="basic_grid three_col_grid">
-			<li><a href="#">
-					<img src="http://lorempixel.com/640/640/city" alt="">
-					<p class="asap gray_medium">Categoría</p>
-					<h4>Proveedor</span></h4>
-				</a></li>
-			<li><a href="#">
-					<img src="http://lorempixel.com/640/640/city" alt="">
-					<p class="asap gray_medium">Categoría</p>
-					<h4>Proveedor</span></h4>
-				</a></li>
-			<li><a href="#">
-					<img src="http://lorempixel.com/640/640/city" alt="">
-					<p class="asap gray_medium">Categoría</p>
-					<h4>Proveedor</span></h4>
-				</a></li>
-		</ul>
-	</div>
+	<?php include 'inc/feat_catalogo.php' ?>
 
 </div> <!--Wrap -->
 
