@@ -9,10 +9,10 @@ Include redes sociales
 	<div class="wrap">
 		<h3 class="asap">Bridalog en Redes Sociales</h3>
 		<ul class="insta_feed basic_grid four_col_grid">
-			<li><a href="#"><img src="http://lorempixel.com/640/640/city" alt=""></a></li>
-			<li><a href="#"><img src="http://lorempixel.com/640/640/city" alt=""></a></li>
-			<li><a href="#"><img src="http://lorempixel.com/640/640/city" alt=""></a></li>
-			<li><a href="#"><img src="http://lorempixel.com/640/640/city" alt=""></a></li>
+			<li><a href="#"><img src="lib/img/sample_imgs/IG/ig_1.jpg" alt=""></a></li>
+			<li><a href="#"><img src="lib/img/sample_imgs/IG/ig_2.jpg" alt=""></a></li>
+			<li><a href="#"><img src="lib/img/sample_imgs/IG/ig_3.jpg" alt=""></a></li>
+			<li><a href="#"><img src="lib/img/sample_imgs/IG/ig_4.jpg" alt=""></a></li>
 		</ul>
 		<ul class="share_btns">
 			<li>

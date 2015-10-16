@@ -9,7 +9,7 @@ Contact Template
 
 <div class="mag_single">
 
-<div class="image_cover" style="background-image: url('http://lorempixel.com/1400/640/city')"></div>
+<div class="image_cover" style="background-image: url('lib/img/sample_imgs/04Magazine/01Single/00.jpg')"></div>
 
 <div class="wrap">
 	<div class="body_sidebar_combo group">
@@ -27,9 +27,9 @@ Contact Template
 
 				<p class="small_title">A lot of people like smoothies. But few people make them at home. Because think of all the measuring, the effort, the mess.It doesn’t have to be that way. Pick a few of these recipes, hit the grocery store, then make “smoothie packs” for the whole week by placing measured-out ingredients for each smoothie in a plastic bag. When you need to be refreshed, pull a bag out of the freezer, dump its contents in a blender, and YAY.</p>
 				<p>The below recipes are perfect because they only have three ingredients each and they use frozen fruits and veggies so you can skip the ice. You can freeze your own fruits and veggies if you’re not happy with the frozen stuff from the grocery store. You can even freeze the almond milk or coconut milks in ice trays, if you really want to impress someone.</p>
-				<img src="http://lorempixel.com/640/340/city" alt="">
+				<img src="lib/img/sample_imgs/04Magazine/01Single/01.jpg" alt="">
 				<h4>Strawberry Swing</h4>
-				<img src="http://lorempixel.com/640/340/city" alt="">
+				<img src="lib/img/sample_imgs/04Magazine/01Single/02.jpg" alt="">
 				<p><strong>How to:</strong> Place 8 frozen strawberries, ½ cup plain kefir or pourable plain yogurt, and ½ cup shredded, unsweetened coconut into a blender. Blend until smooth. Serves 1.</p>
 				<p><strong>Extras:</strong> Spark it up with 2 tablespoons rolled oats, pinch ground cinnamon, 2 tablespoons flax meal, or protein powder.</p>
 
@@ -41,7 +41,7 @@ Contact Template
 			</div>
 
 			<div class="mag_content_related group white_bg">
-				<div><img src="http://lorempixel.com/640/340/city" alt=""></div>
+				<div><img src="lib/img/sample_imgs/04Magazine/01Single/03.jpg" alt=""></div>
 				<div>
 					<h4 class="asap gray_medium">SIguiente Artículo:</h4>
 					<h3>10 Alimentos esenciales para estar Fit el dia de tu boda.</h3>

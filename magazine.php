@@ -20,7 +20,7 @@ Contact Template
 <div class="mag_featured">
 	<div class="wrap">
 		<a href="#">
-			<div class="featured_img" style="background-image: url('http://lorempixel.com/1400/640/city')">
+			<div class="featured_img" style="background-image: url('lib/img/sample_imgs/04Magazine/portada.jpg')">
 				<div class="cover_text">
 					<div>
 						<p class="asap">Categoría Magazine</p>
@@ -41,7 +41,7 @@ Contact Template
 		<li class="masonry_column"></li>
 		<!-- Masonry items -->
 		<li class="masonry_item the_place">
-			<a href="#"><img src="http://lorempixel.com/430/360/technics">
+			<a href="#"><img src="lib/img/sample_imgs/04Magazine/viaje.jpg">
 				<div class="gradient_back">
 					<div class="cell_like">
 						<span class="asap">The Place</span></br>
@@ -51,7 +51,7 @@ Contact Template
 			</a>
 		</li>
 		<li class="masonry_item details">
-			<a href="#"><img src="http://lorempixel.com/500/300/technics">
+			<a href="#"><img src="lib/img/sample_imgs/04Magazine/hairstyle.jpg">
 				<div class="gradient_back">
 					<div class="cell_like">
 						<span class="asap">Details</span></br>
@@ -61,7 +61,7 @@ Contact Template
 			</a>
 		</li>
 		<li class="masonry_item bridalhint">
-			<a href="#"><img src="http://lorempixel.com/400/420/technics">
+			<a href="#"><img src="lib/img/sample_imgs/04Magazine/00Bridalhint/03-anillo.jpg">
 				<div class="gradient_back">
 					<div class="cell_like">
 						<span class="asap">Bridalhint</span></br>
@@ -72,7 +72,7 @@ Contact Template
 			</a>
 		</li>
 		<li class="masonry_item mi_look">
-			<a href="#"><img src="http://lorempixel.com/400/380/technics">
+			<a href="#"><img src="lib/img/sample_imgs/04Magazine/Layer-16.jpg">
 				<div class="gradient_back">
 					<div class="cell_like">
 						<span class="asap">Mi Look</span></br>
@@ -82,7 +82,7 @@ Contact Template
 			</a>
 		</li>
 		<li class="masonry_item bridalhint">
-			<a href="#"><img src="http://lorempixel.com/400/420/technics">
+			<a href="#"><img src="lib/img/sample_imgs/04Magazine/00Bridalhint/03bebidas.jpg">
 				<div class="gradient_back">
 					<div class="cell_like">
 						<span class="asap">Bridalhint</span></br>
@@ -93,7 +93,7 @@ Contact Template
 			</a>
 		</li>
 		<li class="masonry_item mood_feel">
-			<a href="#"><img src="http://lorempixel.com/300/420/technics">
+			<a href="#"><img src="lib/img/sample_imgs/04Magazine/Flores.jpg">
 				<div class="gradient_back">
 					<div class="cell_like">
 						<span class="asap">Mood & Feel</span></br>
@@ -103,7 +103,7 @@ Contact Template
 			</a>
 		</li>
 		<li class="masonry_item bridalhint">
-			<a href="#"><img src="http://lorempixel.com/400/420/technics">
+			<a href="#"><img src="lib/img/sample_imgs/04Magazine/00Bridalhint/03-camara.jpg">
 				<div class="gradient_back">
 					<div class="cell_like">
 						<span class="asap">Bridalhint</span></br>
@@ -114,7 +114,7 @@ Contact Template
 			</a>
 		</li>
 		<li class="masonry_item food_drinks">
-			<a href="#"><img src="http://lorempixel.com/400/300/technics">
+			<a href="#"><img src="lib/img/sample_imgs/04Magazine/download.jpg">
 				<div class="gradient_back">
 					<div class="cell_like">
 						<span class="asap">Food & Drinks</span></br>
@@ -124,7 +124,7 @@ Contact Template
 			</a>
 		</li>
 		<li class="masonry_item eventos">
-			<a href="#"><img src="http://lorempixel.com/400/460/technics">
+			<a href="#"><img src="lib/img/sample_imgs/04Magazine/Evento.jpg">
 				<div class="gradient_back">
 					<div class="cell_like">
 						<span class="asap">Eventos</span></br>
@@ -134,7 +134,7 @@ Contact Template
 			</a>
 		</li>
 		<li class="masonry_item video">
-			<a href="#"><img src="http://lorempixel.com/470/300/technics">
+			<a href="#"><img src="lib/img/sample_imgs/04Magazine/Vestidos.jpg">
 				<div class="gradient_back">
 					<div class="cell_like">
 						<span class="asap">Video</span></br>
@@ -144,7 +144,7 @@ Contact Template
 			</a>
 		</li>
 		<li class="masonry_item bridalhint">
-			<a href="#"><img src="http://lorempixel.com/400/420/technics">
+			<a href="#"><img src="lib/img/sample_imgs/04Magazine/00Bridalhint/03zapatos.jpg">
 				<div class="gradient_back">
 					<div class="cell_like">
 						<span class="asap">Bridalhint</span></br>
