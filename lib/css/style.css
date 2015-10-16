@@ -764,18 +764,31 @@ form input[type=checkbox] {
 .gray_bg {
   background-color: #f0f0f0; }
 
+/* Acerca */
+/* line 20, ../../sass/sections.sass */
+ul.about_pitch {
+  margin: 3em 0; }
+  /* line 22, ../../sass/sections.sass */
+  ul.about_pitch li {
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+
 /* Listado de 'índice' para 'más proveedores' */
-/* line 21, ../../sass/sections.sass */
+/* line 33, ../../sass/sections.sass */
 ul.index_list li, ul.thumbs_list li {
   margin-bottom: 1.2em;
   overflow: auto; }
-  /* line 24, ../../sass/sections.sass */
+  /* line 36, ../../sass/sections.sass */
   ul.index_list li div, ul.thumbs_list li div {
     float: left; }
-  /* line 26, ../../sass/sections.sass */
+  /* line 38, ../../sass/sections.sass */
   ul.index_list li div:first-child, ul.thumbs_list li div:first-child {
     text-align: center; }
-    /* line 28, ../../sass/sections.sass */
+    /* line 40, ../../sass/sections.sass */
     ul.index_list li div:first-child a, ul.thumbs_list li div:first-child a {
       display: block;
       width: 36px;
@@ -784,40 +797,40 @@ ul.index_list li, ul.thumbs_list li {
       background-color: #71cac7;
       color: #ffffff;
       padding-top: 0.4em; }
-  /* line 37, ../../sass/sections.sass */
+  /* line 49, ../../sass/sections.sass */
   ul.index_list li div:last-child p, ul.thumbs_list li div:last-child p {
     margin-bottom: 0;
     padding-left: 1em; }
-  /* line 40, ../../sass/sections.sass */
+  /* line 52, ../../sass/sections.sass */
   ul.index_list li div:last-child:hover, ul.thumbs_list li div:last-child:hover {
     color: #0598c9; }
 
-/* line 43, ../../sass/sections.sass */
+/* line 55, ../../sass/sections.sass */
 ul.thumbs_list li div:first-child {
   width: 80px;
   height: 80px; }
-  /* line 46, ../../sass/sections.sass */
+  /* line 58, ../../sass/sections.sass */
   ul.thumbs_list li div:first-child a {
     background-color: transparent;
     width: auto;
     display: inline; }
-  /* line 50, ../../sass/sections.sass */
+  /* line 62, ../../sass/sections.sass */
   ul.thumbs_list li div:first-child img {
     width: 100%;
     border-radius: 50%; }
-/* line 53, ../../sass/sections.sass */
+/* line 65, ../../sass/sections.sass */
 ul.thumbs_list li div:last-child {
   padding-top: 1em; }
 
 /* Proveedores Vista Individual + Vista Producto */
-/* line 59, ../../sass/sections.sass */
+/* line 71, ../../sass/sections.sass */
 .prov_single .cover_text {
   color: #ffffff; }
-  /* line 61, ../../sass/sections.sass */
+  /* line 73, ../../sass/sections.sass */
   .prov_single .cover_text h1 {
     margin-bottom: -0.3em; }
 
-/* line 65, ../../sass/sections.sass */
+/* line 77, ../../sass/sections.sass */
 .prov_info > div {
   background-color: #ffffff;
   margin-bottom: 3em;
@@ -830,27 +843,27 @@ ul.thumbs_list li div:last-child {
   padding-left: 1em;
   padding-top: 1em;
   padding-bottom: 1em; }
-  /* line 71, ../../sass/sections.sass */
+  /* line 83, ../../sass/sections.sass */
   .prov_info > div:first-child {
     padding-top: 2.5em; }
-  /* line 73, ../../sass/sections.sass */
+  /* line 85, ../../sass/sections.sass */
   .prov_info > div:last-child {
     margin-bottom: 0; }
-/* line 78, ../../sass/sections.sass */
+/* line 90, ../../sass/sections.sass */
 .prov_info .prov_main_info .prov_main_info_profile div:first-child {
   width: 54.5454545455%;
   float: left;
   margin-right: 2.2727272727%; }
-/* line 80, ../../sass/sections.sass */
+/* line 92, ../../sass/sections.sass */
 .prov_info .prov_main_info .prov_main_info_profile div:last-child {
   width: 43.1818181818%;
   float: right;
   margin-right: 0; }
-  /* line 82, ../../sass/sections.sass */
+  /* line 94, ../../sass/sections.sass */
   .prov_info .prov_main_info .prov_main_info_profile div:last-child img {
     width: 100%;
     margin-bottom: 1.2em; }
-/* line 86, ../../sass/sections.sass */
+/* line 98, ../../sass/sections.sass */
 .prov_info .prov_main_info .prov_main_contact > div {
   width: 31.8181818182%;
   float: left; }
@@ -871,21 +884,21 @@ ul.thumbs_list li div:last-child {
     margin-right: -100%;
     clear: none; }
 
-/* line 89, ../../sass/sections.sass */
+/* line 101, ../../sass/sections.sass */
 .prov_content_related div:first-child {
   width: 54.5454545455%;
   float: left;
   margin-right: 2.2727272727%; }
-  /* line 91, ../../sass/sections.sass */
+  /* line 103, ../../sass/sections.sass */
   .prov_content_related div:first-child img {
     width: 100%; }
-/* line 93, ../../sass/sections.sass */
+/* line 105, ../../sass/sections.sass */
 .prov_content_related div:last-child {
   width: 43.1818181818%;
   float: right;
   margin-right: 0; }
 
-/* line 97, ../../sass/sections.sass */
+/* line 109, ../../sass/sections.sass */
 .prov_products_slim li {
   width: 31.8181818182%;
   float: left; }
@@ -906,11 +919,11 @@ ul.thumbs_list li div:last-child {
     margin-right: -100%;
     clear: none; }
 
-/* line 103, ../../sass/sections.sass */
+/* line 115, ../../sass/sections.sass */
 .prod_single .combo_sidebar {
   padding: 0 0 0 2em; }
 
-/* line 106, ../../sass/sections.sass */
+/* line 118, ../../sass/sections.sass */
 .product_slider {
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
@@ -919,21 +932,21 @@ ul.thumbs_list li div:last-child {
   margin-left: -1em;
   padding-right: 1em;
   padding-left: 1em; }
-  /* line 108, ../../sass/sections.sass */
+  /* line 120, ../../sass/sections.sass */
   .product_slider .product_slide {
     padding-bottom: 1em;
     position: relative; }
-    /* line 111, ../../sass/sections.sass */
+    /* line 123, ../../sass/sections.sass */
     .product_slider .product_slide .product_pictures {
       width: 66.1016949153%;
       float: left;
       margin-right: 1.6949152542%; }
-      /* line 113, ../../sass/sections.sass */
+      /* line 125, ../../sass/sections.sass */
       .product_slider .product_slide .product_pictures .feat_picture {
         width: 87.1794871795%;
         float: left;
         margin-right: 2.5641025641%; }
-        /* line 115, ../../sass/sections.sass */
+        /* line 127, ../../sass/sections.sass */
         .product_slider .product_slide .product_pictures .feat_picture img {
           width: 100%;
           -moz-box-sizing: content-box;
@@ -943,34 +956,34 @@ ul.thumbs_list li div:last-child {
           margin-left: -1em;
           padding-right: 1em;
           padding-left: 1em; }
-      /* line 118, ../../sass/sections.sass */
+      /* line 130, ../../sass/sections.sass */
       .product_slider .product_slide .product_pictures .product_thumbs {
         width: 10.2564102564%;
         float: right;
         margin-right: 0; }
-        /* line 120, ../../sass/sections.sass */
+        /* line 132, ../../sass/sections.sass */
         .product_slider .product_slide .product_pictures .product_thumbs ul li {
           display: inline-block;
           margin: 0 0 1em 0; }
-          /* line 123, ../../sass/sections.sass */
+          /* line 135, ../../sass/sections.sass */
           .product_slider .product_slide .product_pictures .product_thumbs ul li a {
             border: 2px solid #f0f0f0;
             display: block; }
-            /* line 126, ../../sass/sections.sass */
+            /* line 138, ../../sass/sections.sass */
             .product_slider .product_slide .product_pictures .product_thumbs ul li a img {
               width: 100%; }
-            /* line 128, ../../sass/sections.sass */
+            /* line 140, ../../sass/sections.sass */
             .product_slider .product_slide .product_pictures .product_thumbs ul li a:hover {
               border-color: #0598c9; }
-    /* line 130, ../../sass/sections.sass */
+    /* line 142, ../../sass/sections.sass */
     .product_slider .product_slide .product_description {
       width: 32.2033898305%;
       float: right;
       margin-right: 0; }
-      /* line 134, ../../sass/sections.sass */
+      /* line 146, ../../sass/sections.sass */
       .product_slider .product_slide .product_description p:first-child {
         margin: 0; }
-    /* line 137, ../../sass/sections.sass */
+    /* line 149, ../../sass/sections.sass */
     .product_slider .product_slide .prod_nav a {
       position: absolute;
       top: 40%;
@@ -982,41 +995,41 @@ ul.thumbs_list li div:last-child {
       border-radius: 1em;
       text-align: center;
       opacity: 0.6; }
-      /* line 148, ../../sass/sections.sass */
+      /* line 160, ../../sass/sections.sass */
       .product_slider .product_slide .prod_nav a:hover {
         opacity: 1; }
-      /* line 150, ../../sass/sections.sass */
+      /* line 162, ../../sass/sections.sass */
       .product_slider .product_slide .prod_nav a.prod_left {
         left: -0.7em; }
-        /* line 152, ../../sass/sections.sass */
+        /* line 164, ../../sass/sections.sass */
         .product_slider .product_slide .prod_nav a.prod_left span {
           right: 0.05em;
           top: 0.05em;
           position: relative; }
-      /* line 156, ../../sass/sections.sass */
+      /* line 168, ../../sass/sections.sass */
       .product_slider .product_slide .prod_nav a.prod_right {
         right: -0.7em; }
-        /* line 158, ../../sass/sections.sass */
+        /* line 170, ../../sass/sections.sass */
         .product_slider .product_slide .prod_nav a.prod_right span {
           left: 0.05em;
           top: 0.05em;
           position: relative; }
 
-/* line 164, ../../sass/sections.sass */
+/* line 176, ../../sass/sections.sass */
 .slider_title {
   padding-top: 1em; }
-  /* line 166, ../../sass/sections.sass */
+  /* line 178, ../../sass/sections.sass */
   .slider_title h2 {
     margin-bottom: 0.2em; }
-  /* line 168, ../../sass/sections.sass */
+  /* line 180, ../../sass/sections.sass */
   .slider_title p {
     margin-bottom: -0.5em;
     margin-left: 4em; }
-  /* line 171, ../../sass/sections.sass */
+  /* line 183, ../../sass/sections.sass */
   .slider_title img {
     float: left; }
 
-/* line 175, ../../sass/sections.sass */
+/* line 187, ../../sass/sections.sass */
 .more_from_prov {
   background-color: #ffffff;
   margin-bottom: 3em;
@@ -1031,15 +1044,15 @@ ul.thumbs_list li div:last-child {
   padding-bottom: 1em; }
 
 /* Títulos centrados de secciones verticales */
-/* line 186, ../../sass/sections.sass */
+/* line 198, ../../sass/sections.sass */
 .center_titles > h1, .center_titles > h2, .center_titles > h3, .center_titles > h4 {
   text-align: center; }
 
-/* line 188, ../../sass/sections.sass */
+/* line 200, ../../sass/sections.sass */
 .centered_section {
   text-align: center; }
 
-/* line 190, ../../sass/sections.sass */
+/* line 202, ../../sass/sections.sass */
 .thin_section {
   width: 66.1016949153%;
   float: left;
@@ -1047,49 +1060,49 @@ ul.thumbs_list li div:last-child {
   margin-right: -100%; }
 
 /* Botones redes sociales */
-/* line 195, ../../sass/sections.sass */
+/* line 207, ../../sass/sections.sass */
 .share_btns {
   margin-bottom: 1.2em; }
-  /* line 197, ../../sass/sections.sass */
+  /* line 209, ../../sass/sections.sass */
   .share_btns li {
     display: inline-block;
     width: 11em;
     margin-right: 1em;
     text-align: left; }
-  /* line 202, ../../sass/sections.sass */
+  /* line 214, ../../sass/sections.sass */
   .share_btns a {
     display: block;
     background-color: #395799;
     color: #ffffff;
     padding: 0.7em; }
-    /* line 208, ../../sass/sections.sass */
+    /* line 220, ../../sass/sections.sass */
     .share_btns a.btn_instagram {
       background-color: #1fa8e3; }
-    /* line 210, ../../sass/sections.sass */
+    /* line 222, ../../sass/sections.sass */
     .share_btns a.btn_pinterest {
       background-color: #ce1e1f; }
-    /* line 212, ../../sass/sections.sass */
+    /* line 224, ../../sass/sections.sass */
     .share_btns a:hover {
       opacity: 0.8; }
-    /* line 214, ../../sass/sections.sass */
+    /* line 226, ../../sass/sections.sass */
     .share_btns a span {
       padding: 0 1em 0 0.5em; }
 
-/* line 217, ../../sass/sections.sass */
+/* line 229, ../../sass/sections.sass */
 .product_description .share_btns {
   position: absolute;
   bottom: 0;
   padding: 0; }
-  /* line 221, ../../sass/sections.sass */
+  /* line 233, ../../sass/sections.sass */
   .product_description .share_btns li {
     width: 4em;
     text-align: center; }
-    /* line 224, ../../sass/sections.sass */
+    /* line 236, ../../sass/sections.sass */
     .product_description .share_btns li a span {
       padding: 0; }
 
 /* Portadas para secciones informativas */
-/* line 230, ../../sass/sections.sass */
+/* line 242, ../../sass/sections.sass */
 .image_cover {
   height: 80vh;
   background-size: cover;
@@ -1097,7 +1110,7 @@ ul.thumbs_list li div:last-child {
   background-position: center;
   text-align: center;
   position: relative; }
-  /* line 237, ../../sass/sections.sass */
+  /* line 249, ../../sass/sections.sass */
   .image_cover:before {
     content: "";
     position: absolute;
@@ -1107,7 +1120,7 @@ ul.thumbs_list li div:last-child {
     left: 0;
     background-image: linear-gradient(to bottom right, #1a1a1a, #2a2a2a);
     opacity: 0.5; }
-  /* line 246, ../../sass/sections.sass */
+  /* line 258, ../../sass/sections.sass */
   .image_cover .cover_text {
     position: absolute;
     display: table;
@@ -1116,32 +1129,32 @@ ul.thumbs_list li div:last-child {
     float: left;
     margin-left: 16.9491525424%;
     margin-right: -100%; }
-    /* line 251, ../../sass/sections.sass */
+    /* line 263, ../../sass/sections.sass */
     .image_cover .cover_text > h1, .image_cover .cover_text > div {
       display: table-cell;
       vertical-align: middle;
       text-align: center; }
 
 /* Services */
-/* line 260, ../../sass/sections.sass */
+/* line 272, ../../sass/sections.sass */
 .services_slider .s_slide {
   width: 83.0508474576%;
   background-color: #ffffff; }
-  /* line 264, ../../sass/sections.sass */
+  /* line 276, ../../sass/sections.sass */
   .services_slider .s_slide div:first-child {
     width: 48.9795918367%;
     float: left;
     margin-right: 2.0408163265%; }
-  /* line 266, ../../sass/sections.sass */
+  /* line 278, ../../sass/sections.sass */
   .services_slider .s_slide div:last-child {
     width: 48.9795918367%;
     float: right;
     margin-right: 0; }
-  /* line 268, ../../sass/sections.sass */
+  /* line 280, ../../sass/sections.sass */
   .services_slider .s_slide .description {
     padding: 2em; }
 
-/* line 272, ../../sass/sections.sass */
+/* line 284, ../../sass/sections.sass */
 .pricing_table > div {
   width: 33.3333333333%;
   float: left;
@@ -1163,50 +1176,50 @@ ul.thumbs_list li div:last-child {
     margin-left: 66.6666666667%;
     margin-right: -100%;
     clear: none; }
-/* line 276, ../../sass/sections.sass */
+/* line 288, ../../sass/sections.sass */
 .pricing_table ul li {
   padding: 0.7em 0;
   border-bottom: 1px solid #3397a3; }
-  /* line 279, ../../sass/sections.sass */
+  /* line 291, ../../sass/sections.sass */
   .pricing_table ul li:last-child {
     border-bottom: none; }
-/* line 281, ../../sass/sections.sass */
+/* line 293, ../../sass/sections.sass */
 .pricing_table .base {
   background-color: #3aa1b0; }
-  /* line 283, ../../sass/sections.sass */
+  /* line 295, ../../sass/sections.sass */
   .pricing_table .base .feat_off {
     color: #31919e; }
-/* line 285, ../../sass/sections.sass */
+/* line 297, ../../sass/sections.sass */
 .pricing_table .premium {
   background-color: #298895; }
-  /* line 287, ../../sass/sections.sass */
+  /* line 299, ../../sass/sections.sass */
   .pricing_table .premium .feat_off {
     color: #2c7983; }
-  /* line 289, ../../sass/sections.sass */
+  /* line 301, ../../sass/sections.sass */
   .pricing_table .premium ul li {
     border-color: #2a7a85; }
-/* line 291, ../../sass/sections.sass */
+/* line 303, ../../sass/sections.sass */
 .pricing_table .platino {
   background-color: #2f757d; }
-  /* line 293, ../../sass/sections.sass */
+  /* line 305, ../../sass/sections.sass */
   .pricing_table .platino .feat_off {
     color: #186179; }
-  /* line 295, ../../sass/sections.sass */
+  /* line 307, ../../sass/sections.sass */
   .pricing_table .platino ul li {
     border-color: #2c6870; }
 
 /* Login */
-/* line 300, ../../sass/sections.sass */
+/* line 312, ../../sass/sections.sass */
 .login_welcome {
   width: 32.2033898305%;
   float: left;
   margin-left: 8.4745762712%;
   margin-right: -100%; }
-  /* line 302, ../../sass/sections.sass */
+  /* line 314, ../../sass/sections.sass */
   .login_welcome img {
     width: 100%; }
 
-/* line 305, ../../sass/sections.sass */
+/* line 317, ../../sass/sections.sass */
 .login_form_area {
   width: 32.2033898305%;
   float: left;
@@ -1214,7 +1227,7 @@ ul.thumbs_list li div:last-child {
   margin-right: -100%;
   padding: 1em 2em; }
 
-/* line 309, ../../sass/sections.sass */
+/* line 321, ../../sass/sections.sass */
 .login_cta {
   border-top: 1px solid #f0f0f0;
   padding-top: 2em;

@@ -21,10 +21,10 @@ Contact Template
 			<h3>La manera diferente de conectar novias con proveedores para bodas.</h3>
 		</div>
 		<div>
-			<ul class="inline_list basic_grid">
-				<li><img src="http://lorempixel.com/280/280/city" alt=""></li>
-				<li><img src="http://lorempixel.com/280/280/city" alt=""></li>
-				<li><img src="http://lorempixel.com/280/280/city" alt=""></li>
+			<ul class="inline_list basic_grid about_pitch">
+				<li style="background-image: url(lib/img/sample_imgs/05About/77.jpg)"></li>
+				<li style="background-image: url(lib/img/sample_imgs/05About/conexiones-reales.jpg)"></li>
+				<li style="background-image: url(lib/img/sample_imgs/05About/p1163926062-6.jpg)"></li>
 			</ul>
 		</div>
 		<div  class="thin_section">
