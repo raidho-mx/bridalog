@@ -66,20 +66,7 @@ Contact Template
 	</div>
 </div> <!--Wrap -->
 
-<div class="white_bg full_width centered_section">
-	<div class="wrap">
-		<h4 class="asap">3 años de proveedores excelentes en el catálogo de Bridalog</h4>
-		<ul class="inline_list">
-			<li><a href="#"><img src="http://lorempixel.com/100/100/city" alt=""></a></li><li>
-			<a href="#"><img src="http://lorempixel.com/100/100/city" alt=""></a></li><li>
-			<a href="#"><img src="http://lorempixel.com/100/100/city" alt=""></a></li><li>
-			<a href="#"><img src="http://lorempixel.com/100/100/city" alt=""></a></li><li>
-			<a href="#"><img src="http://lorempixel.com/100/100/city" alt=""></a></li><li>
-			<a href="#"><img src="http://lorempixel.com/100/100/city" alt=""></a></li><li>
-			<a href="#"><img src="http://lorempixel.com/100/100/city" alt=""></a></li>
-		</ul>
-	</div><!--Wrap -->
-</div>
+<?php include 'inc/prov_logos.php' ?>
 
 <div class="wrap">
 	<div class="contact_form inner_section_pad centered_section thin_section">
