@@ -407,35 +407,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/lib\/img\/sample_imgs\/01Proveedores\/Bermellón.jpg": {
+	"\/lib\/img\/sample_imgs\/01Proveedores\/bermellon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 75408,
-		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Bermellón.jpg",
-		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Bermellón.jpg",
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/bermellon.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/bermellon.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/lib\/img\/sample_imgs\/01Proveedores\/Elementotres.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 131072,
-		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Elementotres.jpg",
-		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Elementotres.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/lib\/img\/sample_imgs\/01Proveedores\/Eternity Diam.jpg": {
+	"\/lib\/img\/sample_imgs\/01Proveedores\/eternity.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 188561,
-		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Eternity Diam.jpg",
-		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Eternity Diam.jpg",
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/eternity.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/eternity.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -473,68 +462,57 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/lib\/img\/sample_imgs\/01Proveedores\/Liverpool.jpg": {
+	"\/lib\/img\/sample_imgs\/01Proveedores\/liverpool.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1.7216e+06,
-		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Liverpool.jpg",
-		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Liverpool.jpg",
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/liverpool.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/liverpool.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/lib\/img\/sample_imgs\/01Proveedores\/Lunas de miel.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6.67166e+06,
-		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Lunas de miel.jpg",
-		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Lunas de miel.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/lib\/img\/sample_imgs\/01Proveedores\/mduran-(1).jpg": {
+	"\/lib\/img\/sample_imgs\/01Proveedores\/mariana.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 376323,
-		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/mduran-(1).jpg",
-		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/mduran-(1).jpg",
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/mariana.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/mariana.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/lib\/img\/sample_imgs\/01Proveedores\/Mona Mour.jpg": {
+	"\/lib\/img\/sample_imgs\/01Proveedores\/mona.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 787502,
-		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Mona Mour.jpg",
-		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Mona Mour.jpg",
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/mona.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/mona.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/lib\/img\/sample_imgs\/01Proveedores\/Samuel Catherine.jpg": {
+	"\/lib\/img\/sample_imgs\/01Proveedores\/sam.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 390873,
-		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Samuel Catherine.jpg",
-		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Samuel Catherine.jpg",
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/sam.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/sam.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/lib\/img\/sample_imgs\/01Proveedores\/Vinoteca.jpg": {
+	"\/lib\/img\/sample_imgs\/01Proveedores\/vinoteca.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3.64228e+06,
-		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Vinoteca.jpg",
-		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Vinoteca.jpg",
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/vinoteca.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/vinoteca.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -913,6 +891,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/lib\/img\/sample_imgs\/06servicios\/case_study_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 139767,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/06servicios\/case_study_1.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/06servicios\/case_study_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/lib\/img\/sample_imgs\/IG\/ig_1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -964,6 +953,17 @@
 		"initialSize": 70591,
 		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/IG\/ig_5.jpg",
 		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/IG\/ig_5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/login_welcome.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 194734,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/login_welcome.png",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/login_welcome.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
