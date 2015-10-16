@@ -880,6 +880,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/lib\/img\/sample_imgs\/06servicios\/_Servicios1.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57638,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/06servicios\/_Servicios1.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/06servicios\/_Servicios1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/06servicios\/_Servicios2.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64516,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/06servicios\/_Servicios2.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/06servicios\/_Servicios2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/06servicios\/_Servicios3.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75789,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/06servicios\/_Servicios3.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/06servicios\/_Servicios3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/lib\/img\/sample_imgs\/IG\/ig_1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

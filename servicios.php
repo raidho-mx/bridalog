@@ -23,17 +23,17 @@ Contact Template
 		<div>
 			<ul class="three_col_grid basic_grid">
 				<li>
-					<img src="http://lorempixel.com/280/280/city" alt="">
+					<img src="lib/img/sample_imgs/06servicios/_Servicios1.jpg" alt="">
 					<h4 class="green">Catálgo Online</h4>
 					<p class="asap">Publica tu perfil y productos en el catálogo más atractivo de su género. <strong>En nuestro catálogo es más importante calidad que cantidad</strong>, así que puedes estar seguro de que tu información sólo se encontrará conviviendo en listados de los más destacados proveedores para bodas.</p>
 				</li>
 				<li>
-					<img src="http://lorempixel.com/280/280/city" alt="">
+					<img src="lib/img/sample_imgs/06servicios/_Servicios2.jpg" alt="">
 					<h4 class="green">Contenido Exclusivo</h4>
 					<p class="asap">Nosotros nos encargamos de generar contenido por ti, para que siempre tengas una cara fresca que mostrar a tus clientas. Generamos diferentes publicaciones y dinámicas en <strong>redes sociales</strong>; notas destacadas en <strong>nuestro magazine</strong>; e incluso <strong>videodocumentales</strong> de tu marca.</p>
 				</li>
 				<li>
-					<img src="http://lorempixel.com/280/280/city" alt="">
+					<img src="lib/img/sample_imgs/06servicios/_Servicios3.jpg" alt="">
 					<h4 class="green">Eventos Especiales</h4>
 					<p class="asap">En Bridalog <strong>sabemos que lo más importante son tus clientas y lo que ellas tienen qué decir</strong>. Por eso nos aseguramos de generar <strong>eventos en los que puedas conocerlas en persona</strong>, y dinámicas entretenidas que les permiten a ellas llevarse premios y nuevos conocimientos sobre tus servicios.</p>
 				</li>
@@ -42,20 +42,7 @@ Contact Template
 	</div>
 </div> <!--Wrap -->
 
-<div class="white_bg full_width centered_section">
-	<div class="wrap">
-		<h4 class="asap">3 años de proveedores excelentes en el catálogo de Bridalog</h4>
-		<ul class="inline_list">
-			<li><a href="#"><img src="http://lorempixel.com/100/100/city" alt=""></a></li><li>
-			<a href="#"><img src="http://lorempixel.com/100/100/city" alt=""></a></li><li>
-			<a href="#"><img src="http://lorempixel.com/100/100/city" alt=""></a></li><li>
-			<a href="#"><img src="http://lorempixel.com/100/100/city" alt=""></a></li><li>
-			<a href="#"><img src="http://lorempixel.com/100/100/city" alt=""></a></li><li>
-			<a href="#"><img src="http://lorempixel.com/100/100/city" alt=""></a></li><li>
-			<a href="#"><img src="http://lorempixel.com/100/100/city" alt=""></a></li>
-		</ul>
-	</div><!--Wrap -->
-</div>
+<?php include 'prov_logos.php' ?>
 
 <div class="gray_bg full_width">
 	<div class="wrap center_titles">
@@ -68,7 +55,7 @@ Contact Template
 					<p class="asap">El catálogo de Bridalog es una mezcla ideal entre calidad y cantidad. Solamente trabajamos con proveedores que nos emocionan tanto como las novias que nos siguen. Con su capacidad totalmente responsiva, nuestros proveedores tienen acceso a listados en todo tipo de dispositivos.</p>
 				</div>
 				<div>
-					<img src="http://lorempixel.com/560/510/city" alt="">
+					<img src="lib/img/sample_imgs/06servicios/case_study_1.jpg" alt="">
 				</div>
 			</div>
 
