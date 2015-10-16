@@ -29,6 +29,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/inc\/feat_catalogo.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/inc\/feat_catalogo.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/inc\/footer.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -385,6 +394,138 @@
 		"initialSize": 1766,
 		"inputAbbreviatedPath": "\/lib\/img\/icons\/icon-zapatos.png",
 		"outputAbbreviatedPath": "\/lib\/img\/icons\/icon-zapatos.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/01Proveedores\/Bermellón.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75408,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Bermellón.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Bermellón.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/01Proveedores\/Elementotres.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 131072,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Elementotres.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Elementotres.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/01Proveedores\/Eternity Diam.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 188561,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Eternity Diam.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Eternity Diam.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/01Proveedores\/feat_elem_tres.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 378410,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/feat_elem_tres.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/feat_elem_tres.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/01Proveedores\/feat_lunas_miel.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 367909,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/feat_lunas_miel.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/feat_lunas_miel.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/01Proveedores\/feat_mon_amour.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 265923,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/feat_mon_amour.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/feat_mon_amour.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/01Proveedores\/Liverpool.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.7216e+06,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Liverpool.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Liverpool.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/01Proveedores\/Lunas de miel.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6.67166e+06,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Lunas de miel.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Lunas de miel.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/01Proveedores\/mduran-(1).jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 376323,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/mduran-(1).jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/mduran-(1).jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/01Proveedores\/Mona Mour.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 787502,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Mona Mour.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Mona Mour.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/01Proveedores\/Samuel Catherine.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 390873,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Samuel Catherine.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Samuel Catherine.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/01Proveedores\/Vinoteca.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.64228e+06,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Vinoteca.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Vinoteca.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
