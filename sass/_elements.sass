@@ -195,7 +195,7 @@ a
 /* Forms */
 
 form
-	input, select, textarea, select option
+	input[type=text], input[type=submit], select, textarea, select option
 		@extend .asap
 		width: 100%
 		display: block
@@ -239,6 +239,10 @@ form
 			text-rendering: auto
 			-webkit-font-smoothing: antialiased
 			-moz-osx-font-smoothing: grayscale
+form
+	input[type=checkbox]
+		margin-bottom: 2em
+
 
 .disclaimer
 	@include span(6 at 4 of 12 isolate)

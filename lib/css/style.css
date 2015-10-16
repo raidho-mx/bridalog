@@ -93,7 +93,7 @@ table {
   font-family: FontAwesome;
   src: url(../fonts/FontAwesome.otf) format("opentype"); }
 /* line 11, ../../sass/_type.sass */
-.asap, .squared_btns a, #top_menu, #bottom_menu, #breadcrumbs_search_combo div, #search_bar form input, form input, form select, form textarea, form select option, .product_slider .product_slide .product_description p, .share_btns a, .mag_categories a {
+.asap, .squared_btns a, #top_menu, #bottom_menu, #breadcrumbs_search_combo div, #search_bar form input, form input[type=text], form input[type=submit], form select, form textarea, form select option, .product_slider .product_slide .product_description p, .share_btns a, .mag_categories a {
   font-family: "Asap", sans-serif; }
 
 /* line 13, ../../sass/_type.sass */
@@ -682,7 +682,7 @@ a {
 
 /* Forms */
 /* line 198, ../../sass/_elements.sass */
-form input, form select, form textarea, form select option {
+form input[type=text], form input[type=submit], form select, form textarea, form select option {
   width: 100%;
   display: block;
   margin-bottom: 1em;
@@ -698,7 +698,7 @@ form input, form select, form textarea, form select option {
   appearance: none;
   border-radius: 0; }
   /* line 214, ../../sass/_elements.sass */
-  form input.required, form select.required, form textarea.required, form select option.required {
+  form input[type=text].required, form input[type=submit].required, form select.required, form textarea.required, form select option.required {
     border-left: 2px solid #ef6681; }
 /* line 216, ../../sass/_elements.sass */
 form button, form input[type=submit] {
@@ -731,6 +731,10 @@ form button, form input[type=submit] {
     -moz-osx-font-smoothing: grayscale; }
 
 /* line 243, ../../sass/_elements.sass */
+form input[type=checkbox] {
+  margin-bottom: 2em; }
+
+/* line 247, ../../sass/_elements.sass */
 .disclaimer {
   width: 49.1525423729%;
   float: left;
@@ -1207,7 +1211,14 @@ ul.thumbs_list li div:last-child {
   width: 32.2033898305%;
   float: left;
   margin-left: 59.3220338983%;
-  margin-right: -100%; }
+  margin-right: -100%;
+  padding: 1em 2em; }
+
+/* line 309, ../../sass/sections.sass */
+.login_cta {
+  border-top: 1px solid #f0f0f0;
+  padding-top: 2em;
+  margin-top: 2em; }
 
 /* Magazine */
 /* line 3, ../../sass/_magazine.sass */
