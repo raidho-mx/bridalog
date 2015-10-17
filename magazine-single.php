@@ -9,7 +9,7 @@ Magazine Template
 
 <div class="mag_single">
 
-<div class="image_cover" style="background-image: url('lib/img/sample_imgs/04Magazine/01Single/00.jpg')"></div>
+<div class="image_cover_light" style="background-image: url('lib/img/sample_imgs/04Magazine/01Single/00.jpg')"></div>
 
 <div class="wrap">
 	<div class="body_sidebar_combo group">

@@ -462,13 +462,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/lib\/img\/sample_imgs\/01Proveedores\/liverpool.jpg": {
+	"\/lib\/img\/sample_imgs\/01Proveedores\/Liverpool.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1.7216e+06,
-		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/liverpool.jpg",
-		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/liverpool.jpg",
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Liverpool.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Liverpool.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -506,13 +506,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/lib\/img\/sample_imgs\/01Proveedores\/vinoteca.jpg": {
+	"\/lib\/img\/sample_imgs\/01Proveedores\/Vinoteca.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3.64228e+06,
-		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/vinoteca.jpg",
-		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/vinoteca.jpg",
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Vinoteca.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/01Proveedores\/Vinoteca.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
