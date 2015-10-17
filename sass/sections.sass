@@ -262,22 +262,13 @@ ul.thumbs_list li
 
 /* Portadas para secciones informativas */
 
-.image_cover
+.image_cover, .image_cover_light
 	height: 80vh
 	background-size: cover
 	background-repeat: no-repeat
 	background-position: center
 	text-align: center
 	position: relative
-	&:before
-		content: ''
-		position: absolute
-		top: 0
-		right: 0
-		bottom: 0
-		left: 0
-		background-image: linear-gradient(to bottom right,#1a1a1a,#2a2a2a)
-		opacity: .5
 	.cover_text
 		position: absolute
 		display: table
@@ -287,6 +278,16 @@ ul.thumbs_list li
 			display: table-cell
 			vertical-align: middle
 			text-align: center
+
+.image_cover:before
+	content: ''
+	position: absolute
+	top: 0
+	right: 0
+	bottom: 0
+	left: 0
+	background-image: linear-gradient(to bottom right,#1a1a1a,#2a2a2a)
+	opacity: .5
 
 
 /* Services */

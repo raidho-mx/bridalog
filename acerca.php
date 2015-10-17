@@ -7,7 +7,7 @@ Contact Template
 
 <?php include 'inc/header.php' ?>
 
-<div class="image_cover" style="background-image: url('lib/img/cover-back-contacto.png')">
+<div class="image_cover_light" style="background-image: url('lib/img/cover-back-contacto.png')">
 	<div class="wrap">
 		<div class="cover_text">
 			<h1>Bridalog es el catálogo para bodas hecho a la medida.</h1>
