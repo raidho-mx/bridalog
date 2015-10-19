@@ -666,6 +666,7 @@ a {
   text-align: center; }
   /* line 179, ../../sass/_elements.sass */
   .bottom_pager ul li {
+    font-family: "Asap", sans-serif;
     display: inline-block;
     padding: 1em;
     margin-right: 0.5em;
@@ -673,21 +674,21 @@ a {
     background-color: #ef6681;
     color: #ffffff;
     cursor: pointer; }
-    /* line 187, ../../sass/_elements.sass */
+    /* line 188, ../../sass/_elements.sass */
     .bottom_pager ul li:hover {
       background-color: #cbcbcb; }
-    /* line 189, ../../sass/_elements.sass */
+    /* line 190, ../../sass/_elements.sass */
     .bottom_pager ul li a {
       padding: 10px;
       width: 100%; }
 
 /* Search Banner */
-/* line 195, ../../sass/_elements.sass */
+/* line 196, ../../sass/_elements.sass */
 #search_banner {
   background-color: #ffffff; }
 
 /* Forms */
-/* line 202, ../../sass/_elements.sass */
+/* line 203, ../../sass/_elements.sass */
 form input[type=text], form input[type=submit], form select, form textarea, form select option {
   width: 100%;
   display: block;
@@ -703,10 +704,10 @@ form input[type=text], form input[type=submit], form select, form textarea, form
   -moz-appearance: none;
   appearance: none;
   border-radius: 0; }
-  /* line 218, ../../sass/_elements.sass */
+  /* line 219, ../../sass/_elements.sass */
   form input[type=text].required, form input[type=submit].required, form select.required, form textarea.required, form select option.required {
     border-left: 2px solid #ef6681; }
-/* line 220, ../../sass/_elements.sass */
+/* line 221, ../../sass/_elements.sass */
 form button, form input[type=submit] {
   width: auto;
   font-size: 1em;
@@ -722,10 +723,10 @@ form button, form input[type=submit] {
   border: none;
   text-shadow: none;
   opacity: 0.8; }
-  /* line 235, ../../sass/_elements.sass */
+  /* line 236, ../../sass/_elements.sass */
   form button:hover, form input[type=submit]:hover {
     opacity: 1; }
-  /* line 237, ../../sass/_elements.sass */
+  /* line 238, ../../sass/_elements.sass */
   form button::before, form input[type=submit]::before {
     content: "";
     padding-right: 0.5em;
@@ -736,11 +737,11 @@ form button, form input[type=submit] {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
 
-/* line 247, ../../sass/_elements.sass */
+/* line 248, ../../sass/_elements.sass */
 form input[type=checkbox] {
   margin-bottom: 2em; }
 
-/* line 251, ../../sass/_elements.sass */
+/* line 252, ../../sass/_elements.sass */
 .disclaimer {
   width: 49.1525423729%;
   float: left;
