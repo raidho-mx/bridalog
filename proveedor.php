@@ -67,7 +67,7 @@ Contact Template
 			<div><img src="lib/img/sample_imgs/02ProveedoresBerm/from_mag.jpg" alt=""></div>
 			<div>
 				<h4 class="asap gray_medium">Desde el Magazine</h4>
-				<h3>Evento Bridalog en Bermellón</h3>
+				<h3><a href="#">Evento Bridalog en Bermellón</a></h3>
 			</div>
 		</div>
 

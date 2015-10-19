@@ -43,8 +43,8 @@ Magazine Template
 			<div class="mag_content_related group white_bg">
 				<div><img src="lib/img/sample_imgs/04Magazine/01Single/03.jpg" alt=""></div>
 				<div>
-					<h4 class="asap gray_medium">SIguiente Artículo:</h4>
-					<h3>10 Alimentos esenciales para estar Fit el dia de tu boda.</h3>
+					<h4 class="asap gray_medium">Siguiente Artículo:</h4>
+					<h3><a href="#">10 Alimentos esenciales para estar Fit el dia de tu boda.</a></h3>
 				</div>
 			</div>
 
