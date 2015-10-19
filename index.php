@@ -12,36 +12,36 @@ Index Template
 	<h3>Estás buscando "Vestidos" en Bridalog</h3>
 
 	<!-- Main search results -->
-	<ul class="basic_grid three_col_grid">
+	<ul class="basic_grid three_col_grid prov_list_main">
 		<li><a href="#">
-				<img src="http://lorempixel.com/640/640/city" alt="">
-				<p class="asap gray_medium">Categoría</p>
-				<h4>Producto<span> por Proveedor</span></h4>
+				<div style="background-image: url(lib/img/sample_imgs/03Categoria/vestido.jpg)"></div>
+				<p class="asap gray_medium">Vestidos & Accesorios</p>
+				<h4>Fresno por<span> Gigi Novias</span></h4>
 			</a></li>
 		<li><a href="#">
-				<img src="http://lorempixel.com/640/640/city" alt="">
-				<p class="asap gray_medium">Categoría</p>
-				<h4>Producto<span> por Proveedor</span></h4>
+			<div style="background-image: url(lib/img/sample_imgs/03Categoria/vestido2.jpg)"></div>
+			<p class="asap gray_medium">Vestidos & Accesorios</p>
+			<h4>Vestido blanco por<span> Honom Hennés</span></h4>
 			</a></li>
 		<li><a href="#">
-				<img src="http://lorempixel.com/640/640/city" alt="">
-				<p class="asap gray_medium">Categoría</p>
-				<h4>Producto<span> por Proveedor</span></h4>
+			<div style="background-image: url(lib/img/sample_imgs/03Categoria/vestido3.jpg)"></div>
+			<p class="asap gray_medium">Vestidos & Accesorios</p>
+			<h4>Kerry por<span> Gigi Novias</span></h4>
 			</a></li>
 		<li><a href="#">
-				<img src="http://lorempixel.com/640/640/city" alt="">
-				<p class="asap gray_medium">Categoría</p>
-				<h4>Producto<span> por Proveedor</span></h4>
+			<div style="background-image: url(lib/img/sample_imgs/03Categoria/vestido4.jpg)"></div>
+			<p class="asap gray_medium">Vestidos & Accesorios</p>
+			<h4>Allegra por<span> Gigi Novias</span></h4>
 			</a></li>
 		<li><a href="#">
-				<img src="http://lorempixel.com/640/640/city" alt="">
-				<p class="asap gray_medium">Categoría</p>
-				<h4>Producto<span> por Proveedor</span></h4>
+			<div style="background-image: url(lib/img/sample_imgs/03Categoria/vestido5.jpg)"></div>
+			<p class="asap gray_medium">Vestidos & Accesorios</p>
+			<h4>Vestidos Blancos por<span> Honom Hennés</span></h4>
 			</a></li>
 		<li><a href="#">
-				<img src="http://lorempixel.com/640/640/city" alt="">
-				<p class="asap gray_medium">Categoría</p>
-				<h4>Producto<span> por Proveedor</span></h4>
+			<div style="background-image: url(lib/img/sample_imgs/03Categoria/vestido6.jpg)"></div>
+			<p class="asap gray_medium">Vestidos & Accesorios</p>
+			<h4>Kerry por<span> Gigi Novias</span></h4>
 			</a></li>
 	</ul>
 
@@ -94,27 +94,7 @@ Index Template
 		</ul>
 	</div>
 
-	<!-- Destacados en el Catálogo -->
-	<div class="center_titles">
-		<h3 class="asap blue">Destacados en el Catálogo</h3>
-		<ul class="basic_grid three_col_grid">
-			<li><a href="#">
-					<img src="http://lorempixel.com/640/640/city" alt="">
-					<p class="asap gray_medium">Categoría</p>
-					<h4>Proveedor</span></h4>
-				</a></li>
-			<li><a href="#">
-					<img src="http://lorempixel.com/640/640/city" alt="">
-					<p class="asap gray_medium">Categoría</p>
-					<h4>Proveedor</span></h4>
-				</a></li>
-			<li><a href="#">
-					<img src="http://lorempixel.com/640/640/city" alt="">
-					<p class="asap gray_medium">Categoría</p>
-					<h4>Proveedor</span></h4>
-				</a></li>
-		</ul>
-	</div>
+	<?php include 'inc/feat_catalogo.php' ?>
 
 	<!-- Más proveedores -->
 	<div class="center_titles">
