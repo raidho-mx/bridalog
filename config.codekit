@@ -56,6 +56,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/inc\/menu_iconos.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/inc\/menu_iconos.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/inc\/prov_logos.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -83,11 +92,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/inc\/top-menu.php": {
+	"\/inc\/top_menu.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/inc\/top-menu.php",
+		"inputAbbreviatedPath": "\/inc\/top_menu.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -539,57 +548,57 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas fotos postres\/mas_1.jpg": {
+	"\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas_postres\/mas_1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 18987,
-		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas fotos postres\/mas_1.jpg",
-		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas fotos postres\/mas_1.jpg",
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas_postres\/mas_1.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas_postres\/mas_1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas fotos postres\/mas_2.jpg": {
+	"\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas_postres\/mas_2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 52977,
-		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas fotos postres\/mas_2.jpg",
-		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas fotos postres\/mas_2.jpg",
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas_postres\/mas_2.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas_postres\/mas_2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas fotos postres\/mas_3.jpg": {
+	"\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas_postres\/mas_3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 186350,
-		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas fotos postres\/mas_3.jpg",
-		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas fotos postres\/mas_3.jpg",
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas_postres\/mas_3.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas_postres\/mas_3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas fotos postres\/mas_4.jpg": {
+	"\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas_postres\/mas_4.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 371855,
-		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas fotos postres\/mas_4.jpg",
-		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas fotos postres\/mas_4.jpg",
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas_postres\/mas_4.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas_postres\/mas_4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas fotos postres\/mas_5.png": {
+	"\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas_postres\/mas_5.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 125496,
-		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas fotos postres\/mas_5.png",
-		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas fotos postres\/mas_5.png",
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas_postres\/mas_5.png",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/02ProveedoresBerm\/mas_postres\/mas_5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -689,6 +698,83 @@
 		"initialSize": 133365,
 		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/02ProveedoresBerm\/profile.jpg",
 		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/02ProveedoresBerm\/profile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/03Categoria\/vestido.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 385510,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/03Categoria\/vestido.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/03Categoria\/vestido.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/03Categoria\/vestido2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 579273,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/03Categoria\/vestido2.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/03Categoria\/vestido2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/03Categoria\/vestido3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 513322,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/03Categoria\/vestido3.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/03Categoria\/vestido3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/03Categoria\/vestido4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 303116,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/03Categoria\/vestido4.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/03Categoria\/vestido4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/03Categoria\/vestido5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 394812,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/03Categoria\/vestido5.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/03Categoria\/vestido5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/03Categoria\/vestido6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 885626,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/03Categoria\/vestido6.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/03Categoria\/vestido6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/03Categoria\/vestido7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 434724,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/03Categoria\/vestido7.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/03Categoria\/vestido7.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1140,6 +1226,72 @@
 		"initialSize": 194734,
 		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/login_welcome.png",
 		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/login_welcome.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/sidebar\/sidebar_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 234419,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/sidebar\/sidebar_1.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/sidebar\/sidebar_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/sidebar\/sidebar_2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 352471,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/sidebar\/sidebar_2.png",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/sidebar\/sidebar_2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/sidebar\/sidebar_3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48150,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/sidebar\/sidebar_3.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/sidebar\/sidebar_3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/sidebar\/sidebar_4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55504,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/sidebar\/sidebar_4.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/sidebar\/sidebar_4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/sidebar\/sidebar_5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 119758,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/sidebar\/sidebar_5.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/sidebar\/sidebar_5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/sample_imgs\/sidebar\/sidebar_7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80127,
+		"inputAbbreviatedPath": "\/lib\/img\/sample_imgs\/sidebar\/sidebar_7.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/sample_imgs\/sidebar\/sidebar_7.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

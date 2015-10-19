@@ -609,7 +609,7 @@ a {
   /* line 135, ../../sass/_elements.sass */
   #breadcrumbs_search_combo div {
     border: 1px solid #f0f0f0;
-    min-height: 3.7em;
+    min-height: 3em;
     background-color: #ffffff; }
 
 /* line 141, ../../sass/_elements.sass */
@@ -648,17 +648,20 @@ a {
       border: none;
       background: none;
       padding: 0 1.5em; }
-  /* line 165, ../../sass/_elements.sass */
+      /* line 165, ../../sass/_elements.sass */
+      #search_bar form input[type=text] {
+        margin-bottom: 0; }
+  /* line 167, ../../sass/_elements.sass */
   #search_bar img {
     width: 21.0526315789%;
     float: right;
     margin-right: 0; }
 
 /* Pager */
-/* line 172, ../../sass/_elements.sass */
+/* line 174, ../../sass/_elements.sass */
 .bottom_pager {
   text-align: center; }
-  /* line 175, ../../sass/_elements.sass */
+  /* line 177, ../../sass/_elements.sass */
   .bottom_pager ul li {
     display: inline-block;
     padding: 1em;
@@ -667,21 +670,21 @@ a {
     background-color: #ef6681;
     color: #ffffff;
     cursor: pointer; }
-    /* line 183, ../../sass/_elements.sass */
+    /* line 185, ../../sass/_elements.sass */
     .bottom_pager ul li:hover {
       background-color: #cbcbcb; }
-    /* line 185, ../../sass/_elements.sass */
+    /* line 187, ../../sass/_elements.sass */
     .bottom_pager ul li a {
       padding: 10px;
       width: 100%; }
 
 /* Search Banner */
-/* line 191, ../../sass/_elements.sass */
+/* line 193, ../../sass/_elements.sass */
 #search_banner {
   background-color: #ffffff; }
 
 /* Forms */
-/* line 198, ../../sass/_elements.sass */
+/* line 200, ../../sass/_elements.sass */
 form input[type=text], form input[type=submit], form select, form textarea, form select option {
   width: 100%;
   display: block;
@@ -697,10 +700,10 @@ form input[type=text], form input[type=submit], form select, form textarea, form
   -moz-appearance: none;
   appearance: none;
   border-radius: 0; }
-  /* line 214, ../../sass/_elements.sass */
+  /* line 216, ../../sass/_elements.sass */
   form input[type=text].required, form input[type=submit].required, form select.required, form textarea.required, form select option.required {
     border-left: 2px solid #ef6681; }
-/* line 216, ../../sass/_elements.sass */
+/* line 218, ../../sass/_elements.sass */
 form button, form input[type=submit] {
   width: auto;
   font-size: 1em;
@@ -716,10 +719,10 @@ form button, form input[type=submit] {
   border: none;
   text-shadow: none;
   opacity: 0.8; }
-  /* line 231, ../../sass/_elements.sass */
+  /* line 233, ../../sass/_elements.sass */
   form button:hover, form input[type=submit]:hover {
     opacity: 1; }
-  /* line 233, ../../sass/_elements.sass */
+  /* line 235, ../../sass/_elements.sass */
   form button::before, form input[type=submit]::before {
     content: "";
     padding-right: 0.5em;
@@ -730,11 +733,11 @@ form button, form input[type=submit] {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
 
-/* line 243, ../../sass/_elements.sass */
+/* line 245, ../../sass/_elements.sass */
 form input[type=checkbox] {
   margin-bottom: 2em; }
 
-/* line 247, ../../sass/_elements.sass */
+/* line 249, ../../sass/_elements.sass */
 .disclaimer {
   width: 49.1525423729%;
   float: left;

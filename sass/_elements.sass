@@ -134,7 +134,7 @@ a
 	height: 3em
 	div
 		border: 1px solid $border_color
-		min-height: 3.7em
+		min-height: 3em
 		background-color: $white
 		@extend .small_p
 		@extend .asap
@@ -162,6 +162,8 @@ a
 			padding: 0 1.5em
 			@extend .asap
 			@extend .small_p
+			&[type=text]
+				margin-bottom: 0
 	img
 		@include span(1 of 4 last)
 
