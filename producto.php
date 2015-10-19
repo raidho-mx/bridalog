@@ -24,18 +24,18 @@ Contact Template
 			</div>
 			<div class="product_pictures group">
 				<div class="feat_picture">
-					<img src="http://lorempixel.com/640/520/city" alt="">
+					<img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod7.jpg" alt="">
 				</div>
 				<div class="product_thumbs">
 					<ul>
 						<li>
-							<a href="#"><img src="http://lorempixel.com/80/80/city"></a>
+							<a href="#"><img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod1.jpg"></a>
 						</li><li>
-							<a href="#"><img src="http://lorempixel.com/80/80/city"></a>
+							<a href="#"><img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod2.jpg"></a>
 						</li><li>
-							<a href="#"><img src="http://lorempixel.com/80/80/city"></a>
+							<a href="#"><img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod3.jpg"></a>
 						</li><li>
-							<a href="#"><img src="http://lorempixel.com/80/80/city"></a>
+							<a href="#"><img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod4.jpg"></a>
 						</li>
 					</ul>
 				</div>
@@ -59,47 +59,47 @@ Contact Template
 			<div class="more_from_prov">
 				<h4 class="asap">Más Productos de Bermellón</h4>
 				<!-- Main search results -->
-				<ul class="prov_products_slim basic_grid">
+				<ul class="prov_products_slim basic_grid prov_list_main">
 					<li><a href="#">
-							<img src="http://lorempixel.com/640/640/city" alt="">
+							<div style="background-image: url(lib/img/sample_imgs/02ProveedoresBerm/Productos/prod1.jpg)"></div>
 							<p>
-								<span class="asap gray_medium">Categoría</span>
-								<br>Producto
+								<span class="asap gray_medium">Mesa de Postres</span>
+								<br>Postres Clásicos Bermellón
 							</p>
 						</a></li>
 					<li><a href="#">
-							<img src="http://lorempixel.com/640/640/city" alt="">
+							<div style="background-image: url(lib/img/sample_imgs/02ProveedoresBerm/Productos/prod2.jpg)"></div>
 							<p>
-								<span class="asap gray_medium">Categoría</span>
-								<br>Producto
+								<span class="asap gray_medium">Mesa de Postres</span>
+								<br>Postres Clásicos Bermellón
 							</p>
 						</a></li>
 					<li><a href="#">
-							<img src="http://lorempixel.com/640/640/city" alt="">
+							<div style="background-image: url(lib/img/sample_imgs/02ProveedoresBerm/Productos/prod3.jpg)"></div>
 							<p>
-								<span class="asap gray_medium">Categoría</span>
-								<br>Producto
+								<span class="asap gray_medium">Mesa de Postres</span>
+								<br>Postres Clásicos Bermellón
 							</p>
 						</a></li>
 					<li><a href="#">
-							<img src="http://lorempixel.com/640/640/city" alt="">
+							<div style="background-image: url(lib/img/sample_imgs/02ProveedoresBerm/Productos/prod4.jpg)"></div>
 							<p>
-								<span class="asap gray_medium">Categoría</span>
-								<br>Producto
+								<span class="asap gray_medium">Mesa de Postres</span>
+								<br>Postres Clásicos Bermellón
 							</p>
 						</a></li>
 					<li><a href="#">
-							<img src="http://lorempixel.com/640/640/city" alt="">
+							<div style="background-image: url(lib/img/sample_imgs/02ProveedoresBerm/Productos/prod5.jpg)"></div>
 							<p>
-								<span class="asap gray_medium">Categoría</span>
-								<br>Producto
+								<span class="asap gray_medium">Mesa de Postres</span>
+								<br>Postres Clásicos Bermellón
 							</p>
 						</a></li>
 					<li><a href="#">
-							<img src="http://lorempixel.com/640/640/city" alt="">
+							<div style="background-image: url(lib/img/sample_imgs/02ProveedoresBerm/Productos/prod6.jpg)"></div>
 							<p>
-								<span class="asap gray_medium">Categoría</span>
-								<br>Producto
+								<span class="asap gray_medium">Mesa de Postres</span>
+								<br>Postres Clásicos Bermellón
 							</p>
 						</a></li>
 				</ul>
@@ -118,31 +118,31 @@ Contact Template
 			<div>
 				<h4 class="asap">Productos de Proveedores Similares</h4>
 				<!-- Main search results -->
-				<ul class="prov_products_slim basic_grid">
+				<ul class="prov_products_slim basic_grid prov_list_main">
 					<li><a href="#">
-							<img src="http://lorempixel.com/640/640/city" alt="">
-							<p>
-								<span class="asap blue">Nombre Proveedor</span>
-								</br><span class="asap gray_medium">Categoría</span>
-								</br>Producto
-							</p>
-						</a></li>
+						<div style="background-image: url(lib/img/sample_imgs/02ProveedoresBerm/mas_postres/mas_1.jpg)"></div>
+						<p>
+							<span class="asap blue">Nombre Proveedor</span>
+							<br/><span class="asap gray_medium">Mesa de Postres</span>
+							<br>Más Postres
+						</p>
+					</a></li>
 					<li><a href="#">
-							<img src="http://lorempixel.com/640/640/city" alt="">
-							<p>
-								<span class="asap blue">Nombre Proveedor</span>
-								</br><span class="asap gray_medium">Categoría</span>
-								</br>Producto
-							</p>
-						</a></li>
+						<div style="background-image: url(lib/img/sample_imgs/02ProveedoresBerm/mas_postres/mas_2.jpg)"></div>
+						<p>
+							<span class="asap blue">Nombre Proveedor</span>
+							<br/><span class="asap gray_medium">Mesa de Postres</span>
+							<br>Más Postres
+						</p>
+					</a></li>
 					<li><a href="#">
-							<img src="http://lorempixel.com/640/640/city" alt="">
-							<p>
-								<span class="asap blue">Nombre Proveedor</span>
-								</br><span class="asap gray_medium">Categoría</span>
-								</br>Producto
-							</p>
-						</a></li>
+						<div style="background-image: url(lib/img/sample_imgs/02ProveedoresBerm/mas_postres/mas_3.jpg)"></div>
+						<p>
+							<span class="asap blue">Nombre Proveedor</span>
+							<br/><span class="asap gray_medium">Mesa de Postres</span>
+							<br>Más Postres
+						</p>
+					</a></li>
 				</ul>
 
 			</div>
