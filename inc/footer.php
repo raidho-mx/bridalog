@@ -16,12 +16,12 @@ Footer Template
 
 					<a class="toggleMenu" href="#">Menu</a>
 					<ul class="nav">
-						<li><a href="#">Proveedores</a>
-						<li><a href="#">Servicios</a></li>
-						<li><a href="#">Magazine</a></li>
-						<li><a href="#">Acerca</a></li>
-						<li><a href="#">Contacto</a></li>
-						<li><a href="#">Acceder</a></li>
+						<li><a href="proveedores.php">Proveedores</a>
+						<li><a href="servicios.php">Servicios</a></li>
+						<li><a href="magazine.php">Magazine</a></li>
+						<li><a href="acerca.php">Acerca</a></li>
+						<li><a href="contacto.php">Contacto</a></li>
+						<li><a href="login.php">Acceder</a></li>
 					</ul>
 
 				</div>
