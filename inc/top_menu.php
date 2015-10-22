@@ -15,8 +15,7 @@ Top Navigation Template
 
 		<a class="toggleMenu" href="#">Menu</a>
 		<ul class="nav">
-			<li><a id="icon_grid_toggl" href="#">Cats</a>
-			<li><a href="proveedores.php">Proveedores</a>
+			<li><a id="icon_grid_toggl" href="#">Proveedores</a>
 			<li><a href="proveedor.php">S.-Prov.</a>
 			<li><a href="producto.php">S.-Prod.</a>
 			<li><a href="servicios.php">Servicios</a></li>
@@ -33,23 +32,13 @@ Top Navigation Template
 <div id="top_menu_toggl">
 	<!-- Listado de categorías (íconos) -->
 	<div class="wrap">
-		<?php include 'inc/menu_iconos.php' ?>
+		<?php include 'inc/menu_iconos.php'; ?>
 	</div>
 </div>
 
-<div class="wrap">
-	<div id="breadcrumbs_search_combo">
-		<div id="breadcrumbs">
-			<ul>
-				<li class="habano"><a href="#">B</a></li>
-				<li><a href="#">Inicio</a></li>
-				<li><a href="#">Búsqueda</a></li>
-				<li><a href="#">Vestidos</a></li>
-			</ul>
-		</div>
-		<div id="search_bar">
-			<form action=""><input type="text" placeholder="Busca Arreglos de Flores"></form>
-			<img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod2.jpg" alt="">
-		</div>
-	</div>
-</div>
+<?php
+	$curr_page_name = str_replace(".php", "", basename($_SERVER['PHP_SELF']));
+	if ($curr_page_name != 'index') {
+		include 'inc/breadcrumbs_search.php';
+	};
+?>

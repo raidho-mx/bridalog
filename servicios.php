@@ -42,7 +42,7 @@ Contact Template
 	</div>
 </div> <!--Wrap -->
 
-<?php include 'prov_logos.php' ?>
+<?php include 'inc/prov_logos.php' ?>
 
 <div class="gray_bg full_width">
 	<div class="wrap center_titles">
