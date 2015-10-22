@@ -5,7 +5,7 @@ Include redes sociales
 */
 ?>
 
-<div class="white_bg full_width centered_section">
+<div class="white_bg full_width centered_section" id="social_media">
 	<div class="wrap">
 		<h3 class="asap">Bridalog en Redes Sociales</h3>
 		<ul class="insta_feed basic_grid four_col_grid">

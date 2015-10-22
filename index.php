@@ -6,6 +6,7 @@ Index Template
 ?>
 
 <?php include 'inc/header.php' ?>
+<div id="home">
 
 <div class="image_cover_light" style="background-image: url('lib/img/cover-back-contacto.png')">
 	<div class="wrap">
@@ -24,8 +25,10 @@ Index Template
 
 <div class="wrap">
 
-	<h1 class="habano">Nuestros Proveedores <br/> Destacados</h1>
-	<?php include 'inc/prov_main_list.php' ?>
+	<div class="center_titles">
+		<h1 class="habano">Nuestros Proveedores <br/> Destacados</h1>
+		<?php include 'inc/prov_main_list.php' ?>
+	</div>
 
 	<!-- Listado de categorías (íconos) -->
 	<div class="center_titles">
@@ -38,6 +41,10 @@ Index Template
 		<h3 class="asap blue">Desde el Magazine de Bridalog</h3>
 		<div class="home_mag_slider">
 			<div class="home_mag_slider_slide" style="background-image: url(lib/img/home_mag_feat.jpg)">
+				<div class="prod_nav">
+					<a href="" class="prod_left"><span class="font_awesome"></span></a>
+					<a href="" class="prod_right"><span class="font_awesome"></span></a>
+				</div>
 				<div class="bottom_text">
 					<p class="asap">Evento</p>
 					<h3>Bridalog y O Spa presentan: Spa Day</span></h3>
@@ -82,4 +89,6 @@ Index Template
 </div> <!--Wrap -->
 
 <?php include 'inc/social_media.php' ?>
+
+</div> <!-- Termina #home -->
 <?php include 'inc/footer.php' ?>

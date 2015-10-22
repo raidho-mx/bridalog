@@ -28,9 +28,12 @@
 	.home_newsletter
 		@include span(3 of 12 last)
 		height: 28em
-		background-color: $green
+		background-color: $green_dark
 		padding: 1em
 		color: white
+		input[type=submit]
+			background-color: $green_darkest
+			width: 100%
 
 .home_mag_slider_slide
 	padding: 3em
@@ -39,6 +42,9 @@
 		width: span(4 of 12)
 		position: absolute
 		bottom: 0
+
+#home #social_media
+	margin-bottom: 0
 
 /* Acerca */
 
@@ -195,32 +201,36 @@ ul.thumbs_list li
 				@extend .asap
 			p:first-child
 				margin: 0
-		.prod_nav
-			a
-				position: absolute
-				top: 40%
-				background-color: $gray_dark
-				color: $white
-				font-size: 3em
-				line-height: 50%
-				padding: .4em .5em
-				border-radius: 1em
-				text-align: center
-				opacity: .6
-				&:hover
-					opacity: 1
-				&.prod_left
-					left: -.7em
-					span
-						right: .05em
-						top: .05em
-						position: relative
-				&.prod_right
-					right: -.7em
-					span
-						left: .05em
-						top: .05em
-						position: relative
+
+
+// Flechas reutilizabes en varios sliders:
+// Single Producto, Home Mag Feat, Caso de Estudio en Servicios
+.prod_nav
+	a
+		position: absolute
+		top: 40%
+		background-color: $gray_dark
+		color: $white
+		font-size: 3em
+		line-height: 50%
+		padding: .4em .5em
+		border-radius: 1em
+		text-align: center
+		opacity: .6
+		&:hover
+			opacity: 1
+		&.prod_left
+			left: -.7em
+			span
+				right: .05em
+				top: .05em
+				position: relative
+		&.prod_right
+			right: -.7em
+			span
+				left: .05em
+				top: .05em
+				position: relative
 
 
 .slider_title
