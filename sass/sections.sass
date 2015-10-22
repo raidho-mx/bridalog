@@ -17,6 +17,29 @@
 .gray_bg
 	background-color: $gray_light
 
+/* Home */
+
+.home_mag
+	color: white
+	.home_mag_slider
+		@include span(8 of 12)
+		height: 28em
+		position: relative
+	.home_newsletter
+		@include span(3 of 12 last)
+		height: 28em
+		background-color: $green
+		padding: 1em
+		color: white
+
+.home_mag_slider_slide
+	padding: 3em
+	height: 100%
+	.bottom_text
+		width: span(4 of 12)
+		position: absolute
+		bottom: 0
+
 /* Acerca */
 
 ul.about_pitch

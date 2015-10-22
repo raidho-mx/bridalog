@@ -29,6 +29,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/inc\/breadcrumbs_search.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/inc\/breadcrumbs_search.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/inc\/feat_catalogo.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -70,6 +79,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/inc\/prov_logos.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/inc\/prov_main_list.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/inc\/prov_main_list.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -148,6 +166,17 @@
 		"initialSize": 641170,
 		"inputAbbreviatedPath": "\/lib\/img\/cover-back-contacto.png",
 		"outputAbbreviatedPath": "\/lib\/img\/cover-back-contacto.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/img\/home_mag_feat.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17929,
+		"inputAbbreviatedPath": "\/lib\/img\/home_mag_feat.jpg",
+		"outputAbbreviatedPath": "\/lib\/img\/home_mag_feat.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1537,6 +1566,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": false
+		},
+	"\/search.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/search.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/servicios.php": {
 		"fileType": 8192,
