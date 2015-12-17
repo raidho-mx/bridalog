@@ -18,7 +18,7 @@ Contact Template
 <div class="wrap inner_section_pad">
 	<div class="centered_section">
 		<div class="thin_section">
-			<h3>La manera diferente de conectar novias con proveedores para bodas.</h3>
+			<h3 class="asap">La manera diferente de conectar novias con proveedores para bodas.</h3>
 		</div>
 		<div>
 			<ul class="inline_list basic_grid about_pitch">
@@ -46,7 +46,7 @@ Contact Template
 			</div>
 			<div>
 				<h3>“Comencé Bridalog por que no había un catálogo para bodas que llenara mis expectativas”.</h3>
-				<h4>Cordelia Belden fundó Bridalog en 2012 con una meta muy clara: reunir solamente a los más importantes proveedores de servicios para bodas. Esa idea ha prevalecido desde entonces, y Bridalog se ha convertido en un espacio para encontrar y compartir ideas, tendencias y productos relacionados con las bodas más detalladas y exclusivas.</h4>
+				<h4 class="asap">Cordelia Belden fundó Bridalog en 2012 con una meta muy clara: reunir solamente a los más importantes proveedores de servicios para bodas. Esa idea ha prevalecido desde entonces, y Bridalog se ha convertido en un espacio para encontrar y compartir ideas, tendencias y productos relacionados con las bodas más detalladas y exclusivas.</h4>
 				<p>Actualmente Cordelia se encuentra expandiendo y refinando sus servicios exclusivos a novias y proveedores de bodas. Continúa creando nuevas formas de entablar conversaciones interesantes entre ambos, y de enriquecer a ambas comunidades a través de servicios a la medida — tanto en el plano  digital, como a través del contacto persona a persona.</p>
 			</div>
 		</div>
