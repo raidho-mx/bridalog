@@ -48,7 +48,7 @@ Contact Template
 <div class="wrap">
 	<div class="centered_section thin_section">
 		<div>
-			<p class="small_title">Durante los últimos 3 años, <strong>Bridalog</strong> ha crecido como una de las opciones más confiables para encontrar y dar a conocer servicios premium para bodas. <strong>Bridalog</strong> funciona gracias a su comunidad de novias participativas, así como su red selecta de proveedores líderes en sus áreas.</p>
+			<p class="small_title asap">Durante los últimos 3 años, <strong>Bridalog</strong> ha crecido como una de las opciones más confiables para encontrar y dar a conocer servicios premium para bodas. <strong>Bridalog</strong> funciona gracias a su comunidad de novias participativas, así como su red selecta de proveedores líderes en sus áreas.</p>
 		</div>
 		<div class="squared_btns">
 			<ul>
