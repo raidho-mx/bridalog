@@ -10,14 +10,12 @@ Contact Template
 <div class="prov_single">
 
 <div class="image_cover" style="background-image: url('lib/img/sample_imgs/02ProveedoresBerm/cover.jpg')">
-	<div class="wrap">
-		<div class="cover_text">
-			<div>
-				<h1 class="Habano">Bermellón</h1>
-				<img src="lib/img/icons/icon-mesapostres.png" alt="">
-				<p>Mesa de Postres <br>
-				<span>– est. 2012 –</span></p>
-			</div>
+	<div class="cover_text">
+		<div>
+			<h1 class="Habano">Bermellón</h1>
+			<img src="lib/img/icons/icon-mesapostres.png" alt="">
+			<p>Mesa de Postres <br>
+			<span>– est. 2012 –</span></p>
 		</div>
 	</div>
 </div>

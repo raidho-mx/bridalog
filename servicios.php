@@ -8,10 +8,8 @@ Contact Template
 <?php include 'inc/header.php' ?>
 
 <div class="image_cover_light" style="background-image: url('lib/img/cover-back-contacto.png')">
-	<div class="wrap">
-		<div class="cover_text">
-			<h1>Bridalog conecta a <em>los más selectos proveedores</em> con <em>las novias más exigentes</em>.</h1>
-		</div>
+	<div class="cover_text">
+		<h1>Bridalog conecta a <em>los más selectos proveedores</em> con <em>las novias más exigentes</em>.</h1>
 	</div>
 </div>
 
