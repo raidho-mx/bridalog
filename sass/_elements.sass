@@ -249,5 +249,129 @@ form
 		margin-bottom: 2em
 
 
+// Flechas reutilizabes en varios sliders:
+// Single Producto, Home Mag Feat, Caso de Estudio en Servicios
+.prod_nav
+	a
+		position: absolute
+		top: 40%
+		background-color: $gray_dark
+		color: $white
+		font-size: 3em
+		line-height: 50%
+		padding: .4em .5em
+		border-radius: 1em
+		text-align: center
+		opacity: .6
+		&:hover
+			opacity: 1
+		&.prod_left
+			left: -.7em
+			span
+				right: .05em
+				top: .05em
+				position: relative
+		&.prod_right
+			right: -.7em
+			span
+				left: .05em
+				top: .05em
+				position: relative
+
+
+.slider_title
+	padding-top: 1em
+	h2
+		margin-bottom: .2em
+	p
+		margin-bottom: -0.5em
+		margin-left: 4em
+	img
+		float: left
+
+
+.more_from_prov
+	background-color: $white
+	margin-bottom: $bottom_margins_grid
+	@include bleed(0 1em)
+	padding-top: 1em
+	padding-bottom: 1em
+
+
+/* Títulos centrados de secciones verticales */
+
+.center_titles
+	>h1, >h2, >h3, >h4
+		text-align: center
+.centered_section
+	text-align: center
+.thin_section
+	@include span(8 at 3 of 12 isolate)
+
+/* Botones redes sociales */
+
+.share_btns
+	margin-bottom: $bottom_margins
+	li
+		display: inline-block
+		width: 11em
+		margin-right: 1em
+		text-align: left
+	a
+		@extend .asap
+		display: block
+		background-color: #395799
+		color: $white
+		padding: 0.7em
+		&.btn_instagram
+			background-color: #1fa8e3
+		&.btn_pinterest
+			background-color: #ce1e1f
+		&:hover
+			opacity: 0.8
+		span
+			@extend .font_awesome
+			padding: 0 1em 0 0.5em
+.product_description .share_btns
+	position: absolute
+	bottom: 0
+	padding: 0
+	li
+		width: 4em
+		text-align: center
+		a span
+			padding: 0
+
+
+/* Portadas para secciones informativas */
+
+.image_cover, .image_cover_light
+	height: 80vh
+	background-size: cover
+	background-repeat: no-repeat
+	background-position: center
+	text-align: center
+	position: relative
+	.cover_text
+		position: absolute
+		display: table
+		height: 100%
+		@include span(isolate 8 at 3 of 12)
+		>h1, > div
+			display: table-cell
+			vertical-align: middle
+			text-align: center
+
+.image_cover:before
+	content: ''
+	position: absolute
+	top: 0
+	right: 0
+	bottom: 0
+	left: 0
+	background-image: linear-gradient(to bottom right,#1a1a1a,#2a2a2a)
+	opacity: .5
+
+
 .disclaimer
 	@include span(6 at 4 of 12 isolate)

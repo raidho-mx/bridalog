@@ -40,7 +40,9 @@ Contact Template
 	</div>
 </div> <!--Wrap -->
 
-<?php include 'inc/prov_logos.php' ?>
+<div class="pull_bottom_container">
+	<?php include 'inc/prov_logos.php' ?>
+</div>
 
 <div class="gray_bg full_width">
 	<div class="wrap center_titles">
@@ -53,7 +55,7 @@ Contact Template
 					<p class="asap">El catálogo de Bridalog es una mezcla ideal entre calidad y cantidad. Solamente trabajamos con proveedores que nos emocionan tanto como las novias que nos siguen. Con su capacidad totalmente responsiva, nuestros proveedores tienen acceso a listados en todo tipo de dispositivos.</p>
 				</div>
 				<div>
-					<img src="lib/img/sample_imgs/06servicios/case_study_1.jpg" alt="">
+						<img src="lib/img/sample_imgs/06servicios/case_study_1.jpg" alt="">
 				</div>
 			</div>
 
@@ -62,7 +64,9 @@ Contact Template
 </div>
 
 <div class="wrap">
-
+	<div class="center_titles">
+		<h3 class="asap">Membresías para Proveedores</h3>
+	</div>
 	<div class="pricing_table group">
 		<div class="base">
 			<h2 class="habano">Membresía<br> Base</h2>

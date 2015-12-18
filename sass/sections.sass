@@ -1,23 +1,6 @@
-/* Combo Cuerpo-Sidebar en algunas secciones */
-
-.body_sidebar_combo
-	.combo_body
-		@include span(9 of 12)
-		padding: 0
-	.combo_sidebar
-		@include span(3 of 12 last)
-		padding: 2em 0 0 2em
-		.sidebar_list
-			margin-bottom: $bottom_margins_grid
-
-/* Secciones con fondos de color */
-
-.white_bg
-	background-color: $white
-.gray_bg
-	background-color: $gray_light
-
-/* Home */
+//
+// Home
+//
 
 .home_mag
 	color: white
@@ -48,7 +31,9 @@
 #home #social_media
 	margin-bottom: 0
 
-/* Acerca */
+//
+// Acerca
+//
 
 ul.about_pitch
 	margin: $bottom_margins_grid 0
@@ -70,7 +55,9 @@ ul.logo_container
 		img
 			width: 100%
 
-/* Proveedores */
+//
+// Proveedores
+//
 
 .prov_list_main
 	li a > div
@@ -205,141 +192,21 @@ ul.thumbs_list li
 				margin: 0
 
 
-// Flechas reutilizabes en varios sliders:
-// Single Producto, Home Mag Feat, Caso de Estudio en Servicios
-.prod_nav
-	a
-		position: absolute
-		top: 40%
-		background-color: $gray_dark
-		color: $white
-		font-size: 3em
-		line-height: 50%
-		padding: .4em .5em
-		border-radius: 1em
-		text-align: center
-		opacity: .6
-		&:hover
-			opacity: 1
-		&.prod_left
-			left: -.7em
-			span
-				right: .05em
-				top: .05em
-				position: relative
-		&.prod_right
-			right: -.7em
-			span
-				left: .05em
-				top: .05em
-				position: relative
-
-
-.slider_title
-	padding-top: 1em
-	h2
-		margin-bottom: .2em
-	p
-		margin-bottom: -0.5em
-		margin-left: 4em
-	img
-		float: left
-
-
-.more_from_prov
-	background-color: $white
-	margin-bottom: $bottom_margins_grid
-	@include bleed(0 1em)
-	padding-top: 1em
-	padding-bottom: 1em
-
-
-/* Títulos centrados de secciones verticales */
-
-.center_titles
-	>h1, >h2, >h3, >h4
-		text-align: center
-.centered_section
-	text-align: center
-.thin_section
-	@include span(8 at 3 of 12 isolate)
-
-/* Botones redes sociales */
-
-.share_btns
-	margin-bottom: $bottom_margins
-	li
-		display: inline-block
-		width: 11em
-		margin-right: 1em
-		text-align: left
-	a
-		@extend .asap
-		display: block
-		background-color: #395799
-		color: $white
-		padding: 0.7em
-		&.btn_instagram
-			background-color: #1fa8e3
-		&.btn_pinterest
-			background-color: #ce1e1f
-		&:hover
-			opacity: 0.8
-		span
-			@extend .font_awesome
-			padding: 0 1em 0 0.5em
-.product_description .share_btns
-	position: absolute
-	bottom: 0
-	padding: 0
-	li
-		width: 4em
-		text-align: center
-		a span
-			padding: 0
-
-
-/* Portadas para secciones informativas */
-
-.image_cover, .image_cover_light
-	height: 80vh
-	background-size: cover
-	background-repeat: no-repeat
-	background-position: center
-	text-align: center
-	position: relative
-	.cover_text
-		position: absolute
-		display: table
-		height: 100%
-		@include span(isolate 8 at 3 of 12)
-		>h1, > div
-			display: table-cell
-			vertical-align: middle
-			text-align: center
-
-.image_cover:before
-	content: ''
-	position: absolute
-	top: 0
-	right: 0
-	bottom: 0
-	left: 0
-	background-image: linear-gradient(to bottom right,#1a1a1a,#2a2a2a)
-	opacity: .5
-
-
-/* Services */
+//
+// Servicios
+//
 
 .services_slider
 	.s_slide
 		@extend .group
-		width: span(10)
+		@include span(isolate 10 at 2 of 12)
 		background-color: $white
-		div:first-child
+		> div:first-child
 			@include span(5 of 10)
-		div:last-child
+		> div:last-child
 			@include span(5 of 10 last)
+				img
+					width: 100%
 		.description
 			padding: 2em
 
@@ -370,7 +237,9 @@ ul.thumbs_list li
 		ul li
 			border-color: #2c6870
 
-/* Login */
+//
+// Login
+//
 
 .login_welcome
 	@include span(4 at 2 of 12 isolate)
@@ -385,3 +254,34 @@ ul.thumbs_list li
 	border-top: 1px solid $border_color
 	padding-top: 2em
 	margin-top: 2em
+
+
+//
+// Extras (elementos en varias secciones)
+//
+
+// Combo Cuerpo-Sidebar en algunas secciones
+
+.body_sidebar_combo
+	.combo_body
+		@include span(9 of 12)
+		padding: 0
+	.combo_sidebar
+		@include span(3 of 12 last)
+		padding: 2em 0 0 2em
+		.sidebar_list
+			margin-bottom: $bottom_margins_grid
+
+// Secciones con fondos de color
+
+.white_bg
+	background-color: $white
+.gray_bg
+	background-color: $gray_light
+
+// Cinto con logos
+
+#client_logos
+	h4
+		font-size: 1em
+		color: $gray_regular
