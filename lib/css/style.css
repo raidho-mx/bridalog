@@ -1623,24 +1623,27 @@ ul.thumbs_list li div:last-child {
     .mag_article .mag_article_container img {
       width: 100%;
       margin-bottom: 1.2em; }
+    /* line 191, ../../sass/_magazine.sass */
+    .mag_article .mag_article_container ul.share_btns {
+      margin-bottom: 3em; }
 
-/* line 193, ../../sass/_magazine.sass */
+/* line 195, ../../sass/_magazine.sass */
 .mag_article .share_btns li {
   width: 4em;
   text-align: center; }
-  /* line 196, ../../sass/_magazine.sass */
+  /* line 198, ../../sass/_magazine.sass */
   .mag_article .share_btns li a span {
     padding: 0; }
 
-/* line 200, ../../sass/_magazine.sass */
+/* line 202, ../../sass/_magazine.sass */
 .mag_content_related div:first-child {
   width: 54.5454545455%;
   float: left;
   margin-right: 2.2727272727%; }
-  /* line 202, ../../sass/_magazine.sass */
+  /* line 204, ../../sass/_magazine.sass */
   .mag_content_related div:first-child img {
     width: 100%; }
-/* line 204, ../../sass/_magazine.sass */
+/* line 206, ../../sass/_magazine.sass */
 .mag_content_related div:last-child {
   width: 43.1818181818%;
   float: right;

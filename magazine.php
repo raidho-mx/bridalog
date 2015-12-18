@@ -166,7 +166,7 @@ Contact Template
 	</div>
 
 	<div class="mag_categories">
-		<h4>Explorar por categoría</h4>
+		<h4 class="asap gray_dark">Explorar por categoría</h4>
 		<ul class="cat_btns">
 			<li><a class="bridalhint" href="#">Bridalhint</a></li><li>
 			<a class="food_drinks" href="#">Food & Drink</a></li><li>
@@ -178,6 +178,24 @@ Contact Template
 			<a class="mi_look" href="#">Mi Look</a></li><li>
 		</ul>
 	</div>
+
+	<div class="wrap">
+		<div class="contact_form inner_section_pad centered_section thin_section">
+			<h4 class="asap">Suscríbete a nuestro newsletter</h4>
+			<form action="">
+			<div class="two_col_grid basic_grid group">
+				<div>
+					<input class="required" name="contacto_correo" type="text" placeholder="Tu Correo">
+				</div>
+				<div>
+					<input class="required" name="contacto_nombre" type="text" placeholder="Tu Nombre">
+				</div>
+			</div>
+			<input type="submit" name="submit" value="Enviar">
+			</form>
+			<p class="disclaimer asap gray_medium">Campos marcados en rosa son obligatorios. Al dar click en ‘Enviar tus datos’ indicas que conoces nuestras <strong><a href="#">Políticas de Privacidad</a></strong>.</p>
+		</div>
+	</div> <!--Wrap -->
 
 	<?php include 'inc/feat_catalogo.php' ?>
 
