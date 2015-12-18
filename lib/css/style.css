@@ -1491,10 +1491,10 @@ ul.thumbs_list li div:last-child {
   border-color: #ffe17d; }
   /* line 119, ../../sass/_magazine.sass */
   .mag .the_place .gradient_back {
-    background: -webkit-linear-gradient(rgba(255, 255, 125, 0), #ffff7d);
-    background: -o-linear-gradient(rgba(255, 255, 125, 0), #ffff7d);
-    background: -moz-linear-gradient(rgba(255, 255, 125, 0), #ffff7d);
-    background: linear-gradient(rgba(255, 255, 125, 0), #ffff7d); }
+    background: -webkit-linear-gradient(rgba(255, 225, 125, 0), #ffe17d);
+    background: -o-linear-gradient(rgba(255, 225, 125, 0), #ffe17d);
+    background: -moz-linear-gradient(rgba(255, 225, 125, 0), #ffe17d);
+    background: linear-gradient(rgba(255, 225, 125, 0), #ffe17d); }
     /* line 101, ../../sass/_magazine.sass */
     .mag .the_place .gradient_back span {
       color: white; }
