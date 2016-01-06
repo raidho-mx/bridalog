@@ -124,7 +124,7 @@ body {
   @media (max-width: 620px) {
     /* line 20, ../../sass/_type.sass */
     body {
-      font-size: 12px; } }
+      font-size: 14px; } }
 
 /* line 32, ../../sass/_type.sass */
 .huge_title, h1 {
@@ -144,11 +144,11 @@ body {
   @media (max-width: 900px) {
     /* line 40, ../../sass/_type.sass */
     .medium_title, h2 {
-      font-size: 1.96875em; } }
+      font-size: 2em; } }
   @media (max-width: 620px) {
     /* line 40, ../../sass/_type.sass */
     .medium_title, h2 {
-      font-size: 1.3125em; } }
+      font-size: 1.75em; } }
 
 /* line 48, ../../sass/_type.sass */
 .regular_title, h3 {
@@ -156,56 +156,56 @@ body {
   @media (max-width: 900px) {
     /* line 48, ../../sass/_type.sass */
     .regular_title, h3 {
-      font-size: 1.6875em; } }
+      font-size: 1.5em; } }
   @media (max-width: 620px) {
     /* line 48, ../../sass/_type.sass */
     .regular_title, h3 {
-      font-size: 1.125em; } }
+      font-size: 1.5em; } }
 
-/* line 57, ../../sass/_type.sass */
+/* line 56, ../../sass/_type.sass */
 .small_title, h4 {
   font-size: 1.5em; }
   @media (max-width: 900px) {
-    /* line 57, ../../sass/_type.sass */
+    /* line 56, ../../sass/_type.sass */
     .small_title, h4 {
-      font-size: 1.125em; } }
+      font-size: 1.25em; } }
   @media (max-width: 620px) {
-    /* line 57, ../../sass/_type.sass */
+    /* line 56, ../../sass/_type.sass */
     .small_title, h4 {
-      font-size: 0.75em; } }
+      font-size: 1.25em; } }
 
-/* line 65, ../../sass/_type.sass */
+/* line 64, ../../sass/_type.sass */
 .paragraph, p {
   font-size: 1em; }
 
-/* line 69, ../../sass/_type.sass */
+/* line 68, ../../sass/_type.sass */
 .small_p, #breadcrumbs_search_combo div, #search_bar form input {
   font-size: 0.875em; }
 
-/* line 73, ../../sass/_type.sass */
+/* line 72, ../../sass/_type.sass */
 p {
   margin-bottom: 1.2em; }
 
-/* line 77, ../../sass/_type.sass */
+/* line 76, ../../sass/_type.sass */
 strong {
   font-weight: bold; }
 
-/* line 79, ../../sass/_type.sass */
+/* line 78, ../../sass/_type.sass */
 em {
   font-style: italic; }
 
-/* line 81, ../../sass/_type.sass */
+/* line 80, ../../sass/_type.sass */
 .pink_links a, .prov_info .prov_main_info a {
   color: #ef6681; }
-  /* line 83, ../../sass/_type.sass */
+  /* line 82, ../../sass/_type.sass */
   .pink_links a:hover, .prov_info .prov_main_info a:hover {
     opacity: 0.8; }
 
-/* line 87, ../../sass/_type.sass */
+/* line 86, ../../sass/_type.sass */
 h4, h3, h2, h1 {
   margin-bottom: 1.25em;
   font-weight: normal; }
-  /* line 90, ../../sass/_type.sass */
+  /* line 89, ../../sass/_type.sass */
   h4 span, h3 span, h2 span, h1 span {
     color: #ef6681; }
 
