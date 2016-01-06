@@ -74,42 +74,42 @@ Contact Template
 			<!-- Main search results -->
 			<ul class="prov_products_slim basic_grid prov_list_main">
 				<li><a href="#">
-						<div style="background-image: url(lib/img/sample_imgs/02ProveedoresBerm/Productos/prod1.jpg)"></div>
+						<img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod1.jpg" alt="" />
 						<p>
 							<span class="asap gray_medium">Mesa de Postres</span>
 							<br>Postres Clásicos Bermellón
 						</p>
 					</a></li>
 				<li><a href="#">
-						<div style="background-image: url(lib/img/sample_imgs/02ProveedoresBerm/Productos/prod2.jpg)"></div>
+						<img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod2.jpg" alt="" />
 						<p>
 							<span class="asap gray_medium">Mesa de Postres</span>
 							<br>Postres Clásicos Bermellón
 						</p>
 					</a></li>
 				<li><a href="#">
-						<div style="background-image: url(lib/img/sample_imgs/02ProveedoresBerm/Productos/prod3.jpg)"></div>
+						<img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod3.jpg" alt="">
 						<p>
 							<span class="asap gray_medium">Mesa de Postres</span>
 							<br>Postres Clásicos Bermellón
 						</p>
 					</a></li>
 				<li><a href="#">
-						<div style="background-image: url(lib/img/sample_imgs/02ProveedoresBerm/Productos/prod4.jpg)"></div>
+						<img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod4.jpg" alt="" >
 						<p>
 							<span class="asap gray_medium">Mesa de Postres</span>
 							<br>Postres Clásicos Bermellón
 						</p>
 					</a></li>
 				<li><a href="#">
-						<div style="background-image: url(lib/img/sample_imgs/02ProveedoresBerm/Productos/prod5.jpg)"></div>
+						<img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod5.jpg" alt="">
 						<p>
 							<span class="asap gray_medium">Mesa de Postres</span>
 							<br>Postres Clásicos Bermellón
 						</p>
 					</a></li>
 				<li><a href="#">
-						<div style="background-image: url(lib/img/sample_imgs/02ProveedoresBerm/Productos/prod6.jpg)"></div>
+						<img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod6.jpg" alt="">
 						<p>
 							<span class="asap gray_medium">Mesa de Postres</span>
 							<br>Postres Clásicos Bermellón
