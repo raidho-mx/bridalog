@@ -13,8 +13,8 @@ Top Navigation Template
 			<!-- <span class="small_p">El <strong>catálogo</strong> para bodas hecho <strong>a la medida</strong></span> -->
 		</div>
 
-		<a class="toggleMenu" href="#">Menu</a>
-		<ul class="nav">
+		<a class="mobile_nav_toggl" href="#sidr">&#9776;</a>
+		<ul class="nav desktop_menu">
 			<li><a id="icon_grid_toggl" href="#">Proveedores</a>
 			<li><a href="proveedor.php">S.-Prov.</a>
 			<li><a href="producto.php">S.-Prod.</a>

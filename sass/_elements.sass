@@ -98,6 +98,20 @@ a
 	> li.hover > ul
 		left: 0
 
+/* Menú responsivo */
+
+.mobile_nav_toggl
+	display: none
+	position: relative
+	top: .2em
+	float: right
+	@media (max-width: $tablet_break)
+		display: block
+
+.desktop_menu
+	@media (max-width: $tablet_break)
+		display: none
+
 /* Menú desplegable de categorías / íconos */
 
 #top_menu_toggl
@@ -128,6 +142,36 @@ a
 			margin-bottom: 0
 		span
 			display: block
+
+/* Sidr Plugin (navegación desplegable lateral en móvil) */
+
+.sidr
+	display: none
+	position: absolute
+	position: fixed
+	top: 0
+	height: 100%
+	z-index: 999999
+	width: 200px
+	overflow-x: hidden
+	overflow-y: auto
+	background-color: #f2f2f2
+	border-left: 1px solid #e2e2e2
+	&.right
+		left: auto
+		right: -200px
+	ul li
+		margin: 0
+		line-height: 48px
+		border-bottom: 1px solid #ccc
+		padding-left: 1em
+	ul li:last-child
+		border-bottom: none
+	ul li:hover
+		cursor: pointer
+		background-color: #e2e2e2
+#sidr nav ul li a
+	display: block /*Allow the link to occuy the full available space*/
 
 /* Breadcrumbs + Searchbar */
 

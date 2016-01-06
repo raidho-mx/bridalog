@@ -14,8 +14,7 @@ Footer Template
 						<span class="small_p">Todos los derechos reservados</span>
 					</div>
 
-					<a class="toggleMenu" href="#">Menu</a>
-					<ul class="nav">
+					<ul class="nav desktop_menu">
 						<li><a href="proveedores.php">Proveedores</a>
 						<li><a href="servicios.php">Servicios</a></li>
 						<li><a href="magazine.php">Magazine</a></li>
@@ -33,6 +32,7 @@ Footer Template
 	<script src="lib/js/jquery-ui.js"></script>
 	<script src="lib/js/masonry.pkgd.js"></script>
 	<script src="lib/js/imagesloaded.pkgd.js"></script>
+	<script src="lib/js/jquery.sidr.min.js"></script>
 
 	<script type="text/javascript">
 		// Masonry activation + imagesLoaded with jQuery
@@ -46,6 +46,23 @@ Footer Template
 			});
 		});
 	</script>
+
+	<div id="sidr" class="sidr">
+	<!-- Your content -->
+		<nav role="navigation">
+			<ul>
+				<li><a id="icon_grid_toggl" href="#">Proveedores</a>
+				<li><a href="proveedor.php">S.-Prov.</a>
+				<li><a href="producto.php">S.-Prod.</a>
+				<li><a href="servicios.php">Servicios</a></li>
+				<li><a href="magazine.php">Mag</a></li>
+				<li><a href="magazine-single.php">S-Mag.</a></li>
+				<li><a href="acerca.php">Acerca</a></li>
+				<li><a href="contacto.php">Contacto</a></li>
+				<li><a href="login.php">Acceder</a></li>
+			</ul>
+		</nav>
+	</div>
 
 	</body>
 
