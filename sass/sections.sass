@@ -80,6 +80,8 @@ ul.index_list, ul.thumbs_list
 			float: left
 		div:first-child
 			text-align: center
+			@media (max-width: $small_break)
+				display: none
 			a
 				display: block
 				width: 36px
@@ -92,6 +94,8 @@ ul.index_list, ul.thumbs_list
 			p
 				margin-bottom: 0
 				padding-left: 1em
+				@media (max-width: $small_break)
+					padding-left: 0
 			&:hover
 				color: $blue
 ul.thumbs_list li
@@ -105,8 +109,14 @@ ul.thumbs_list li
 		img
 			width: 100%
 			border-radius: 50%
+		@media (max-width: $phone_break)
+			width: 36px
+			height: 36px
+			margin-bottom: 1.2em
 	div:last-child
 		padding-top: 1em
+		@media (max-width: $phone_break)
+			padding-top: 0
 
 /* Proveedores Vista Individual + Vista Producto*/
 
@@ -268,11 +278,19 @@ ul.thumbs_list li
 	.combo_body
 		@include span(9 of 12)
 		padding: 0
+		@media (max-width: $phone_break)
+			@include span(12)
 	.combo_sidebar
 		@include span(3 of 12 last)
 		padding: 2em 0 0 2em
+		@media (max-width: $phone_break)
+			padding: 0
 		.sidebar_list
 			margin-bottom: $bottom_margins_grid
+			@media (max-width: $phone_break)
+				@include gallery(6 of 12)
+		@media (max-width: $phone_break)
+			@include span(12)
 
 // Secciones con fondos de color
 

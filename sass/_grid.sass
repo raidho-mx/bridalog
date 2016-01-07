@@ -2,7 +2,7 @@
 
 // $susy: (columns: 12, global-box-sizing: border-box)
 
-$susy: (flow: ltr, output: float, math: fluid, column-width: false,	container: auto, container-position: center, last-flow: to, columns: 12, gutters: 1/4, gutter-position: after, global-box-sizing: border-box)
+$susy: (flow: ltr, output: float, math: fluid, column-width: false,	container: auto, container-position: center, last-flow: to, columns: 12, gutters: 1/2, gutter-position: after, global-box-sizing: border-box)
 
 // debug: (image: show, color: rgba(#66f, .25), output: overlay, toggle: top right,)
 
@@ -19,9 +19,9 @@ $susy: (flow: ltr, output: float, math: fluid, column-width: false,	container: a
 	@media (min-width: $large_break)
 		@include container(80%)
 	@media (max-width: $tablet_break)
-		@include container(95%)
+		@include container(90%)
 	@media (max-width: $phone_break)
-		@include container(98%)
+		@include container(95%)
 
 /* Patterns */
 
@@ -83,12 +83,16 @@ section,
 .two_col_grid > div,
 .two_col_grid > li
 	@include gallery(6 of 12)
+	@media (max-width: $phone_break)
+		@include span(12)
 .three_col_grid > div,
 .three_col_grid > li
 	@include gallery(4 of 12)
 .four_col_grid > div,
 .four_col_grid > li
 	@include gallery(3 of 12)
+	@media (max-width: $tablet_break)
+		@include gallery(6 of 12)
 
 .inline_list
 	overflow: hidden
