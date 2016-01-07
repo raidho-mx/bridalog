@@ -82,9 +82,8 @@ section,
 
 .two_col_grid > div,
 .two_col_grid > li
-	@include gallery(6 of 12)
-	@media (max-width: $phone_break)
-		@include span(12)
+	@media (min-width: $phone_break)
+		@include gallery(6 of 12)
 .three_col_grid > div,
 .three_col_grid > li
 	@media (min-width: $phone_break)

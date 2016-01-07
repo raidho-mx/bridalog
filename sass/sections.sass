@@ -58,12 +58,25 @@ ul.about_pitch
 		background-repeat: no-repeat
 		background-size: cover
 		background-position: center
+		@media (max-width: $tablet_break)
+			width: 10em
+			height: 10em
+			margin-bottom: $bottom_margins
+		@media (max-width: $small_break)
+			width: 6.5em
+			height: 6.5em
+
 
 ul.logo_container
 	li
-		width: 10%
+		width: 20%
+		margin-bottom: 1em
+		@media (max-width: $small_break)
+			width: 33.3333%
+		@media (min-width: $tablet_break)
+			width: 10%
+			margin-bottom: 0
 		height: auto
-		display: table-cell
 		vertical-align: middle
 		padding: 0 1em
 		img
@@ -255,22 +268,29 @@ ul.thumbs_list li
 .services_slider
 	.s_slide
 		@extend .group
-		@include span(isolate 10 at 2 of 12)
 		background-color: $white
-		> div:first-child
-			@include span(5 of 10)
 		> div:last-child
-			@include span(5 of 10 last)
-				img
-					width: 100%
+			img
+				width: 100%
 		.description
 			padding: 2em
+		@include span(12)
+		@media (min-width: $phone_break)
+			> div:first-child
+				@include span(5 of 10)
+			> div:last-child
+				@include span(5 of 10 last)
+		@media (min-width: $tablet_break)
+			@include span(isolate 10 at 2 of 12)
 
 .pricing_table
 	> div
-		@include gallery(4 of 12 0)
+		text-align: center
 		color: $white
 		padding: 2em
+		@media (min-width: $phone_break)
+			text-align: left
+			@include gallery(4 of 12 0)
 	ul li
 		padding: .7em 0
 		border-bottom: 1px solid #3397a3

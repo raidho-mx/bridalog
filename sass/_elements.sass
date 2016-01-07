@@ -31,6 +31,8 @@ a
 		display: inline-block
 		margin-right: 1em
 		text-align: left
+		@media (max-width: $small_break)
+			margin-bottom: $bottom_margins
 	a
 		@extend .asap
 		display: block
@@ -358,7 +360,8 @@ form
 .centered_section
 	text-align: center
 .thin_section
-	@include span(8 at 3 of 12 isolate)
+	@media (min-width: $phone_break)
+		@include span(8 at 3 of 12 isolate)
 
 /* Botones redes sociales */
 
