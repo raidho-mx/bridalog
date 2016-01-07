@@ -100,8 +100,8 @@ ul.index_list, ul.thumbs_list
 				color: $blue
 ul.thumbs_list li
 	div:first-child
-		width: 80px
-		height: 80px
+		width: 64px
+		height: 64px
 		a
 			background-color: transparent
 			width: auto
@@ -109,13 +109,14 @@ ul.thumbs_list li
 		img
 			width: 100%
 			border-radius: 50%
-		@media (max-width: $phone_break)
+		@media (max-width: $tablet_break)
 			width: 36px
 			height: 36px
+		@media (max-width: $tablet_break)
 			margin-bottom: 1.2em
 	div:last-child
 		padding-top: 1em
-		@media (max-width: $phone_break)
+		@media (max-width: $tablet_break)
 			padding-top: 0
 
 /* Proveedores Vista Individual + Vista Producto*/
@@ -144,14 +145,31 @@ ul.thumbs_list li
 		.prov_main_info_profile
 			div:first-child
 				@include span(5 of 9)
+				@media (max-width: $tablet_break)
+					@include span(full)
+				@media (max-width: $phone_break)
+					@include span(12)
 			div:last-child
 				@include span(4 of 9 last)
+				@media (max-width: $tablet_break)
+					@include span(full)
+				@media (max-width: $phone_break)
+					@include span(12)
 				img
 					width: 100%
 					margin-bottom: $bottom_margins
+		.prov_main_related
+			@media (max-width: $tablet_break)
+				border: 1px solid $gray_light
+				padding: 1em
+				margin: 1em 0
 		.prov_main_contact
+			clear: both
 			>div
-				@include gallery(3 of 9)
+				@media (min-width: $phone_break)
+					@include gallery(3 of 9)
+				@media (max-width: $phone_break)
+					margin-bottom: $bottom_margins
 .prov_content_related
 	div:first-child
 		@include span(5 of 9)
@@ -278,19 +296,23 @@ ul.thumbs_list li
 	.combo_body
 		@include span(9 of 12)
 		padding: 0
+		@media (max-width: $tablet_break)
+			@include span(8 of 12)
 		@media (max-width: $phone_break)
 			@include span(12)
 	.combo_sidebar
 		@include span(3 of 12 last)
 		padding: 2em 0 0 2em
+		@media (max-width: $tablet_break)
+			@include span(4 of 12 last)
+		@media (max-width: $phone_break)
+			@include span(12)
 		@media (max-width: $phone_break)
 			padding: 0
 		.sidebar_list
 			margin-bottom: $bottom_margins_grid
 			@media (max-width: $phone_break)
 				@include gallery(6 of 12)
-		@media (max-width: $phone_break)
-			@include span(12)
 
 // Secciones con fondos de color
 
