@@ -205,18 +205,27 @@ ul.thumbs_list li
 		position: relative
 		.product_pictures
 			@include span(8 of 12 first)
+			@media (max-width: $tablet_break)
+				@include span(12)
 			.feat_picture
 				@include span(7 of 8 first)
+				@media (max-width: $tablet_break)
+					@include span(12)
 				img
 					width: 100%
 					@include bleed(0 1em)
 			.product_thumbs
 				@include span(1 of 8 last)
+				@media (max-width: $tablet_break)
+					@include span(12)
 				ul li
 					display: inline-block
 					margin: 0 0 1em 0
+					@media (max-width: $tablet_break)
+						margin-top: $bottom_margins
+						@include gallery(3 of 12)
 					a
-						border: 2px solid $border-color
+						border: 1px solid $border-color
 						display: block
 						img
 							width: 100%
@@ -224,6 +233,8 @@ ul.thumbs_list li
 							border-color: $blue
 		.product_description
 			@include span(4 of 12 last)
+			@media (max-width: $tablet_break)
+				@include span(12)
 			margin-bottom: 4em
 			padding-right: 2em
 			p
@@ -231,6 +242,9 @@ ul.thumbs_list li
 			p:first-child
 				margin: 0
 
+.product_slider .prod_nav
+	@media (max-width: $small_break)
+		display: none
 
 //
 // Servicios
