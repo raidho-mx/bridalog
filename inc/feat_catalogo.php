@@ -6,7 +6,7 @@ Include para Destacados en Catálogo
 ?>
 
 <!-- Destacados en el Catálogo -->
-<div class="center_titles">
+<div class="center_titles feat_catalogo">
 	<h3 class="asap blue">Destacados en el Catálogo</h3>
 	<ul class="basic_grid three_col_grid">
 		<li><a href="#">

@@ -173,14 +173,24 @@ ul.thumbs_list li
 .prov_content_related
 	div:first-child
 		@include span(5 of 9)
+		@media (max-width: $phone_break)
+			@include span(12)
+			img
+				margin-bottom: $bottom_margins
 		img
 			width: 100%
 	div:last-child
 		@include span(4 of 9 last)
+		@media (max-width: $phone_break)
+			@include span(12)
+			h3, h4
+				margin-bottom: 0
 
 .prov_products_slim
 	li
 		@include gallery(3 of 9)
+		@media (max-width: $phone_break)
+			@include gallery(4 of 8)
 
 // Ficha de producto:
 
@@ -313,6 +323,12 @@ ul.thumbs_list li
 			margin-bottom: $bottom_margins_grid
 			@media (max-width: $phone_break)
 				@include gallery(6 of 12)
+
+.feat_catalogo h4
+	@media (max-width: $small_break)
+		font-size: 1em
+
+
 
 // Secciones con fondos de color
 
