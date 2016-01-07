@@ -186,6 +186,8 @@ a
 		@extend .asap
 #breadcrumbs
 	@include span(8 of 12)
+	@media (max-width: $phone_break)
+		display: none
 	ul li
 		display: inline-block
 		border-right: 1px solid $border_color
@@ -198,6 +200,8 @@ a
 			font-weight: bold
 #search_bar
 	@include span(4 of 12 last)
+	@media (max-width: $phone_break)
+		@include span(12)
 	form
 		@include span(3 of 4)
 		input
