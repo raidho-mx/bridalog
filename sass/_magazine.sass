@@ -12,14 +12,21 @@
 	width: gutter()
 .masonry_column
 	width: span(4)
+	@media (min-width: $small_break) and (max-width: $tablet_break)
+		width: span(6)
 .masonry_item
-	width: span(4)
+	@media (min-width: $tablet_break)
+		width: span(4)
+	@media (min-width: $small_break) and (max-width: $tablet_break)
+		width: span(6)
 	margin-top: gutter()
 	border: 20px solid
 
 .mag_featured
 	height: 60vh
 	margin-bottom: $bottom_margins_grid
+	@media (max-width: $tablet_break)
+		margin-bottom: $bottom_margins
 	.featured_img
 		background-size: cover
 		background-repeat: no-repeat
@@ -140,6 +147,7 @@
 	li
 		display: inline-block
 		margin-right: 1em
+		margin-bottom: 1em
 		text-align: center
 	a
 		@extend .asap
