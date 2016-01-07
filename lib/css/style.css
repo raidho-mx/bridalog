@@ -1679,73 +1679,98 @@ ul.thumbs_list li div:last-child {
 .login_welcome {
   width: 31.4285714286%;
   float: left;
-  margin-left: 8.5714285714%;
+  margin-left: 0;
   margin-right: -100%; }
-  /* line 322, ../../sass/sections.sass */
+  @media (min-width: 900px) {
+    /* line 320, ../../sass/sections.sass */
+    .login_welcome {
+      width: 31.4285714286%;
+      float: left;
+      margin-left: 8.5714285714%;
+      margin-right: -100%; } }
+  @media (max-width: 620px) {
+    /* line 320, ../../sass/sections.sass */
+    .login_welcome {
+      display: none; } }
+  /* line 326, ../../sass/sections.sass */
   .login_welcome img {
     width: 100%; }
 
-/* line 325, ../../sass/sections.sass */
+/* line 329, ../../sass/sections.sass */
 .login_form_area {
-  width: 31.4285714286%;
+  width: 65.7142857143%;
   float: left;
-  margin-left: 60%;
+  margin-left: 34.2857142857%;
   margin-right: -100%;
   padding: 1em 2em; }
+  @media (min-width: 900px) {
+    /* line 329, ../../sass/sections.sass */
+    .login_form_area {
+      width: 40%;
+      float: left;
+      margin-left: 51.4285714286%;
+      margin-right: -100%; } }
+  @media (max-width: 620px) {
+    /* line 329, ../../sass/sections.sass */
+    .login_form_area {
+      width: 100%;
+      float: left;
+      margin-left: 0;
+      margin-right: 0; } }
 
-/* line 329, ../../sass/sections.sass */
+/* line 337, ../../sass/sections.sass */
 .login_cta {
   border-top: 1px solid #f0f0f0;
   padding-top: 2em;
   margin-top: 2em; }
 
-/* line 342, ../../sass/sections.sass */
+/* line 350, ../../sass/sections.sass */
 .body_sidebar_combo .combo_body {
   width: 74.2857142857%;
   float: left;
   margin-right: 2.8571428571%;
   padding: 0; }
   @media (max-width: 900px) {
-    /* line 342, ../../sass/sections.sass */
+    /* line 350, ../../sass/sections.sass */
     .body_sidebar_combo .combo_body {
       width: 65.7142857143%;
       float: left;
       margin-right: 2.8571428571%; } }
   @media (max-width: 620px) {
-    /* line 342, ../../sass/sections.sass */
+    /* line 350, ../../sass/sections.sass */
     .body_sidebar_combo .combo_body {
       width: 100%;
       float: left;
       margin-left: 0;
       margin-right: 0; } }
-/* line 349, ../../sass/sections.sass */
+/* line 357, ../../sass/sections.sass */
 .body_sidebar_combo .combo_sidebar {
   width: 22.8571428571%;
   float: right;
   margin-right: 0;
   padding: 2em 0 0 2em; }
   @media (max-width: 900px) {
-    /* line 349, ../../sass/sections.sass */
+    /* line 357, ../../sass/sections.sass */
     .body_sidebar_combo .combo_sidebar {
       width: 31.4285714286%;
       float: right;
       margin-right: 0; } }
   @media (max-width: 620px) {
-    /* line 349, ../../sass/sections.sass */
+    /* line 357, ../../sass/sections.sass */
     .body_sidebar_combo .combo_sidebar {
       width: 100%;
       float: left;
       margin-left: 0;
       margin-right: 0; } }
   @media (max-width: 620px) {
-    /* line 349, ../../sass/sections.sass */
+    /* line 357, ../../sass/sections.sass */
     .body_sidebar_combo .combo_sidebar {
       padding: 0; } }
-  /* line 358, ../../sass/sections.sass */
+  /* line 366, ../../sass/sections.sass */
   .body_sidebar_combo .combo_sidebar .sidebar_list {
     margin-bottom: 3em; }
     @media (max-width: 620px) {
-      /* line 358, ../../sass/sections.sass */
+      /* line 366, ../../sass/sections.sass */
       .body_sidebar_combo .combo_sidebar .sidebar_list {
         width: 48.5714285714%;
         float: left; }
@@ -1762,19 +1787,19 @@ ul.thumbs_list li div:last-child {
           clear: none; } }
 
 @media (max-width: 400px) {
-  /* line 363, ../../sass/sections.sass */
+  /* line 371, ../../sass/sections.sass */
   .feat_catalogo h4 {
     font-size: 1em; } }
 
-/* line 371, ../../sass/sections.sass */
+/* line 379, ../../sass/sections.sass */
 .white_bg {
   background-color: #ffffff; }
 
-/* line 373, ../../sass/sections.sass */
+/* line 381, ../../sass/sections.sass */
 .gray_bg {
   background-color: #f0f0f0; }
 
-/* line 379, ../../sass/sections.sass */
+/* line 387, ../../sass/sections.sass */
 #client_logos h4 {
   font-size: 1em;
   color: #cbcbcb; }
