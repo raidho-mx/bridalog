@@ -9,11 +9,9 @@ Index Template
 <div id="home">
 
 <div class="image_cover_light" style="background-image: url('lib/img/cover-back-contacto.png')">
-	<div class="wrap">
 		<div class="cover_text">
 			<h1>Bridalog conecta a <em>los más selectos proveedores</em> con <em>las novias más exigentes</em>.</h1>
 		</div>
-	</div>
 </div>
 
 <div id="search_banner" class="full_width">
@@ -68,17 +66,17 @@ Index Template
 		<h3 class="asap blue">Productos Destacados de Proveedores</h3>
 		<ul class="basic_grid three_col_grid prov_list_main">
 			<li><a href="#">
-					<div style="background-image: url(lib/img/sample_imgs/03Categoria/vestido.jpg)"></div>
+					<img src="lib/img/sample_imgs/03Categoria/vestido.jpg" alt="" />
 					<p class="asap gray_medium">Vestidos & Accesorios</p>
 					<h4>Fresno por<span> Gigi Novias</span></h4>
 				</a></li>
 			<li><a href="#">
-				<div style="background-image: url(lib/img/sample_imgs/03Categoria/vestido2.jpg)"></div>
+				<img src="lib/img/sample_imgs/03Categoria/vestido2.jpg" alt="" />
 				<p class="asap gray_medium">Vestidos & Accesorios</p>
 				<h4>Vestido blanco por<span> Honom Hennés</span></h4>
 				</a></li>
 			<li><a href="#">
-				<div style="background-image: url(lib/img/sample_imgs/03Categoria/vestido3.jpg)"></div>
+				<img src="lib/img/sample_imgs/03Categoria/vestido3.jpg" alt="" />
 				<p class="asap gray_medium">Vestidos & Accesorios</p>
 				<h4>Kerry por<span> Gigi Novias</span></h4>
 				</a></li>

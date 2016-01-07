@@ -87,11 +87,12 @@ section,
 		@include span(12)
 .three_col_grid > div,
 .three_col_grid > li
-	@include gallery(4 of 12)
+	@media (min-width: $phone_break)
+		@include gallery(4 of 12)
 .four_col_grid > div,
 .four_col_grid > li
 	@include gallery(3 of 12)
-	@media (max-width: $tablet_break)
+	@media (max-width: $small_break)
 		@include gallery(6 of 12)
 
 .inline_list

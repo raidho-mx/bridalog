@@ -50,8 +50,8 @@ Footer Template
 	<div id="sidr" class="sidr">
 	<!-- Your content -->
 		<nav role="navigation">
-			<ul>
-				<li><a id="icon_grid_toggl" href="#">Proveedores</a>
+			<ul class="Asap">
+				<li><a href="#">Proveedores</a>
 				<li><a href="proveedor.php">S.-Prov.</a>
 				<li><a href="producto.php">S.-Prod.</a>
 				<li><a href="servicios.php">Servicios</a></li>

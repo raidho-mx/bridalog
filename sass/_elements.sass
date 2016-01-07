@@ -124,24 +124,34 @@ a
 	text-align: center
 	li
 		@include gallery(1 of 10 0)
+		@media (max-width: $tablet_break)
+			@include gallery(1 of 6 0)
+		@media (max-width: $small_break)
+			@include gallery(1 of 4 inside)
 		padding: .5em
 		min-height: 9em
 		color: $gray_dark
 		cursor: pointer
-		border: 2px solid $white
-		background-color: $white
+		@media (min-width: $tablet_break)
+			border: 2px solid $white
+			background-color: $white
 		&:hover
 			color: #26b5b0
 			border-color: $green
 		img
-			width: auto
-			border: 4px solid $white
 			border-radius: 50%
 			background-color: $white
 			padding: .1em
 			margin-bottom: 0
+			@media (min-width: $tablet_break)
+				width: auto
+			@media (max-width: $tablet_break)
+				border: 4px solid $white
+				margin-bottom: .5em
 		span
 			display: block
+			@media (max-width: $small_break)
+				font-size: .8em
 
 /* Sidr Plugin (navegación desplegable lateral en móvil) */
 
@@ -355,10 +365,16 @@ form
 .share_btns
 	margin-bottom: $bottom_margins
 	li
+		@media (min-width: $phone_break)
+			width: 11em
 		display: inline-block
-		width: 11em
 		margin-right: 1em
 		text-align: left
+		@media (max-width: $small_break)
+			margin-bottom: $bottom_margins
+			display: block
+			text-align: center
+			margin-right: 0
 	a
 		@extend .asap
 		display: block
@@ -375,12 +391,16 @@ form
 			@extend .font_awesome
 			padding: 0 1em 0 0.5em
 .product_description .share_btns
-	position: absolute
-	bottom: 0
-	padding: 0
+	@media(min-width: small_break)
+		position: absolute
+		bottom: 0
+		padding: 0
 	li
 		width: 4em
 		text-align: center
+		@media (max-width: $small_break)
+			display: inline-block
+			margin-right: 1em
 		a span
 			padding: 0
 
@@ -399,6 +419,8 @@ form
 		display: table
 		height: 100%
 		@include span(isolate 8 at 3 of 12)
+		@media (max-width: $small_break)
+			@include span(isolate 10 at 2 of 12)
 		>h1, > div
 			display: table-cell
 			vertical-align: middle
