@@ -102,11 +102,13 @@ a
 
 /* Menú responsivo */
 
-.mobile_nav_toggl
+.mobile_nav_toggl,
+.mobile_cats_toggl
 	display: none
 	position: relative
 	top: .2em
 	float: right
+	margin-left: 1em
 	@media (max-width: $tablet_break)
 		display: block
 
@@ -184,6 +186,15 @@ a
 		background-color: #e2e2e2
 #sidr nav ul li a
 	display: block /*Allow the link to occuy the full available space*/
+
+#sidr_cats nav ul li img
+	width: 2.5em
+	float: left
+	margin-right: .5em
+	margin-top: .15em
+#sidr_cats.sidr
+	width: 220px
+	border-right: 1px solid #BDBDBD
 
 /* Breadcrumbs + Searchbar */
 

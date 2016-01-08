@@ -47,22 +47,7 @@ Footer Template
 		});
 	</script>
 
-	<div id="sidr" class="sidr">
-	<!-- Your content -->
-		<nav role="navigation">
-			<ul class="Asap">
-				<li><a href="#">Proveedores</a>
-				<li><a href="proveedor.php">S.-Prov.</a>
-				<li><a href="producto.php">S.-Prod.</a>
-				<li><a href="servicios.php">Servicios</a></li>
-				<li><a href="magazine.php">Mag</a></li>
-				<li><a href="magazine-single.php">S-Mag.</a></li>
-				<li><a href="acerca.php">Acerca</a></li>
-				<li><a href="contacto.php">Contacto</a></li>
-				<li><a href="login.php">Acceder</a></li>
-			</ul>
-		</nav>
-	</div>
+	<?php include 'inc/mobile_menus.php'; ?>
 
 	</body>
 
