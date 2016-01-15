@@ -1685,6 +1685,16 @@ ul.thumbs_list li div:last-child {
         margin-left: 66.6666666667%;
         margin-right: -100%;
         clear: none; } }
+/* line 220, ../../sass/sections.sass */
+.pricing_table > div:hover {
+  background-color: #0b576a; }
+/* line 222, ../../sass/sections.sass */
+.pricing_table > div:hover ul li {
+  border-color: #0a4c5c; }
+/* line 224, ../../sass/sections.sass */
+.pricing_table > div:hover ul li.feat_off {
+  color: #0e6a81; }
+/* line 226, ../../sass/sections.sass */
 /* line 300, ../../sass/sections.sass */
 .pricing_table ul li {
   padding: 0.7em 0;
@@ -1716,8 +1726,6 @@ ul.thumbs_list li div:last-child {
   /* line 319, ../../sass/sections.sass */
   .pricing_table .platino ul li {
     border-color: #2c6870; }
-
-/* line 326, ../../sass/sections.sass */
 .login_welcome {
   width: 31.4285714286%;
   float: left;
@@ -1760,13 +1768,11 @@ ul.thumbs_list li div:last-child {
       margin-left: 0;
       margin-right: 0; } }
 
-/* line 343, ../../sass/sections.sass */
 .login_cta {
   border-top: 1px solid #f0f0f0;
   padding-top: 2em;
   margin-top: 2em; }
 
-/* line 356, ../../sass/sections.sass */
 .body_sidebar_combo .combo_body {
   width: 74.2857142857%;
   float: left;
