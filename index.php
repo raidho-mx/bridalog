@@ -35,20 +35,55 @@ Index Template
 	</div>
 
 	<!-- Extractos del Magazine -->
+
 	<div class="center_titles home_mag group">
 		<h3 class="asap blue">Desde el Magazine de Bridalog</h3>
+
 		<div class="home_mag_slider">
-			<div class="home_mag_slider_slide" style="background-image: url(lib/img/home_mag_feat.jpg)">
-				<div class="prod_nav">
-					<a href="" class="prod_left"><span class="font_awesome"></span></a>
-					<a href="" class="prod_right"><span class="font_awesome"></span></a>
-				</div>
-				<div class="bottom_text">
-					<p class="asap">Evento</p>
-					<h3>Bridalog y O Spa presentan: Spa Day</span></h3>
-				</div>
+
+			<div class="outer_unslider_container">
+			<div id="unslider_slider">
+				<ul>
+
+					<li class="unslider_slider_slide home_mag_slider_slide" style="background-image: url(lib/img/home_mag_feat.jpg)">
+						<div class="home_mag_slider_slide" style="background-image: url(lib/img/home_mag_feat.jpg)">
+							<div class="bottom_text">
+								<p class="asap">Evento</p>
+								<h3>Bridalog y O Spa presentan: Spa Day</span></h3>
+							</div>
+						</div>
+					</li>
+					<li class="unslider_slider_slide">
+						<div class="home_mag_slider_slide" style="background-image: url(lib/img/home_mag_feat.jpg)">
+							<div class="bottom_text">
+								<p class="asap">Slide 2</p>
+								<h3>Título Slide 2</span></h3>
+							</div>
+						</div>
+					</li>
+					<li class="unslider_slider_slide">
+						<div class="home_mag_slider_slide" style="background-image: url(lib/img/home_mag_feat.jpg)">
+							<div class="bottom_text">
+								<p class="asap">Slide 3</p>
+								<h3>Título Slide 3</span></h3>
+							</div>
+						</div>
+					</li>
+
+				</ul>
+
+			</div><!-- Slider Termina -->
+
+			<!-- Flechas de navegación custom -->
+			<div class="prod_nav">
+				<a id="unslider_arrow_left" href="" class="prod_left"><span class="font_awesome"></span></a>
+				<a id="unslider_arrow_right" href="" class="prod_right"><span class="font_awesome"></span></a>
 			</div>
+
+			</div> <!-- Slider Outer Container -->
+
 		</div>
+
 		<div class="home_newsletter">
 			<h4 class="white">Suscríbete a Bridalog:</h4>
 			<form action="">
