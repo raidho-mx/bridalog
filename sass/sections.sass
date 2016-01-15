@@ -257,6 +257,13 @@ ul.thumbs_list li
 			p:first-child
 				margin: 0
 
+// Velocidad personalizada para el DesoSlider que
+// muestra las fotos de productos
+// (override de desoslide.css)
+#deso_slideshow .animated
+	@include prefix(animation-duration, .25s, webkit ms moz o)
+	@include prefix(animation-delay, 0s, webkit ms moz o)
+
 .product_slider .prod_nav,
 .home_mag .prod_nav,
 	@media (max-width: $small_break)

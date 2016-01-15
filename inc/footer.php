@@ -33,6 +33,7 @@ Footer Template
 	<script src="lib/js/imagesloaded.pkgd.js"></script>
 	<script src="lib/js/jquery.sidr.min.js"></script>
 	<script src="lib/js/unslider-min.js"></script>
+	<script src="lib/js/jquery.desoslide.min.js"></script>
 	<script src="lib/js/velocity.min.js"></script>
 	<script src="lib/js/jquery-ui.js"></script>
 
@@ -47,6 +48,10 @@ Footer Template
 				itemSelector: '.masonry_item'
 			});
 		});
+	</script>
+
+	<script>
+
 	</script>
 
 	<?php include 'inc/mobile_menus.php'; ?>

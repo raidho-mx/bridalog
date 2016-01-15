@@ -12,33 +12,36 @@ Contact Template
 <div class="wrap">
 
 	<div class="product_slider white_bg">
+
 		<div class="slider_title">
 			<h2>Postres Clásicos Bermellón</h2>
 			<p>En categoría <a class="Asap" href="#"><strong>Postres</strong></a>, por <a href="#" class="Asap"><strong>Bermellón</strong></a>.
 		</div>
+
 		<div class="product_slide group">
-			<div class="prod_nav">
-				<a href="" class="prod_left"><span class="font_awesome"></span></a>
-				<a href="" class="prod_right"><span class="font_awesome"></span></a>
-			</div>
+
 			<div class="product_pictures group">
-				<div class="feat_picture">
-					<img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod7.jpg" alt="">
+				<div class="feat_picture" id="deso_slideshow">
+					<img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod1.jpg">
+					<img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod2.jpg">
+					<img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod3.jpg">
+					<img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod4.jpg">
 				</div>
 				<div class="product_thumbs">
 					<ul>
 						<li>
-							<a href="#"><img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod1.jpg"></a>
+							<a href="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod1.jpg"><img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod1.jpg" alt="Image"></a>
 						</li><li>
-							<a href="#"><img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod2.jpg"></a>
+							<a href="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod2.jpg"><img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod2.jpg" alt="Image"></a>
 						</li><li>
-							<a href="#"><img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod3.jpg"></a>
+							<a href="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod3.jpg"><img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod3.jpg" alt="Image"></a>
 						</li><li>
-							<a href="#"><img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod4.jpg"></a>
+							<a href="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod4.jpg"><img src="lib/img/sample_imgs/02ProveedoresBerm/Productos/prod4.jpg" alt="Image"></a>
 						</li>
 					</ul>
 				</div>
 			</div>
+
 			<div class="product_description">
 				<p>Selección de botanas preparadas con ricos ingredientes de origen natural y nuestro toque picosito.</p>
 				<p>De nuestra extensa barra de 22 ingredientes podrás escoger 6 de ellos incluyendo verduras,  papas, frutos secos, nueces & cacahuates bañados con tu combinación favorita de salsas.</p>
@@ -48,6 +51,12 @@ Contact Template
 					<a class="btn_pinterest" href="#"><span class="font_awesome"></span></a></li>
 				</ul>
 			</div>
+
+			<div class="prod_nav">
+				<a href="" class="prod_left"><span class="font_awesome"></span></a>
+				<a href="" class="prod_right"><span class="font_awesome"></span></a>
+			</div>
+			
 		</div>
 	</div>
 

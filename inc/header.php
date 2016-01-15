@@ -25,6 +25,8 @@ Header Template
 
 	<link href="lib/css/style.css" rel="stylesheet" type="text/css">
 	<link href="lib/css/unslider.css" rel="stylesheet" type="text/css">
+	<link href="lib/css/animate.min.css" rel="stylesheet" type="text/css">
+	<link href="lib/css/jquery.desoslide.min.css" rel="stylesheet" type="text/css">
 
 	<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Asap:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
