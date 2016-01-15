@@ -14,8 +14,7 @@ Footer Template
 						<span class="small_p">Todos los derechos reservados</span>
 					</div>
 
-					<a class="toggleMenu" href="#">Menu</a>
-					<ul class="nav">
+					<ul class="nav desktop_menu">
 						<li><a href="proveedores.php">Proveedores</a>
 						<li><a href="servicios.php">Servicios</a></li>
 						<li><a href="magazine.php">Magazine</a></li>
@@ -30,9 +29,13 @@ Footer Template
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="lib/js/scripts.js"></script>
-	<script src="lib/js/jquery-ui.js"></script>
 	<script src="lib/js/masonry.pkgd.js"></script>
 	<script src="lib/js/imagesloaded.pkgd.js"></script>
+	<script src="lib/js/jquery.sidr.min.js"></script>
+	<script src="lib/js/unslider-min.js"></script>
+	<script src="lib/js/jquery.desoslide.min.js"></script>
+	<script src="lib/js/velocity.min.js"></script>
+	<script src="lib/js/jquery-ui.js"></script>
 
 	<script type="text/javascript">
 		// Masonry activation + imagesLoaded with jQuery
@@ -46,6 +49,12 @@ Footer Template
 			});
 		});
 	</script>
+
+	<script>
+
+	</script>
+
+	<?php include 'inc/mobile_menus.php'; ?>
 
 	</body>
 

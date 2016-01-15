@@ -47,19 +47,50 @@ Contact Template
 <div class="gray_bg full_width">
 	<div class="wrap center_titles">
 		<h1 class="habano">Caso de Estudio: Bermellón en Bridalog</h1>
-		<div class="services_slider">
 
-			<div class="s_slide">
-				<div class="description">
-					<h4>Presencia en un catálogo web pensado para recopilar sólo los proveedores más destacados y reconocidos.</h4>
-					<p class="asap">El catálogo de Bridalog es una mezcla ideal entre calidad y cantidad. Solamente trabajamos con proveedores que nos emocionan tanto como las novias que nos siguen. Con su capacidad totalmente responsiva, nuestros proveedores tienen acceso a listados en todo tipo de dispositivos.</p>
-				</div>
-				<div>
-						<img src="lib/img/sample_imgs/06servicios/case_study_1.jpg" alt="">
-				</div>
-			</div>
+		<div class="outer_unslider_container">
+		<div id="unslider_slider">
+			<ul class="services_slider">
+				<li class="unslider_slider_slide">
+						<div class="description">
+							<h4>Presencia en un catálogo web pensado para recopilar sólo los proveedores más destacados y reconocidos.</h4>
+							<p class="asap">El catálogo de Bridalog es una mezcla ideal entre calidad y cantidad. Solamente trabajamos con proveedores que nos emocionan tanto como las novias que nos siguen. Con su capacidad totalmente responsiva, nuestros proveedores tienen acceso a listados en todo tipo de dispositivos.</p>
+						</div>
+						<div>
+								<img src="lib/img/sample_imgs/06servicios/_Servicios1.jpg" alt="">
+						</div>
+				</li>
 
+				<li class="unslider_slider_slide">
+					<div class="description">
+						<h4>Segunda Diapositiva</h4>
+						<p class="asap">Párrafo descriptivo.</p>
+					</div>
+					<div>
+							<img src="lib/img/sample_imgs/06servicios/_Servicios2.jpg" alt="">
+					</div>
+				</li>
+
+				<li class="unslider_slider_slide">
+					<div class="description">
+						<h4>Segunda Diapositiva</h4>
+						<p class="asap">Párrafo descriptivo.</p>
+					</div>
+					<div>
+							<img src="lib/img/sample_imgs/06servicios/_Servicios3.jpg" alt="">
+					</div>
+				</li>
+
+			</ul>
+		</div> <!-- Slider Termina -->
+
+		<!-- Flechas de navegación custom -->
+		<div class="prod_nav">
+			<a id="unslider_arrow_left" href="" class="prod_left"><span class="font_awesome"></span></a>
+			<a id="unslider_arrow_right" href="" class="prod_right"><span class="font_awesome"></span></a>
 		</div>
+		</div> <!-- Slider Outer Container -->
+
 	</div>
 </div>
 

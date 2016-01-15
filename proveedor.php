@@ -29,7 +29,7 @@ Contact Template
 					<h4>¡Una delicia para tu paladar! Bermellón te ofrece una gran variedad de tamarindos y botanas para venir a disfrutar con tus amigas.</h4>
 					<p class="asap">Bermellón es una tienda de dulces picantes artesanales, queremos que conozcan quien esta detrás de estos dulces y mesas de postres tan extraordinarias. Ellas son Norma y Fernanda Ortiz y son quienes renovaron el concepto de poner dulces picantes y papitas de una boda "¡Quien se hubiera imaginado que comer papas, elotes y chilitos en una boda se iba a ver elegante!".</p>
 				</div>
-				<div>
+				<div class="prov_main_related">
 					<img src="lib/img/sample_imgs/02ProveedoresBerm/profile.jpg" alt="">
 					<p><strong>Bridalog Presenta</strong>: Bermellón, Dulces Picantes Artesanales.</p>
 				</div>
