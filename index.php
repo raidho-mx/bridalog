@@ -14,12 +14,12 @@ Index Template
 		</div>
 </div>
 
-<div id="search_banner" class="full_width">
+<!-- <div id="search_banner" class="full_width">
 	<div class="wrap">
 		<h2 class="habano">Busca en el Catálogo</h2>
 		<form action=""><input type="text"," name="search"," placeholder="Busca postres"><input type="submit"," name="submit"," value="Buscar"></form>
 	</div>
-</div>
+</div> -->
 
 <div class="wrap">
 
@@ -29,10 +29,10 @@ Index Template
 	</div>
 
 	<!-- Listado de categorías (íconos) -->
-	<div class="center_titles">
+	<!-- <div class="center_titles">
 		<h3 class="asap blue">Categorías en el Catálogo</h3>
-		<?php include 'inc/menu_iconos.php' ?>
-	</div>
+		<?php /* include 'inc/menu_iconos.php' */ ?>
+	</div> -->
 
 	<!-- Extractos del Magazine -->
 
