@@ -1,0 +1,103 @@
+/* Susy Settings */
+
+// $susy: (columns: 12, global-box-sizing: border-box)
+
+$susy: (flow: ltr, output: float, math: fluid, column-width: false,	container: auto, container-position: center, last-flow: to, columns: 12, gutters: 1/2, gutter-position: after, global-box-sizing: border-box)
+
+// debug: (image: show, color: rgba(#66f, .25), output: overlay, toggle: top right,)
+
+/* Susy Basics */
+
+// .container
+// 	@include container
+
+/* Makes border-box properties */
+@include border-box-sizing
+
+.wrap
+	@include container(90%)
+	@media (min-width: $large_break)
+		@include container(80%)
+	@media (max-width: $tablet_break)
+		@include container(90%)
+	@media (max-width: $phone_break)
+		@include container(90%)
+
+/* Patterns */
+
+// *, *:before, *:after
+// 	-moz-box-sizing: border-box
+// 	-webkit-box-sizing: border-box
+// 	box-sizing: border-box
+.left
+	float: left
+.right
+	float: right
+
+/* Spacing */
+
+.pull_bottom_container
+	margin-bottom: -$bottom_margins_grid
+
+.section_pad
+	padding: 4.375em 0
+	@media (min-width: $large_break)
+		padding: 4em 0
+	@media (max-width: $tablet_break)
+		padding: 2em 0
+	@media (max-width: $phone_break)
+		padding: 1em 0
+
+.inner_section_pad
+	padding: 2.5em 0
+
+.section_bottom_margins
+	margin-bottom: $bottom_margins_grid
+
+.wrap > div
+	@extend .section_bottom_margins
+
+section,
+.full_width
+	@extend .section_pad
+	@extend .section_bottom_margins
+	position: relative
+
+/* Basic columns layouts */
+
+.group:after
+	content: ""
+	display: table
+	clear: both
+
+.basic_grid
+	@extend .group
+	li img, div > img
+		width: 100%
+		margin-bottom: $bottom_margins
+
+.basic_grid li
+	p + h4
+		margin-top: -.8em
+
+.two_col_grid > div,
+.two_col_grid > li
+	@media (min-width: $phone_break)
+		@include gallery(6 of 12)
+.three_col_grid > div,
+.three_col_grid > li
+	@media (min-width: $phone_break)
+		@include gallery(4 of 12)
+.four_col_grid > div,
+.four_col_grid > li
+	@include gallery(3 of 12)
+	@media (max-width: $small_break)
+		@include gallery(6 of 12)
+
+.inline_list
+	overflow: hidden
+	clear: both
+	margin-bottom: $bottom_margins
+	li
+		display: inline-block
+		margin: 0 1em

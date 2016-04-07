@@ -1,0 +1,99 @@
+/* Type */
+
+@font-face
+	font-family: HabanoSt
+	src: url(../fonts/HabanoST.otf) format("opentype")
+
+@font-face
+	font-family: FontAwesome
+	src: url(../fonts/FontAwesome.otf) format("opentype")
+
+.asap
+	font-family: 'Asap', sans-serif
+.lora
+	font-family: 'Lora', serif
+.habano
+	font-family: 'HabanoSt', sans-serif
+.font_awesome
+	font-family: 'FontAwesome', sans-serif
+
+body
+	@extend .lora
+	font-size: 16px
+	line-height: 1.5
+	color: $gray_dark
+	@media (min-width: $large_break)
+		font-size: 18px
+	@media (max-width: $tablet_break)
+		font-size: 14px
+	@media (max-width: $phone_break)
+		font-size: 14px
+
+.huge_title
+	//line-height: 4.875em
+	font-size: 4em //64
+	@media (max-width: $tablet_break)
+		font-size: 3em
+	@media (max-width: $phone_break)
+		font-size: 2em
+
+.medium_title
+	//line-height: 3.375em
+	font-size: 2.625em //42
+	@media (max-width: $tablet_break)
+		font-size: 2em
+	@media (max-width: $phone_break)
+		font-size: 1.75em
+
+.regular_title
+	//line-height: 3em
+	font-size: 2.25em //36
+	@media (max-width: $tablet_break)
+		font-size: 1.5em
+	@media (max-width: $phone_break)
+		font-size: 1.5em
+
+.small_title
+	//line-height: 2em
+	font-size: 1.5em //24
+	@media (max-width: $tablet_break)
+		font-size: 1.25	em
+	@media (max-width: $phone_break)
+		font-size: 1.25em
+
+.paragraph
+	//line-height: 1.5em
+	font-size: 1em //16
+
+.small_p
+	//line-height: 1.25em
+	font-size: .875em //14
+
+p
+	margin-bottom: $bottom_margins
+	@extend .paragraph
+
+strong
+	font-weight: bold
+em
+	font-style: italic
+.pink_links a
+	color: $pink
+	&:hover
+		opacity: 0.8
+
+
+h4, h3, h2, h1
+	margin-bottom: 1.25em
+	font-weight: normal
+	span
+		color: $pink
+
+h1
+	@extend .huge_title
+h2
+	@extend .medium_title
+h3
+	@extend .regular_title
+h4
+	@extend .small_title

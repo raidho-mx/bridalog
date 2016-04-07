@@ -1,0 +1,72 @@
+// Styles for Bridalogs
+// Raidho Aesthetics
+
+/* Vendor Dependencies */
+
+@import "susy"
+
+/* Color Variables */
+
+$white: #ffffff
+$black: #2a2a2a
+
+$gray_dark: #434343
+$gray_medium: #818285
+$gray_regular: #cbcbcb
+$gray_light: #f0f0f0
+
+$pink: #ef6681
+$blue: #0598c9
+$green: #71cac7
+$green_dark: #14b3ae
+$green_darkest: #0c7572
+
+
+.gray_dark
+	color: $gray_dark
+.gray_medium
+	color: $gray_medium
+.gray_regular
+	color: $gray_regular
+.gray_light
+	color: $gray_light
+.pink
+	color: $pink
+.blue
+	color: $blue
+.green
+	color: $green
+
+/*    Breakpoints */
+
+$large_break: 1400px
+$tablet_break: 900px
+$phone_break: 620px
+$small_break: 400px
+
+/* Key Variables */
+
+$bottom_margins: 1.2em
+$bottom_margins_grid: 3em
+$lineheight: 1.15em
+
+$border_color: $gray_light
+
+/// Mixin to prefix a property
+/// @author Hugo Giraudel
+/// @param {String} $property - Property name
+/// @param {*} $value - Property value
+/// @param {List} $prefixes (()) - List of prefixes to print
+@mixin prefix($property, $value, $prefixes: ())
+	@each $prefix in $prefixes
+		#{'-' + $prefix + '-' + $property}: $value
+	#{$property}: $value
+
+/* Patterns & Sections */
+
+@import reset
+@import type
+@import grid
+@import elements
+@import sections
+@import magazine

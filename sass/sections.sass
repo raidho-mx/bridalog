@@ -1,0 +1,401 @@
+//
+// Home
+//
+
+.home_mag
+	color: white
+	.home_mag_slider
+		@media (min-width: $tablet_break)
+			@include span(8 of 12)
+			height: 28em
+		@media (max-width: $tablet_break)
+			@include span(7 of 12)
+		@media (max-width: $phone_break)
+			@include span(12)
+		position: relative
+	.home_newsletter
+		@media (min-width: $tablet_break)
+			@include span(3 of 12 last)
+			height: 28em
+		@media (max-width: $tablet_break)
+			@include span(5 of 12 last)
+		@media (max-width: $phone_break)
+			@include span(12)
+		background-color: $green_dark
+		padding: 1em
+		color: white
+		input[type=submit]
+			background-color: $green_darkest
+			width: 100%
+
+.home_mag_slider_slide
+	background-repeat: no-repeat
+	background-size: cover
+	padding: 3em
+	height: 100%
+	position: relative
+	@media (max-width: $tablet_break)
+		height: 50%
+		margin-bottom: $bottom_margins_grid
+	.bottom_text
+		@media (min-width: $tablet_break)
+			width: span(4 of 12)
+			position: absolute
+			bottom: 0
+
+#home #social_media
+	margin-bottom: 0
+
+//
+// Acerca
+//
+
+ul.about_pitch
+	margin: $bottom_margins_grid 0
+	li
+		width: 20em
+		height: 20em
+		border-radius: 50%
+		background-repeat: no-repeat
+		background-size: cover
+		background-position: center
+		@media (max-width: $tablet_break)
+			width: 10em
+			height: 10em
+			margin-bottom: $bottom_margins
+		@media (max-width: $small_break)
+			width: 6.5em
+			height: 6.5em
+
+
+ul.logo_container
+	li
+		width: 20%
+		margin-bottom: 1em
+		@media (max-width: $small_break)
+			width: 33.3333%
+		@media (min-width: $tablet_break)
+			width: 10%
+			margin-bottom: 0
+		height: auto
+		vertical-align: middle
+		padding: 0 1em
+		img
+			width: 100%
+
+
+/* Listado de 'índice' para 'más proveedores' */
+
+ul.index_list, ul.thumbs_list
+	li
+		margin-bottom: $bottom_margins
+		overflow: auto
+		div
+			float: left
+		div:first-child
+			text-align: center
+			@media (max-width: $small_break)
+				display: none
+			a
+				display: block
+				width: 36px
+				height: 36px
+				border-radius: 50%
+				background-color: $green
+				color: $white
+				padding-top: .4em
+		div:last-child
+			p
+				margin-bottom: 0
+				padding-left: 1em
+				@media (max-width: $small_break)
+					padding-left: 0
+			&:hover
+				color: $blue
+ul.thumbs_list li
+	div:first-child
+		width: 64px
+		height: 64px
+		a
+			background-color: transparent
+			width: auto
+			display: inline
+		img
+			width: 100%
+			border-radius: 50%
+		@media (max-width: $tablet_break)
+			width: 36px
+			height: 36px
+		@media (max-width: $tablet_break)
+			margin-bottom: 1.2em
+	div:last-child
+		padding-top: 1em
+		@media (max-width: $tablet_break)
+			padding-top: 0
+
+/* Proveedores Vista Individual + Vista Producto*/
+
+.prov_single
+	.image_cover
+		height: 60vh
+		.cover_text
+			color: $white
+			h1
+				margin-bottom: -.3em
+
+.prov_info
+	>div
+		background-color: $white
+		margin-bottom: $bottom_margins_grid
+		@include bleed(0 1em)
+		padding-top: 1em
+		padding-bottom: 1em
+		&:first-child
+			padding-top: 2.5em
+		&:last-child
+			margin-bottom: 0
+	.prov_main_info
+		@extend .pink_links
+		.prov_main_info_profile
+			div:first-child
+				@include span(5 of 9)
+				@media (max-width: $tablet_break)
+					@include span(full)
+				@media (max-width: $phone_break)
+					@include span(12)
+			div:last-child
+				@include span(4 of 9 last)
+				@media (max-width: $tablet_break)
+					@include span(full)
+				@media (max-width: $phone_break)
+					@include span(12)
+				img
+					width: 100%
+					margin-bottom: $bottom_margins
+		.prov_main_related
+			@media (max-width: $tablet_break)
+				border: 1px solid $gray_light
+				padding: 1em
+				margin: 1em 0
+		.prov_main_contact
+			clear: both
+			>div
+				@media (min-width: $phone_break)
+					@include gallery(3 of 9)
+				@media (max-width: $phone_break)
+					margin-bottom: $bottom_margins
+.prov_content_related
+	div:first-child
+		@include span(5 of 9)
+		@media (max-width: $phone_break)
+			@include span(12)
+			img
+				margin-bottom: $bottom_margins
+		img
+			width: 100%
+	div:last-child
+		@include span(4 of 9 last)
+		@media (max-width: $phone_break)
+			@include span(12)
+			h3, h4
+				margin-bottom: 0
+
+.prov_products_slim
+	li
+		@include gallery(3 of 9)
+		@media (max-width: $phone_break)
+			@include gallery(4 of 8)
+
+// Ficha de producto:
+
+.prod_single
+	.combo_sidebar
+		padding: 0 0 0 2em
+
+.product_slider
+	@include bleed(0 1em)
+	.product_slide
+		padding-bottom: 1em
+		position: relative
+		.product_pictures
+			@include span(8 of 12 first)
+			@media (max-width: $tablet_break)
+				@include span(12)
+			.feat_picture
+				@include span(7 of 8 first)
+				@media (max-width: $tablet_break)
+					@include span(12)
+				img
+					width: 100%
+					@include bleed(0 1em)
+			.product_thumbs
+				@include span(1 of 8 last)
+				@media (max-width: $tablet_break)
+					@include span(12)
+				ul li
+					display: inline-block
+					margin: 0 0 1em 0
+					@media (max-width: $tablet_break)
+						margin-top: $bottom_margins
+						@include gallery(3 of 12)
+					a
+						border: 1px solid $border-color
+						display: block
+						img
+							width: 100%
+						&:hover
+							border-color: $blue
+		.product_description
+			@include span(4 of 12 last)
+			@media (max-width: $tablet_break)
+				@include span(12)
+			@media (min-width: $tablet_break)
+				margin-bottom: 4em
+				padding-right: 2em
+			p
+				@extend .asap
+
+// Velocidad personalizada para el DesoSlider que
+// muestra las fotos de productos
+// (override de desoslide.css)
+#deso_slideshow .animated
+	@include prefix(animation-duration, .25s, webkit ms moz o)
+	@include prefix(animation-delay, 0s, webkit ms moz o)
+
+.product_slider .prod_nav,
+.home_mag .prod_nav,
+	@media (max-width: $small_break)
+		display: none
+
+//
+// Servicios
+//
+
+.services_slider
+	li
+		@extend .group
+		background-color: $white
+		> div:last-child
+			img
+				width: 100%
+		.description
+			padding: 2em
+		@include span(12)
+		@media (min-width: $phone_break)
+			> div:first-child
+				@include span(5 of 10)
+			> div:last-child
+				@include span(5 of 10 last)
+		@media (min-width: $tablet_break)
+			@include span(isolate 10 at 2 of 12)
+
+.pricing_table
+	> div
+		text-align: center
+		color: $white
+		padding: 2em
+		@media (min-width: $phone_break)
+			text-align: left
+			@include gallery(4 of 12 0)
+	> div:hover
+		background-color: hsl(192, 81%, 23%)
+	> div:hover ul li
+		border-color: hsl(192,81%, 20%)
+	> div:hover ul li.feat_off
+		color: hsl(192, 81%, 28%)
+	ul li
+		padding: .7em 0
+		border-bottom: 1px solid #3397a3
+		&:last-child
+			border-bottom: none
+	.base
+		background-color: #3aa1b0
+		.feat_off
+			color: #31919e
+	.premium
+		background-color: #298895
+		.feat_off
+			color: #2c7983
+		ul li
+			border-color: #2a7a85
+	.platino
+		background-color: #2f757d
+		.feat_off
+			color: #186179
+		ul li
+			border-color: #2c6870
+
+//
+// Login
+//
+
+.login_welcome
+	@include span(4 at 1 of 12 isolate)
+	@media (min-width: $tablet_break)
+		@include span(4 at 2 of 12 isolate)
+	@media (max-width: $phone_break)
+		display: none
+	img
+		width: 100%
+
+.login_form_area
+	@include span(8 at 5 of 12 isolate)
+	@media (min-width: $tablet_break)
+		@include span(5 at 7 of 12 isolate)
+	@media (max-width: $phone_break)
+		@include span(12)
+	padding: 1em 2em
+
+.login_cta
+	border-top: 1px solid $border_color
+	padding-top: 2em
+	margin-top: 2em
+
+
+//
+// Extras (elementos en varias secciones)
+//
+
+// Combo Cuerpo-Sidebar en algunas secciones
+
+.body_sidebar_combo
+	.combo_body
+		@include span(9 of 12)
+		padding: 0
+		@media (max-width: $tablet_break)
+			@include span(8 of 12)
+		@media (max-width: $phone_break)
+			@include span(12)
+	.combo_sidebar
+		@include span(3 of 12 last)
+		padding: 2em 0 0 2em
+		@media (max-width: $tablet_break)
+			@include span(4 of 12 last)
+		@media (max-width: $phone_break)
+			@include span(12)
+		@media (max-width: $phone_break)
+			padding: 0
+		.sidebar_list
+			margin-bottom: $bottom_margins_grid
+			@media (max-width: $phone_break)
+				@include gallery(6 of 12)
+
+.feat_catalogo h4
+	@media (max-width: $small_break)
+		font-size: 1em
+
+
+
+// Secciones con fondos de color
+
+.white_bg
+	background-color: $white
+.gray_bg
+	background-color: $gray_light
+
+// Cinto con logos
+
+#client_logos
+	h4
+		font-size: 1em
+		color: $gray_regular
